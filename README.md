@@ -1,7 +1,7 @@
 <h1 align="center">FATEC Profº Jessen Vidal - São José dos Campos - 1º Semestre DSM - 2026</h1>
 <div align="center">
   <img src="./logokurumin.png" alt="Logo Kurumin" width="200">
-  <h2>CEUCI: Crédito Inclusivo</h2>
+  <h2>IndiviDados: Crédito Inclusivo</h2>
 </div>
 
 Projeto desenvolvido para a API (Aprendizagem por Projeto Integrado) do 1° Semestre do curso Desenvolvimento de Software Multiplataforma (DSM).
@@ -46,7 +46,7 @@ Neste projeto, o objetivo é explorar a transformação de dados econômicos pú
 
 ## 🧩 <span id="solucao">Solução</span>
 
-O sistema CEUCI é uma aplicação voltada à análise de risco de crédito por regiões do Brasil. A plataforma utiliza dados públicos e atualizados, provenientes de fontes como o Banco Central do Brasil, IBGE e outras bases oficiais, para gerar indicadores que auxiliam na compreensão do cenário de crédito e inadimplência em diferentes regiões do Brasil.
+O sistema IndiviDados é uma aplicação voltada à análise de risco de crédito por regiões do Brasil. A plataforma utiliza dados públicos e atualizados, provenientes de fontes como o Banco Central do Brasil, IBGE e outras bases oficiais, para gerar indicadores que auxiliam na compreensão do cenário de crédito e inadimplência em diferentes regiões do Brasil.
 
 A aplicação é apresentada por meio de um painel interativo (dashboard), composto por gráficos, indicadores e filtros que permitem a visualização das informações e identificação de regiões com diferentes níveis de risco de crédito, fornecendo aos analistas informações que podem apoiar a avaliação de cenários e a tomada de decisões relacionadas à concessão de crédito.
 
@@ -73,7 +73,7 @@ A análise e o processamento dos dados são realizados utilizando  **Google Cola
 
 ## <span id="cronograma">MVP</span>
 
-O desenvolvimento do *CEUCI* está estruturado em **3 sprints**, focando na evolução progressiva desde a fundação técnica até a entrega final ao usuário:
+O desenvolvimento do *IndiviDados* está estruturado em **3 sprints**, focando na evolução progressiva desde a fundação técnica até a entrega final ao usuário:
 
 | Sprint | Foco do MVP | Entregas Principais | Vídeo da Sprint | Status |
 | :--- | :--- | :--- | :--- | :----: |
