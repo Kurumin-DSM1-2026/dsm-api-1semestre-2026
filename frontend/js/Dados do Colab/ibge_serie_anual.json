@@ -1,0 +1,811 @@
+[
+    { 
+        "estado": "Acre", 
+        "ano": 2022, 
+        "populacao": 830018, 
+        "renda_per_capita": 1038.0 
+    },
+    { 
+        "estado": "Acre", 
+        "ano": 2023, 
+        "populacao": 830018, 
+        "renda_per_capita": 1095.0 
+    },
+    { 
+        "estado": "Acre", 
+        "ano": 2024, 
+        "populacao": 880631, 
+        "renda_per_capita": 1271.0 
+    },
+    { 
+        "estado": "Acre", 
+        "ano": 2025, 
+        "populacao": 884372, 
+        "renda_per_capita": 1392.0 
+    },
+    { 
+        "estado": "Acre", 
+        "ano": 2026, 
+        "populacao": 887794, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Alagoas", 
+        "ano": 2022, 
+        "populacao": 3127683, 
+        "renda_per_capita": 935.0 
+    },
+    { 
+        "estado": "Alagoas", 
+        "ano": 2023, 
+        "populacao": 3127683, 
+        "renda_per_capita": 1110.0 
+    },
+    { 
+        "estado": "Alagoas", 
+        "ano": 2024, 
+        "populacao": 3220104, 
+        "renda_per_capita": 1331.0 
+    },
+    { 
+        "estado": "Alagoas", 
+        "ano": 2025, 
+        "populacao": 3220848, 
+        "renda_per_capita": 1422.0 
+    },
+    { 
+        "estado": "Alagoas", 
+        "ano": 2026, 
+        "populacao": 3221128, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Amapa", 
+        "ano": 2022, 
+        "populacao": 733759, 
+        "renda_per_capita": 1177.0 
+    },
+    { 
+        "estado": "Amapa", 
+        "ano": 2023, 
+        "populacao": 733759, 
+        "renda_per_capita": 1520.0 
+    },
+    { 
+        "estado": "Amapa", 
+        "ano": 2024, 
+        "populacao": 802837, 
+        "renda_per_capita": 1514.0 
+    },
+    { 
+        "estado": "Amapa", 
+        "ano": 2025, 
+        "populacao": 806517, 
+        "renda_per_capita": 1697.0 
+    },
+    { 
+        "estado": "Amapa", 
+        "ano": 2026, 
+        "populacao": 809953, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Amazonas", 
+        "ano": 2022, 
+        "populacao": 3941613, 
+        "renda_per_capita": 965.0 
+    },
+    { 
+        "estado": "Amazonas", 
+        "ano": 2023, 
+        "populacao": 3941613, 
+        "renda_per_capita": 1172.0 
+    },
+    { 
+        "estado": "Amazonas", 
+        "ano": 2024, 
+        "populacao": 4281209, 
+        "renda_per_capita": 1238.0 
+    },
+    { 
+        "estado": "Amazonas", 
+        "ano": 2025, 
+        "populacao": 4321616, 
+        "renda_per_capita": 1484.0 
+    },
+    { 
+        "estado": "Amazonas", 
+        "ano": 2026, 
+        "populacao": 4360926, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Bahia", 
+        "ano": 2022, 
+        "populacao": 14141626, 
+        "renda_per_capita": 1010.0 
+    },
+    { 
+        "estado": "Bahia", 
+        "ano": 2023, 
+        "populacao": 14141626, 
+        "renda_per_capita": 1139.0 
+    },
+    { 
+        "estado": "Bahia", 
+        "ano": 2024, 
+        "populacao": 14850513, 
+        "renda_per_capita": 1366.0 
+    },
+    { 
+        "estado": "Bahia", 
+        "ano": 2025, 
+        "populacao": 14870907, 
+        "renda_per_capita": 1465.0 
+    },
+    { 
+        "estado": "Bahia", 
+        "ano": 2026, 
+        "populacao": 14889472, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Ceara", 
+        "ano": 2022, 
+        "populacao": 8794957, 
+        "renda_per_capita": 1050.0 
+    },
+    { 
+        "estado": "Ceara", 
+        "ano": 2023, 
+        "populacao": 8794957, 
+        "renda_per_capita": 1166.0 
+    },
+    { 
+        "estado": "Ceara", 
+        "ano": 2024, 
+        "populacao": 9233656, 
+        "renda_per_capita": 1225.0 
+    },
+    { 
+        "estado": "Ceara", 
+        "ano": 2025, 
+        "populacao": 9268836, 
+        "renda_per_capita": 1390.0 
+    },
+    { 
+        "estado": "Ceara", 
+        "ano": 2026, 
+        "populacao": 9302211, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Distrito Federal", 
+        "ano": 2022, 
+        "populacao": 2817381, 
+        "renda_per_capita": 2913.0 
+    },
+    { 
+        "estado": "Distrito Federal", 
+        "ano": 2023, 
+        "populacao": 2817381, 
+        "renda_per_capita": 3357.0 
+    },
+    { 
+        "estado": "Distrito Federal", 
+        "ano": 2024, 
+        "populacao": 2982818, 
+        "renda_per_capita": 3444.0 
+    },
+    { 
+        "estado": "Distrito Federal", 
+        "ano": 2025, 
+        "populacao": 2996899, 
+        "renda_per_capita": 4538.0 
+    },
+    { 
+        "estado": "Distrito Federal", 
+        "ano": 2026, 
+        "populacao": 3009996, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Espirito Santo", 
+        "ano": 2022, 
+        "populacao": 3833712, 
+        "renda_per_capita": 1723.0 
+    },
+    { 
+        "estado": "Espirito Santo", 
+        "ano": 2023, 
+        "populacao": 3833712, 
+        "renda_per_capita": 1915.0 
+    },
+    { 
+        "estado": "Espirito Santo", 
+        "ano": 2024, 
+        "populacao": 4102129, 
+        "renda_per_capita": 2111.0 
+    },
+    { 
+        "estado": "Espirito Santo", 
+        "ano": 2025, 
+        "populacao": 4126854, 
+        "renda_per_capita": 2249.0 
+    },
+    { 
+        "estado": "Espirito Santo", 
+        "ano": 2026, 
+        "populacao": 4150692, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Goias", 
+        "ano": 2022, 
+        "populacao": 7056495, 
+        "renda_per_capita": 1619.0 
+    },
+    { 
+        "estado": "Goias", 
+        "ano": 2023, 
+        "populacao": 7056495, 
+        "renda_per_capita": 2017.0 
+    },
+    { 
+        "estado": "Goias", 
+        "ano": 2024, 
+        "populacao": 7350483, 
+        "renda_per_capita": 2098.0 
+    },
+    { 
+        "estado": "Goias", 
+        "ano": 2025, 
+        "populacao": 7423629, 
+        "renda_per_capita": 2407.0 
+    },
+    { 
+        "estado": "Goias", 
+        "ano": 2026, 
+        "populacao": 7495033, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Maranhao", 
+        "ano": 2022, 
+        "populacao": 6776699, 
+        "renda_per_capita": 814.0 
+    },
+    { 
+        "estado": "Maranhao", 
+        "ano": 2023, 
+        "populacao": 6776699, 
+        "renda_per_capita": 945.0 
+    },
+    { 
+        "estado": "Maranhao", 
+        "ano": 2024, 
+        "populacao": 7010960, 
+        "renda_per_capita": 1077.0 
+    },
+    { 
+        "estado": "Maranhao", 
+        "ano": 2025, 
+        "populacao": 7018211, 
+        "renda_per_capita": 1219.0 
+    },
+    { 
+        "estado": "Maranhao", 
+        "ano": 2026, 
+        "populacao": 7024557, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Mato Grosso", 
+        "ano": 2022, 
+        "populacao": 3658649, 
+        "renda_per_capita": 1674.0 
+    },
+    { 
+        "estado": "Mato Grosso", 
+        "ano": 2023, 
+        "populacao": 3658649, 
+        "renda_per_capita": 1991.0 
+    },
+    { 
+        "estado": "Mato Grosso", 
+        "ano": 2024, 
+        "populacao": 3836399, 
+        "renda_per_capita": 2276.0 
+    },
+    { 
+        "estado": "Mato Grosso", 
+        "ano": 2025, 
+        "populacao": 3893659, 
+        "renda_per_capita": 2335.0 
+    },
+    { 
+        "estado": "Mato Grosso", 
+        "ano": 2026, 
+        "populacao": 3950330, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Mato Grosso do Sul", 
+        "ano": 2022, 
+        "populacao": 2757013, 
+        "renda_per_capita": 1839.0 
+    },
+    { 
+        "estado": "Mato Grosso do Sul", 
+        "ano": 2023, 
+        "populacao": 2757013, 
+        "renda_per_capita": 2030.0 
+    },
+    { 
+        "estado": "Mato Grosso do Sul", 
+        "ano": 2024, 
+        "populacao": 2901895, 
+        "renda_per_capita": 2169.0 
+    },
+    { 
+        "estado": "Mato Grosso do Sul", 
+        "ano": 2025, 
+        "populacao": 2924631, 
+        "renda_per_capita": 2454.0 
+    },
+    { 
+        "estado": "Mato Grosso do Sul", 
+        "ano": 2026, 
+        "populacao": 2946317, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Minas Gerais", 
+        "ano": 2022, 
+        "populacao": 20539989, 
+        "renda_per_capita": 1529.0 
+    },
+    { 
+        "estado": "Minas Gerais", 
+        "ano": 2023, 
+        "populacao": 20539989, 
+        "renda_per_capita": 1918.0 
+    },
+    { 
+        "estado": "Minas Gerais", 
+        "ano": 2024, 
+        "populacao": 21322691, 
+        "renda_per_capita": 2001.0 
+    },
+    { 
+        "estado": "Minas Gerais", 
+        "ano": 2025, 
+        "populacao": 21393441, 
+        "renda_per_capita": 2353.0 
+    },
+    { 
+        "estado": "Minas Gerais", 
+        "ano": 2026, 
+        "populacao": 21460311, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Para", 
+        "ano": 2022, 
+        "populacao": 8120131, 
+        "renda_per_capita": 1061.0 
+    },
+    { 
+        "estado": "Para", 
+        "ano": 2023, 
+        "populacao": 8120131, 
+        "renda_per_capita": 1282.0 
+    },
+    { 
+        "estado": "Para", 
+        "ano": 2024, 
+        "populacao": 8664306, 
+        "renda_per_capita": 1344.0 
+    },
+    { 
+        "estado": "Para", 
+        "ano": 2025, 
+        "populacao": 8711196, 
+        "renda_per_capita": 1420.0 
+    },
+    { 
+        "estado": "Para", 
+        "ano": 2026, 
+        "populacao": 8756324, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Paraiba", 
+        "ano": 2022, 
+        "populacao": 3974687, 
+        "renda_per_capita": 1096.0 
+    },
+    { 
+        "estado": "Paraiba", 
+        "ano": 2023, 
+        "populacao": 3974687, 
+        "renda_per_capita": 1320.0 
+    },
+    { 
+        "estado": "Paraiba", 
+        "ano": 2024, 
+        "populacao": 4145040, 
+        "renda_per_capita": 1401.0 
+    },
+    { 
+        "estado": "Paraiba", 
+        "ano": 2025, 
+        "populacao": 4164468, 
+        "renda_per_capita": 1543.0 
+    },
+    { 
+        "estado": "Paraiba", 
+        "ano": 2026, 
+        "populacao": 4182828, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Parana", 
+        "ano": 2022, 
+        "populacao": 11444380, 
+        "renda_per_capita": 1846.0 
+    },
+    { 
+        "estado": "Parana", 
+        "ano": 2023, 
+        "populacao": 11444380, 
+        "renda_per_capita": 2115.0 
+    },
+    { 
+        "estado": "Parana", 
+        "ano": 2024, 
+        "populacao": 11824665, 
+        "renda_per_capita": 2482.0 
+    },
+    { 
+        "estado": "Parana", 
+        "ano": 2025, 
+        "populacao": 11890517, 
+        "renda_per_capita": 2762.0 
+    },
+    { 
+        "estado": "Parana", 
+        "ano": 2026, 
+        "populacao": 11952456, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Pernambuco", 
+        "ano": 2022, 
+        "populacao": 9058931, 
+        "renda_per_capita": 1010.0 
+    },
+    { 
+        "estado": "Pernambuco", 
+        "ano": 2023, 
+        "populacao": 9058931, 
+        "renda_per_capita": 1113.0 
+    },
+    { 
+        "estado": "Pernambuco", 
+        "ano": 2024, 
+        "populacao": 9539029, 
+        "renda_per_capita": 1453.0 
+    },
+    { 
+        "estado": "Pernambuco", 
+        "ano": 2025, 
+        "populacao": 9562007, 
+        "renda_per_capita": 1600.0 
+    },
+    { 
+        "estado": "Pernambuco", 
+        "ano": 2026, 
+        "populacao": 9583176, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Piaui", 
+        "ano": 2022, 
+        "populacao": 3271199, 
+        "renda_per_capita": 1110.0 
+    },
+    { 
+        "estado": "Piaui", 
+        "ano": 2023, 
+        "populacao": 3271199, 
+        "renda_per_capita": 1342.0 
+    },
+    { 
+        "estado": "Piaui", 
+        "ano": 2024, 
+        "populacao": 3375646, 
+        "renda_per_capita": 1350.0 
+    },
+    { 
+        "estado": "Piaui", 
+        "ano": 2025, 
+        "populacao": 3384547, 
+        "renda_per_capita": 1546.0 
+    },
+    { 
+        "estado": "Piaui", 
+        "ano": 2026, 
+        "populacao": 3392617, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Rio Grande do Norte", 
+        "ano": 2022, 
+        "populacao": 3302729, 
+        "renda_per_capita": 1267.0 
+    },
+    { 
+        "estado": "Rio Grande do Norte", 
+        "ano": 2023, 
+        "populacao": 3302729, 
+        "renda_per_capita": 1373.0 
+    },
+    { 
+        "estado": "Rio Grande do Norte", 
+        "ano": 2024, 
+        "populacao": 3446071, 
+        "renda_per_capita": 1616.0 
+    },
+    { 
+        "estado": "Rio Grande do Norte", 
+        "ano": 2025, 
+        "populacao": 3455236, 
+        "renda_per_capita": 1819.0 
+    },
+    { 
+        "estado": "Rio Grande do Norte", 
+        "ano": 2026, 
+        "populacao": 3463737, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Rio Grande do Sul", 
+        "ano": 2022, 
+        "populacao": 10882965, 
+        "renda_per_capita": 2087.0 
+    },
+    { 
+        "estado": "Rio Grande do Sul", 
+        "ano": 2023, 
+        "populacao": 10882965, 
+        "renda_per_capita": 2304.0 
+    },
+    { 
+        "estado": "Rio Grande do Sul", 
+        "ano": 2024, 
+        "populacao": 11229915, 
+        "renda_per_capita": 2608.0 
+    },
+    { 
+        "estado": "Rio Grande do Sul", 
+        "ano": 2025, 
+        "populacao": 11233263, 
+        "renda_per_capita": 2839.0 
+    },
+    { 
+        "estado": "Rio Grande do Sul", 
+        "ano": 2026, 
+        "populacao": 11233317, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Rio de Janeiro", 
+        "ano": 2022, 
+        "populacao": 16055174, 
+        "renda_per_capita": 1971.0 
+    },
+    { 
+        "estado": "Rio de Janeiro", 
+        "ano": 2023, 
+        "populacao": 16055174, 
+        "renda_per_capita": 2367.0 
+    },
+    { 
+        "estado": "Rio de Janeiro", 
+        "ano": 2024, 
+        "populacao": 17219679, 
+        "renda_per_capita": 2490.0 
+    },
+    { 
+        "estado": "Rio de Janeiro", 
+        "ano": 2025, 
+        "populacao": 17223547, 
+        "renda_per_capita": 2794.0 
+    },
+    { 
+        "estado": "Rio de Janeiro", 
+        "ano": 2026, 
+        "populacao": 17225410, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Rondonia", 
+        "ano": 2022, 
+        "populacao": 1581196, 
+        "renda_per_capita": 1365.0 
+    },
+    { 
+        "estado": "Rondonia", 
+        "ano": 2023, 
+        "populacao": 1581196, 
+        "renda_per_capita": 1527.0 
+    },
+    { 
+        "estado": "Rondonia", 
+        "ano": 2024, 
+        "populacao": 1746227, 
+        "renda_per_capita": 1717.0 
+    },
+    { 
+        "estado": "Rondonia", 
+        "ano": 2025, 
+        "populacao": 1751950, 
+        "renda_per_capita": 1991.0 
+    },
+    { 
+        "estado": "Rondonia", 
+        "ano": 2026, 
+        "populacao": 1757338, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Roraima", 
+        "ano": 2022, 
+        "populacao": 636707, 
+        "renda_per_capita": 1242.0 
+    },
+    { 
+        "estado": "Roraima", 
+        "ano": 2023, 
+        "populacao": 636707, 
+        "renda_per_capita": 1425.0 
+    },
+    { 
+        "estado": "Roraima", 
+        "ano": 2024, 
+        "populacao": 716793, 
+        "renda_per_capita": 1538.0 
+    },
+    { 
+        "estado": "Roraima", 
+        "ano": 2025, 
+        "populacao": 738772, 
+        "renda_per_capita": 1878.0 
+    },
+    { 
+        "estado": "Roraima", 
+        "ano": 2026, 
+        "populacao": 761012, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Santa Catarina", 
+        "ano": 2022, 
+        "populacao": 7610361, 
+        "renda_per_capita": 2018.0 
+    },
+    { 
+        "estado": "Santa Catarina", 
+        "ano": 2023, 
+        "populacao": 7610361, 
+        "renda_per_capita": 2269.0 
+    },
+    { 
+        "estado": "Santa Catarina", 
+        "ano": 2024, 
+        "populacao": 8058441, 
+        "renda_per_capita": 2601.0 
+    },
+    { 
+        "estado": "Santa Catarina", 
+        "ano": 2025, 
+        "populacao": 8187029, 
+        "renda_per_capita": 2809.0 
+    },
+    { 
+        "estado": "Santa Catarina", 
+        "ano": 2026, 
+        "populacao": 8312759, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Sao Paulo", 
+        "ano": 2022, 
+        "populacao": 44411238, 
+        "renda_per_capita": 2148.0 
+    },
+    { 
+        "estado": "Sao Paulo", 
+        "ano": 2023, 
+        "populacao": 44411238, 
+        "renda_per_capita": 2492.0 
+    },
+    { 
+        "estado": "Sao Paulo", 
+        "ano": 2024, 
+        "populacao": 45973194, 
+        "renda_per_capita": 2662.0 
+    },
+    { 
+        "estado": "Sao Paulo", 
+        "ano": 2025, 
+        "populacao": 46081801, 
+        "renda_per_capita": 2956.0 
+    },
+    { 
+        "estado": "Sao Paulo", 
+        "ano": 2026, 
+        "populacao": 46179008, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Sergipe", 
+        "ano": 2022, 
+        "populacao": 2210004, 
+        "renda_per_capita": 1187.0 
+    },
+    { 
+        "estado": "Sergipe", 
+        "ano": 2023, 
+        "populacao": 2210004, 
+        "renda_per_capita": 1218.0 
+    },
+    { 
+        "estado": "Sergipe", 
+        "ano": 2024, 
+        "populacao": 2291077, 
+        "renda_per_capita": 1473.0 
+    },
+    { 
+        "estado": "Sergipe", 
+        "ano": 2025, 
+        "populacao": 2299425, 
+        "renda_per_capita": 1697.0 
+    },
+    { 
+        "estado": "Sergipe", 
+        "ano": 2026, 
+        "populacao": 2307255, 
+        "renda_per_capita": null 
+    },
+    { 
+        "estado": "Tocantins", 
+        "ano": 2022, 
+        "populacao": 1511460, 
+        "renda_per_capita": 1379.0 
+    },
+    { 
+        "estado": "Tocantins", 
+        "ano": 2023, 
+        "populacao": 1511460, 
+        "renda_per_capita": 1581.0 
+    },
+    { 
+        "estado": "Tocantins", 
+        "ano": 2024, 
+        "populacao": 1577342, 
+        "renda_per_capita": 1737.0 
+    },
+    { 
+        "estado": "Tocantins", 
+        "ano": 2025, 
+        "populacao": 1586859, 
+        "renda_per_capita": 2036.0 
+    },
+    { 
+        "estado": "Tocantins", 
+        "ano": 2026, 
+        "populacao": 1595994, 
+        "renda_per_capita": null }
+]
