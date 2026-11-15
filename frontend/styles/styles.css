@@ -1,4 +1,3 @@
-/* VARIÁVEIS GLOBAIS E CÓDIGO GLOBAL*/
 :root {
     --color-primary: #0357ED;
     --color-primary-dark: #002C78;
@@ -68,7 +67,6 @@ section .card-text{
     opacity: 0.5;
 }
 
-/* NAVBAR */
 nav{
     z-index: 1050;
     width: 10rem;
@@ -108,7 +106,6 @@ nav{
     position: absolute; 
 }
 
-/* HEADER E FILTRO */
 .contentWrapper{
     padding: 2rem 2rem 2rem 12rem;
     position: relative;
@@ -148,19 +145,27 @@ nav{
 
 .scoreConteiner{
     width: 10rem;
-    gap: 0.5rem;
     flex-direction: column;
+    flex: 1;
+}
+
+.scoreConteiner .scoreConteiner-info{
+    transition: 1s;
+    font-size: 16px;
+    line-height: 1.3rem;
+    font-weight: lighter;
+    -webkit-text-stroke: 0.5px black;
 }
 
 .progress{
     width: 100% ;
+    margin-top: 0.5rem;
     flex: 1;
 }
 
 #scoreBar{
     width: 100%;
 }
-
 
 .dbCard{
     font-size: 14px;
@@ -214,32 +219,3 @@ nav{
     -webkit-mask-image: url(../imgs/tag.svg);
     mask-image: url(../imgs/tag.svg);
 }
-
-
-
-
-    
-/* TEMPORARIO */
-/* .scoreControl{
-    position: absolute;
-    top: 0;
-    right: 0;
-    display: flex;
-    font-size: 10px;
-    flex-direction: column;
-    background-color: white;
-    opacity: 0.2;
-    transition: 0.5s;
-}
-
-.scoreControl:hover{
-    opacity: 1;
-} */
-
-/* BREAKPOINTS */
-
-/* @media screen and (max-width: 900px){
-    .menu-btn{
-        visibility: visible;
-    }
-} */
