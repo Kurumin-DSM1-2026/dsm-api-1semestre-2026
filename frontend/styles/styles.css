@@ -90,6 +90,10 @@ nav{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    background-origin: content-box;
+    background-color: var(--color-light);
+    border-radius: 12px;
+    padding: 0.4rem;
 }
 
 .nav-link{
@@ -218,4 +222,20 @@ nav{
 .dbCard-orig{
     -webkit-mask-image: url(../imgs/tag.svg);
     mask-image: url(../imgs/tag.svg);
+}
+
+.nav-admin{
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--color-light);
+    opacity: 0.25;
+    line-height: 0;
+    transition: opacity 0.2s;
+}
+
+.nav-admin:hover,
+.nav-admin:focus-visible{
+    opacity: 0.9;
 }
