@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Institucional | EndiviDados</title>
-  <meta name="description" content="Entenda como o EndiviDados usa dados do IBGE e do Banco Central para calcular o Score de crédito por estado.">
-  <link rel="shortcut icon" href="./imgs/favicon.png" type="image/png">
+  <title>EndiviDados - Crédito inclusivo</title>
+  <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles/styles.css">
-   <link rel="stylesheet" href="./styles/institucional.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/institucional.css">
 </head>
 <body data-m="p">
   <nav class="nav flex-column" aria-label="Principal">
@@ -19,258 +19,363 @@
   </nav>
 
   <main class="contentWrapper">
-  <div class="container-institucional">
-    <header class="cabecalho">
-      <h1>EndiviDados</h1>
-      <p class="textoprincipal" data-k="lead"></p>
-      <div class="x-seg">
-        <span>Explique para:</span>
-        <div id="aud" role="group" aria-label="Público">
-          <button aria-pressed="true" data-v="p">Público em geral</button>
-          <button aria-pressed="false" data-v="a">Analista de crédito</button>
+    <section>
+            <div class="contentWrapper-header">
+                <h1>EndiviDados</h1>
+                Um Score que compara os estados brasileiros a partir de dados públicos, para mostrar onde o crédito pode ser mais inclusivo.</p>
+            </div>
+      </header>
+
+      <section>
+        <h2 class="x-h">Score</h2>
+        <div class="fluxocalculo">
+          <div class="etapas">
+            <b>Dados públicos</b>IBGE e Banco Central (SCR)</div>
+          <div class="etapas"><b>Dez indicadores</b>Em dois eixos: desenvolvimento e saúde econômica</div>
+          <div class="etapas"><b>Uma nota para cada um</b>De até 10, comparando cada estado com os demais</div>
+          <div class="etapas"><b>Soma = Score</b>Até 100 pontos</div>
+          <div class="etapas"><b>Faixa</b>De Perigo a “Vai na fé”</div>
         </div>
-      </div>
-    </header>
+        <p class="subtitulo s-p mt-4">Em resumo: para cada indicador, olhamos onde o estado fica entre o menor e o maior valor do país. Quem está no menor valor ganha nota 1, quem está no maior ganha nota 10, e os demais ficam no meio, na mesma proporção. Depois somamos as dez notas: quanto mais alto o total, melhor a faixa.</p>
+      </section>
 
-    <section>
-      <h2 class="x-h">Score</h2>
-      <div class="fluxocalculo">
-        <div class="etapas"><b>Dados públicos</b>IBGE e Banco Central (SCR)</div>
-        <div class="etapas"><b>Dez indicadores</b>Em dois eixos: desenvolvimento e saúde econômica</div>
-        <div class="etapas"><b>Uma nota para cada um</b>De até 10, comparando cada estado com os demais</div>
-        <div class="etapas"><b>Soma = Score</b>Até 100 pontos</div>
-        <div class="etapas"><b>Faixa</b>De Perigo a “Vai na fé”</div>
-      </div>
-      <p class="subtitulo s-p mt-4">Em resumo: para cada indicador, olhamos onde o estado fica entre o menor e o maior valor do país. Quem está no menor valor ganha nota 1, quem está no maior ganha nota 10, e os demais ficam no meio, na mesma proporção. Depois somamos as dez notas: quanto mais alto o total, melhor a faixa.</p>
-    </section>
+      <section>
+        <h2 class="x-h">Como calculamos o Score</h2>
+        <p class="fs-5 mb-4">Cada estado recebe dez notas, de 1 a 10, e a soma delas forma o Score. Escolha um indicador para ver como a nota é calculada.</p>
 
-    <section>
-      <h2 class="x-h">Como calculamos o Score</h2>
-      <p class="subtitulo" data-k="sim"></p>
-      <div class="navegacaoabas" id="axes" role="group" aria-label="Eixo">
-        <button aria-pressed="true">Eixo I · Desenvolvimento econômico</button>
-        <button aria-pressed="false">Eixo II · Saúde econômica da população</button>
-      </div>
-      <p class="descricaoeixo" id="axnote"></p>
-      <div class="area-indicadores">
-        <div class="lista-indicadores" id="pills" role="tablist" aria-label="Indicadores"></div>
-        <article class="painel" id="panel" aria-live="polite"></article>
-      </div>
-    </section>
+        <ul class="nav nav-pills gap-2 mb-3" id="axes" role="tablist" aria-label="Eixo">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active rounded-pill fw-bold" id="eixo1-tab" data-bs-toggle="pill" data-bs-target="#eixo1"
+              type="button" role="tab" aria-controls="eixo1" aria-selected="true">
+              Eixo I · Desenvolvimento econômico
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-pill fw-bold border border-primary" id="eixo2-tab" data-bs-toggle="pill" data-bs-target="#eixo2"
+              type="button" role="tab" aria-controls="eixo2" aria-selected="false">
+              Eixo II · Saúde econômica da população
+            </button>
+          </li>
+        </ul>
 
-    <section class="s-p">
+        <div class="tab-content">
+
+          <div class="tab-pane fade show active" id="eixo1" role="tabpanel" aria-labelledby="eixo1-tab" tabindex="0">
+            <p class="fs-5 mb-4">
+              A alta densidade demográfica pode impulsionar o desenvolvimento se houver planejamento e infraestrutura, mas pode gerar colapso urbanístico e pobreza se ocorrer de forma desordenada.</p>
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical" aria-label="Indicadores do Eixo I">
+                  <button class="nav-link active text-start fw-bold d-flex align-items-center gap-3" id="i1-tab" data-bs-toggle="pill" data-bs-target="#i1" type="button" role="tab" aria-controls="i1" aria-selected="true">
+                    <span class="badge rounded-pill text-bg-light">1
+                    </span>Qualidade de vida (IDH)
+                  </button>
+                  <button class="nav-link text-start fw-bold d-flex align-items-center gap-3" id="i2-tab" data-bs-toggle="pill" data-bs-target="#i2" type="button" role="tab" aria-controls="i2" aria-selected="false">
+                    <span class="badge rounded-pill text-bg-light">
+                    </span>Renda da população
+                  </button>
+                  <button class="nav-link text-start fw-bold d-flex align-items-center gap-3" id="i3-tab" data-bs-toggle="pill" data-bs-target="#i3" type="button" role="tab" aria-controls="i3" aria-selected="false">
+                    <span class="badge rounded-pill text-bg-light">3
+                    </span>Crescimento da população
+                  </button>
+                  <button class="nav-link text-start fw-bold d-flex align-items-center gap-3" id="i4-tab" data-bs-toggle="pill" data-bs-target="#i4" type="button" role="tab" aria-controls="i4" aria-selected="false">
+                    <span class="badge rounded-pill text-bg-light">
+                    </span>Densidade populacional
+                  </button>
+                  <button class="nav-link text-start fw-bold d-flex align-items-center gap-3" id="i5-tab" data-bs-toggle="pill" data-bs-target="#i5" type="button" role="tab" aria-controls="i5" aria-selected="false">
+                    <span class="badge rounded-pill text-bg-light">5
+                    </span>População funcional
+                  </button>
+                  <button class="nav-link text-start fw-bold d-flex align-items-center gap-3" id="i6-tab" data-bs-toggle="pill" data-bs-target="#i6" type="button" role="tab" aria-controls="i6" aria-selected="false">
+                    <span class="badge rounded-pill text-bg-light">6
+                    </span>Motorização
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="tab-content">
+
+                  <div class="tab-pane fade show active" id="i1" role="tabpanel" aria-labelledby="i1-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="card-header bg-primary-subtle d-flex justify-content-between align-items-center flex-wrap gap-2 p-4">
+                        <h3 class="h4 fw-bold mb-0">Qualidade de vida (IDH)</h3>
+                        <span class="badge rounded-pill text-bg-dark fs-6 px-3 py-2">Acre: 9 de 10</span>
+                      </div>
+                      <div class="card-body p-4">
+                        <p class="fs-5">
+                          Compara os estados pelo Índice de Desenvolvimento Humano. Quanto maior a nota, melhor a posição do estado em qualidade de vida.
+                        </p>
+                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
+                        <ol class="mb-0"><li>Buscar no endpoint do IBGE o IDH mais recente de todos os estados</li><li>Comparar o IDH do estado com o maior IDH do país</li><li>Normalizar o resultado em escala de 1 a 10</li></ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i2" role="tabpanel" aria-labelledby="i2-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="card-header bg-primary-subtle p-4"><h3 class="h4 fw-bold mb-0">Renda da população</h3></div>
+                      <div class="card-body p-4">
+                        <p class="fs-5">Compara a renda per capita de cada estado com a dos demais.</p>
+                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
+                        <ol class="mb-0"><li>Buscar a renda per capita mais recente de todos os estados</li><li>Comparar o valor do estado com o menor e o maior do país</li><li>Normalizar o resultado em escala de 1 a 10</li></ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i3" role="tabpanel" aria-labelledby="i3-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="card-header bg-primary-subtle p-4"><h3 class="h4 fw-bold mb-0">Crescimento da população</h3></div>
+                      <div class="card-body p-4">
+                        <p class="fs-5">Compara o ritmo de crescimento populacional entre os estados.</p>
+                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
+                        <ol class="mb-0"><li>Buscar a população de dois períodos para cada estado</li><li>Calcular a variação entre eles</li><li>Normalizar o resultado em escala de 1 a 10</li></ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i4" role="tabpanel" aria-labelledby="i4-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="card-header bg-primary-subtle p-4"><h3 class="h4 fw-bold mb-0">Densidade populacional</h3></div>
+                      <div class="card-body p-4">
+                        <p class="fs-5">Compara quantas pessoas vivem por quilômetro quadrado em cada estado.</p>
+                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
+                        <ol class="mb-0"><li>Buscar população e área de cada estado</li><li>Dividir a população pela área</li><li>Normalizar o resultado em escala de 1 a 10</li></ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i5" role="tabpanel" aria-labelledby="i5-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="card-header bg-primary-subtle p-4"><h3 class="h4 fw-bold mb-0">População funcional</h3></div>
+                      <div class="card-body p-4">
+                        <p class="fs-5">Compara a parcela da população em idade de trabalhar.</p>
+                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
+                        <ol class="mb-0"><li>Buscar a população por faixa etária</li><li>Calcular a parcela em idade de trabalhar</li><li>Normalizar o resultado em escala de 1 a 10</li></ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i6" role="tabpanel" aria-labelledby="i6-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="card-header bg-primary-subtle p-4"><h3 class="h4 fw-bold mb-0">Motorização</h3></div>
+                      <div class="card-body p-4">
+                        <p class="fs-5">Compara a quantidade de veículos por habitante em cada estado.</p>
+                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
+                        <ol class="mb-0"><li>Buscar a frota de veículos e a população de cada estado</li><li>Calcular veículos por habitante</li><li>Normalizar o resultado em escala de 1 a 10</li></ol>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="eixo2" role="tabpanel" aria-labelledby="eixo2-tab" tabindex="0">
+            <p class="fs-5 mb-4">Este eixo olha para a situação financeira das pessoas: quanto devem, quanto conseguem pagar e como isso pesa na renda.</p>
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical" aria-label="Indicadores do Eixo II">
+                  <button class="nav-link active text-start fw-bold d-flex align-items-center gap-3" id="i7-tab" data-bs-toggle="pill" data-bs-target="#i7" type="button" role="tab" aria-controls="i7" aria-selected="true">
+                    <span class="badge rounded-pill text-bg-light">1
+                    </span>Endividamento
+                  </button>
+                  <button class="nav-link text-start fw-bold d-flex align-items-center gap-3" id="i8-tab" data-bs-toggle="pill" data-bs-target="#i8" type="button" role="tab" aria-controls="i8" aria-selected="false">
+                    <span class="badge rounded-pill text-bg-light">2
+                    </span>Inadimplência
+                  </button>
+                  <button class="nav-link text-start fw-bold d-flex align-items-center gap-3" id="i9-tab" data-bs-toggle="pill" data-bs-target="#i9" type="button" role="tab" aria-controls="i9" aria-selected="false">
+                    <span class="badge rounded-pill text-bg-light">3
+                    </span>Comprometimento da renda
+                  </button>
+                  <button class="nav-link text-start fw-bold d-flex align-items-center gap-3" id="i10-tab" data-bs-toggle="pill" data-bs-target="#i10" type="button" role="tab" aria-controls="i10" aria-selected="false">
+                    <span class="badge rounded-pill text-bg-light">4
+                    </span>Acesso ao crédito
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="tab-content">
+
+                  <div class="tab-pane fade show active" id="i7" role="tabpanel" aria-labelledby="i7-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="card-header bg-primary-subtle p-4">
+                        <h3 class="h4 fw-bold mb-0">Endividamento</h3>
+                      </div>
+                      <div class="card-body p-4">
+                        <p class="fs-5">Compara o volume de dívida da população em cada estado.</p>
+                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
+                        <ol class="mb-0"><li>Buscar no SCR do Banco Central o saldo de crédito por estado</li><li>Comparar com o menor e o maior do país</li><li>Normalizar o resultado em escala de 1 a 10</li></ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i8" role="tabpanel" aria-labelledby="i8-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="card-header bg-primary-subtle p-4">
+                        <h3 class="h4 fw-bold mb-0">Inadimplência</h3>
+                      </div>
+                      <div class="card-body p-4">
+                        <p class="fs-5">Compara a parcela de crédito em atraso em cada estado.</p>
+                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
+                        <ol class="mb-0"><li>Buscar no SCR o saldo em atraso por estado</li><li>Calcular a parcela sobre o saldo total</li><li>Normalizar o resultado em escala de 1 a 10</li></ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i9" role="tabpanel" aria-labelledby="i9-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="card-header bg-primary-subtle p-4"><h3 class="h4 fw-bold mb-0">Comprometimento da renda</h3></div>
+                      <div class="card-body p-4">
+                        <p class="fs-5">Compara quanto da renda vai para pagar dívidas.</p>
+                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
+                        <ol class="mb-0"><li>Relacionar o saldo de crédito com a renda do estado</li><li>Comparar com o menor e o maior do país</li><li>Normalizar o resultado em escala de 1 a 10</li></ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i10" role="tabpanel" aria-labelledby="i10-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="card-header bg-primary-subtle p-4"><h3 class="h4 fw-bold mb-0">Acesso ao crédito</h3></div>
+                      <div class="card-body p-4">
+                        <p class="fs-5">Compara quantas pessoas têm operações de crédito ativas.</p>
+                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
+                        <ol class="mb-0"><li>Buscar o número de clientes com crédito por estado</li><li>Dividir pela população adulta</li><li>Normalizar o resultado em escala de 1 a 10</li></ol>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="s-p">
+        <section class="s-p">
       <h2 class="x-h">Veja um estado na prática</h2>
       <p class="subtitulo">Escolha um estado. A bolinha mostra onde ele fica entre o menor e o maior valor do país, e o círculo ao lado é a nota que isso rende.</p>
-      <select id="uf" class="form-select" aria-label="Estado" style="max-width:16rem"></select>
-      <div id="ufcards"></div>
-    </section>
+       <div class="contentWrapper-main">
+                <select class="form-select" aria-label="" id="filtroUFSelect" selected="Acre">
+                    <option selected value="Acre">Acre</option>
+                    <option value="Alagoas">Alagoas</option>
+                    <option value="Amapa">Amapá</option>
+                    <option value="Amazonas">Amazonas</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Ceara">Ceará</option>
+                    <option value="Distrito Federal">Distrito Federal</option>
+                    <option value="Espirito Santo">Espírito Santo</option>
+                    <option value="Goias">Goiás</option>
+                    <option value="Maranhao">Maranhão</option>
+                    <option value="Mato Grosso">Mato Grosso</option>
+                    <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                    <option value="Para">Pará</option>
+                    <option value="Paraiba">Paraíba</option>
+                    <option value="Parana">Paraná</option>
+                    <option value="Pernambuco">Pernambuco</option>
+                    <option value="Piaui">Piauí</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                    <option value="Rondonia">Rondônia</option>
+                    <option value="Roraima">Roraima</option>
+                    <option value="Santa Catarina">Santa Catarina</option>
+                    <option value="Sao Paulo">São Paulo</option>
+                    <option value="Sergipe">Sergipe</option>
+                    <option value="Tocantins">Tocantins</option>
+                </select>
+                <section class="s-p">
+    <div id="ufcards"></div>
+</div>
+      </section>
 
-    <section class="s-a">
-      <h2 class="x-h">Monte um Score</h2>
-      <p class="subtitulo">Escolha a nota de cada indicador e veja em que faixa o Score cai.</p>
-      <div class="painel-score" aria-live="polite">
-        <div class="painel-score-top">
-          <span class="x-score" id="score">50</span><span>pontos</span>
-          <span class="faixa-score" id="band"></span>
-          <div class="x-presets">
-            <button class="btn btn-sm btn-outline-light" data-p="1">Tudo no mínimo</button>
-            <button class="btn btn-sm btn-outline-light" data-p="5">Meio-termo</button>
-            <button class="btn btn-sm btn-outline-light" data-p="10">Tudo no máximo</button>
+      <section class="s-a">
+        <h2 class="x-h">Como cada nota nasce</h2>
+        <p class="subtitulo">Quase todos os indicadores comparam o estado com o menor e o maior valor do país. Toda nota é arredondada: abaixo de 0,5 para baixo, a partir de 0,5 para cima.</p>
+        <div class="table-responsive">
+          <table class="table table-bordered align-middle">
+            <caption>Exemplo de renda per capita</caption>
+            <tbody>
+              <tr><th scope="row">Valor do estado (Acre)</th><td>R$ 1.392</td></tr>
+              <tr><th scope="row">Menor do país (Maranhão)</th><td>R$ 1.219</td></tr>
+              <tr><th scope="row">Maior do país (Distrito Federal)</th><td>R$ 4.538</td></tr>
+              <tr><th scope="row">Fórmula</th><td>1 + 9 × (valor − mín) / (máx − mín)</td></tr>
+              <tr><th scope="row">Conta</th><td>1 + 9 × (1.392 − 1.219) / (4.538 − 1.219) ≈ 1,47</td></tr>
+              <tr class="table-primary"><th scope="row">Nota (arredondada)</th><td><b>1</b></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section>
+        <h2 class="x-h">De onde vêm os números</h2>
+        <p class="subtitulo">Todos os números vêm de bases públicas e são atualizados a partir das fontes oficiais.</p>
+        <ul class="nav nav-pills gap-2 mb-3" id="ftabs" role="tablist" aria-label="Fonte de dados">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active rounded-pill" id="f0-tab" data-bs-toggle="pill" data-bs-target="#f0" type="button" role="tab" aria-controls="f0" aria-selected="true">
+              IBGE
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link rounded-pill" id="f1-tab" data-bs-toggle="pill" data-bs-target="#f1" type="button" role="tab" aria-controls="f1" aria-selected="false">
+              Banco Central · SCR 
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="f0" role="tabpanel" aria-labelledby="f0-tab" tabindex="0">
+            <div class="card card-body">
+              <p class="mb-1">
+                <code>
+                  Endpoint do IBGE (preencha a URL)
+                </code>
+              </p>
+              <p class="small text-secondary">
+                Dados do IBGE, usados nos indicadores do Eixo I.
+              </p>
+              <ul class="mb-0">
+                <li>IDH</li><li>Renda per capita</li><li>População</li><li>Área territorial</li><li>Frota de veículos</li></ul>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="f1" role="tabpanel" aria-labelledby="f1-tab" tabindex="0">
+            <div class="card card-body">
+              <p class="mb-1"><code>Base do SCR (preencha a URL)</code></p>
+              <p class="small text-secondary">Dados do Banco Central, usados nos indicadores do Eixo II.</p>
+              <ul class="mb-0"><li>Saldo de crédito</li><li>Saldo em atraso</li><li>Número de clientes</li></ul>
+            </div>
           </div>
         </div>
-        <div class="barra-score" id="track"><span class="marcador-score" id="mark"></span></div>
-        <div class="x-scale"><span>0</span><span>30</span><span>50</span><span>70</span><span>100</span></div>
-      </div>
-      <div id="inds"></div>
-      <p class="small mt-2" style="color:var(--color-dark-grey)">Simulador ilustrativo: as notas são escolhidas por você.</p>
-    </section>
+      </section>
 
-    <section class="s-a">
-      <h2 class="x-h">Como cada nota nasce</h2>
-      <p class="subtitulo">Quase todos os indicadores comparam o estado com o menor e o maior valor do país. Troque os números e veja a nota. Toda nota é arredondada: abaixo de 0,5 para baixo, a partir de 0,5 para cima.</p>
-      <div class="x-tool">
-        <div><label for="v">Valor do estado</label><input id="v" class="form-control" type="number" value="1392"></div>
-        <div><label for="lo">Menor do país</label><input id="lo" class="form-control" type="number" value="1219"></div>
-        <div><label for="hi">Maior do país</label><input id="hi" class="form-control" type="number" value="4538"></div>
-        <div><span class="x-res" id="res"></span><div class="small" style="color:var(--color-dark-grey)">1 + 9 × (valor − mín) / (máx − mín)</div></div>
-      </div>
-      <p class="small mt-2" style="color:var(--color-dark-grey)">Exemplo de renda per capita: Acre, R$ 1.392; Maranhão (mínima), R$ 1.219; Distrito Federal (máxima), R$ 4.538.</p>
-    </section>
+      <section>
+        <h2 class="x-h">Faixas do Score</h2>
+        <div class="faixa-scores">
+          <div class="x-bd" style="--c:#D64545">
+            <b>Até 30
+            </b>
+            <span>
+              Perigo
+            </span>
+            <small>
+              Maior alerta
+            </small>
+          </div>
+          <div class="x-bd" style="--c:#E8912D"><b>31 a 50</b><span>Risco</span><small>Risco elevado</small></div>
+          <div class="x-bd" style="--c:#F2C94C"><b>51 a 70</b><span>Atenção</span><small>Faixa intermediária, pede acompanhamento</small></div>
+          <div class="x-bd" style="--c:#2E9E6B"><b>Acima de 70</b><span>“Vai na fé”</span><small>Melhor faixa</small></div>
+        </div>
+        <p class="small mt-4">
+          O Score compara <b>estados</b>, não pessoas, e não deve decidir crédito individual. Médias estaduais escondem diferenças entre cidades. Fontes: 
+          <a href="https://www.ibge.gov.br" target="_blank" rel="noopener noreferrer">IBGE</a> e 
+          <a href="https://www.bcb.gov.br" target="_blank" rel="noopener noreferrer">Banco Central</a>. Equipe Kurumin · <a href="./contato.html">Contato</a>.</p>
+      </section>
 
-    <section>
-      <h2 class="x-h">De onde vêm os números</h2>
-      <p class="subtitulo" data-k="data"></p>
-      <div class="navegacaoabas" id="ftabs" role="group" aria-label="Fonte de dados">
-        <button aria-pressed="true" data-f="0">IBGE</button>
-        <button aria-pressed="false" data-f="1">Banco Central · SCR</button>
-      </div>
-      <div class="x-card">
-        <p class="ab mb-1"><code id="path"></code></p>
-        <p class="small ab" id="meta" style="color:var(--color-dark-grey)"></p>
-        <div id="fields"></div>
-      </div>
-    </section>
-
-    <section>
-      <h2 class="x-h">Faixas e cuidados</h2>
-      <div class="faixa-scores">
-        <div class="x-bd" style="--c:#D64545"><b>Até 30</b><span>Perigo</span><small>Maior alerta</small></div>
-        <div class="x-bd" style="--c:#E8912D"><b>31 a 50</b><span>Risco</span><small>Risco elevado</small></div>
-        <div class="x-bd" style="--c:#F2C94C"><b>51 a 70</b><span>Atenção</span><small>Faixa intermediária, pede acompanhamento</small></div>
-        <div class="x-bd" style="--c:#2E9E6B"><b>Acima de 70</b><span>“Vai na fé”</span><small>Melhor faixa</small></div>
-      </div>
-      <p class="small mt-4">O Score compara <b>estados</b>, não pessoas, e não deve decidir crédito individual. Médias estaduais escondem diferenças entre cidades. Fontes: <a href="https://www.ibge.gov.br" target="_blank" rel="noopener noreferrer">IBGE</a> e <a href="https://www.bcb.gov.br" target="_blank" rel="noopener noreferrer">Banco Central</a>. Equipe Kurumin · <a href="./contato.html">Contato</a>.</p>
-    </section>
-  </div>
+    </div>
   </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    const COPY = {
-      lead: {
-        p: "Mostramos, estado por estado, como vivem e como se endividam os brasileiros, para que o crédito chegue a mais gente com menos risco.",
-        a: "Painel territorial de risco: cruza indicadores socioeconômicos do IBGE com a carteira de crédito do SCR para comparar estados na concessão de crédito."
-      },
-      sim: {
-        p: "Cada estado recebe dez notas, de 1 a 10, e a soma delas forma o Score. Escolha um indicador para ver como a nota é calculada.",
-        a: "O Score soma dez notas (até 10 cada), organizadas em dois eixos. Escolha um indicador para ver a fórmula e um exemplo calculado."
-      },
-      data: {
-        p: "Todos os números vêm de bases públicas e oficiais. Veja o que cada fonte traz e onde aparece no painel.",
-        a: "Duas bases públicas alimentam o painel. Veja os arquivos, os campos de cada um e onde são usados."
-      }
-    };
-    // n=nome, w=por que, s=fluxo, f=fórmula, c=exemplo, r=resultado
-    const IND = [
-      { n: "Qualidade de vida (IDH)", w: "Compara os estados pelo Índice de Desenvolvimento Humano. Quanto maior a nota, melhor a posição do estado em qualidade de vida.",
-        s: ["Buscar no endpoint do IBGE o IDH mais recente de todos os estados", "Comparar o IDH do estado com o maior IDH do país", "Normalizar o resultado em escala de 1 a 10"],
-        f: "Score = (IDH da UF / maior IDH) × 10",
-        c: ["Amostra de 2021, todos os estados × Acre", "Maior IDH: Distrito Federal, 0,814 · IDH do Acre: 0,710", "Score = (0,710 / 0,814) × 10 = 8,72", "Arredondando: 9"], r: "Acre: 9 de 10" },
-      { n: "Renda da população", w: "Compara a renda per capita entre os estados e mostra onde o estado selecionado está em relação aos demais.",
-        s: ["Buscar a renda per capita mais recente de todos os estados", "Usar min() e max() para achar os extremos", "Comparar o estado com os extremos pela fórmula de normalização"],
-        f: "Score = 1 + 9 × ((estado − mín) / (máx − mín))",
-        c: ["Amostra de 2025 · Máxima: Distrito Federal, R$ 4.538 · Mínima: Maranhão, R$ 1.219 · Acre: R$ 1.392", "Score = 1 + 9 × ((1.392 − 1.219) / (4.538 − 1.219)) = 1,47"], r: "Acre: 1 de 10" },
-      { n: "Crescimento da população", w: "A população representa o tamanho do mercado consumidor. Este indicador mede o quanto a população do estado cresceu em comparação com as demais UFs.",
-        s: ["Buscar o histórico de população de três estados: o Acre (comparativo), o mais populoso (máx) e o menos populoso (mín)", "Calcular o crescimento percentual de cada um", "Normalizar os três valores com a mesma fórmula de normalização"],
-        f: "C = ((Pf − Pi) / Pi) × 100 · Score = 1 + 9 × ((C − Cmín) / (Cmáx − Cmín))",
-        c: ["C = crescimento percentual · Pf = população final · Pi = população inicial", "Acre: 3.127.683 (2022) → 3.221.128 (2026)", "C = ((3.221.128 − 3.127.683) / 3.127.683) × 100 = 2,99%", "O processo se repete para os demais estados"], r: "Acre: crescimento de 2,99%" },
-      { n: "Densidade populacional", w: "Mede a concentração de pessoas por área. Quanto mais denso, maiores as oportunidades de empreender e de gerar movimento econômico. A população total indica o volume; a densidade indica a concentração.",
-        s: ["Buscar a densidade demográfica de todas as UFs no endpoint do IBGE", "Normalizar com a fórmula de normalização", "Arredondar o resultado"],
-        f: "Score = 1 + 9 × ((densidade − mín) / (máx − mín))",
-        c: ["Máx: Distrito Federal, 489,06 hab/km² · Mín: Amazonas, 2,53", "Acre (5,06): 1 + 9 × (2,53 / 486,53) = 1,05 → 1", "São Paulo (178,92): 1 + 9 × (176,39 / 486,53) = 4,26 → 4", "Rio de Janeiro (366,97): 1 + 9 × (364,44 / 486,53) = 7,74 → 8", "São Paulo não é tão denso porque tem muito território e regiões de interior que baixam o número."], r: "Acre: 1 · São Paulo: 4 · Rio de Janeiro: 8" },
-      { n: "População funcional", w: "Avalia a capacidade do estado de movimentar a economia pela disponibilidade de mão de obra em idade produtiva, entre 20 e 60 anos. Mais mão de obra disponível, maior a nota.",
-        s: ["Buscar no endpoint a população por faixa etária", "Somar as faixas de 20 a 60 anos", "Aplicar a fórmula e arredondar"],
-        f: "F = (20–30) + (30–40) + (40–50) + (50–60) · P = (F × 9) / população total + 1",
-        c: ["Acre, 2026: população total 3.221.128", "20–30: 500.912 · 30–40: 467.996 · 40–50: 438.322 · 50–60: 340.830", "F = 1.748.060", "P = (1.748.060 × 9) / 3.221.128 + 1 = 4,88 + 1 = 5,88"], r: "Acre: 6 de 10" },
-      { n: "Motorização", w: "Mede o acesso da população a veículos e, indiretamente, a capacidade econômica e a infraestrutura de mobilidade. Quanto mais veículos por mil habitantes, maior a nota. Ajuda sobretudo operadores de crédito automotivo, ao mostrar onde há mais veículos e capacidade de mantê-los.",
-        s: ["Buscar população e frota do mesmo ano (a frota só está disponível para 2025)", "Calcular o índice: veículos por mil habitantes", "Calcular o índice dos dois estados extremos e normalizar"],
-        f: "Índice = (veículos / população) × 1.000 · Score = 1 + 9 × ((x − xmín) / (xmáx − xmín))",
-        c: ["Acre, 2025: população 3.455.236 · veículos 1.720.240", "Índice = (1.720.240 / 3.455.236) × 1.000 = 497,8", "Mín: Amazonas, 296,15 · Máx: Santa Catarina, 816,18", "Score = 1 + 9 × ((497,8 − 296,15) / (816,18 − 296,15)) = 4,49"], r: "Acre: 4 de 10" },
-      { n: "Valor médio da inadimplência", w: "Estima a dívida média por registro inadimplente, considerando 36 meses como período médio de renegociação, e compara com os extremos nacionais.",
-        s: ["Buscar a inadimplência de 90 dias e o número de registros por UF", "Dividir a inadimplência pelos registros e por 36 meses", "Normalizar entre os extremos nacionais"],
-        f: "Valor = (inadimplência 90 dias / registros) / 36 · Score = 1 + 9 × ((valor − mín) / (máx − mín))", c: [], r: "" },
-      { n: "Tempo de atraso", w: "Compara a inadimplência total com a parcela de recuperação em até 90 dias.",
-        s: ["Buscar a inadimplência total e a de 90 dias por UF", "Aplicar a fórmula e arredondar"],
-        f: "Score = ((inadimplência total × 9) / inadimplência de 90 dias) + 1", c: ["Resultado do exemplo: 4,35"], r: "Exemplo: 4 de 10" },
-      { n: "Porte dos endividados", w: "Considera as pessoas endividadas com renda acima de três salários mínimos, nas faixas de mais de 3 a 5, de 5 a 10, de 10 a 20 e acima de 20.",
-        s: ["Somar os registros das faixas acima de 3 salários mínimos", "Dividir pelo total de registros", "Multiplicar por 10 e arredondar"],
-        f: "Score = (registros nas faixas / total de registros) × 10", c: ["(2.183 × 10) / 4.554 = 4,79"], r: "Exemplo: 5 de 10" },
-      { n: "Poder de crédito", w: "Relaciona a inadimplência com a carteira ativa. A pontuação parcial é subtraída de 10: quanto menor a fatia inadimplente, maior a nota.",
-        s: ["Buscar a inadimplência e a carteira ativa da UF", "Calcular a pontuação parcial", "Subtrair de 10"],
-        f: "Parcial = (inadimplência × 9) / carteira ativa · Score = 10 − parcial",
-        c: ["Acre: carteira ativa R$ 19.822.359.600 · inadimplência R$ 1.245.114.021", "Parcial = (1.245.114.021 × 9) / 19.822.359.600 = 0,57", "Score = 10 − 0,57 = 9,43"], r: "Acre: 9 de 10" }
-    ];
-    const AX = [
-      ["A alta densidade demográfica pode impulsionar o desenvolvimento se houver planejamento e infraestrutura, mas pode gerar colapso urbanístico e pobreza se ocorrer de forma desordenada.", 0, 6],
-      ["O endividamento da população pode ser um risco para o operador de crédito. Este eixo analisa a dívida populacional e direciona as oportunidades para onde o risco é mais baixo.", 6, 10]
-    ];
-    const FILES = [
-      { path: "./js/Dados_IBGE.json", meta: "26 UFs · demográficos e econômicos", f: [
-        ["Área territorial", "Contexto"], ["População 2022–2026", "Gráfico renda e população · indicador 3"],
-        ["Densidade demográfica 2022", "Indicador 4"], ["IDH-2021", "Indicador 1"],
-        ["Renda per capita 2022–2025", "Gráfico renda e população · indicador 2"], ["Receitas e despesas", "Contexto"],
-        ["Frota de veículos 2025", "Indicador 6"]] },
-      { path: "./js/Dados_SCR_2026.json", meta: "origem scrdata_202608.csv · data-base 31/08/2026", f: [
-        ["inadimplencia_bi · a_vencer_90d_bi", "Gráfico de inadimplência (R$ bilhões)"],
-        ["percentual_saudavel · percentual_critica", "Gráfico de composição da dívida"],
-        ["Carteira ativa", "Indicador 10"], ["Registros", "Indicadores 7 e 9"]] }
-    ];
-    const BANDS = [["Perigo", "#D64545", 30, "#fff"], ["Risco", "#E8912D", 50, "#fff"], ["Atenção", "#F2C94C", 70, "#3a2f00"], ["“Vai na fé”", "#2E9E6B", 100, "#fff"]];
-    const IDHr = ["0", "0,814 (DF)"], REN = ["R$ 1.219 (MA)", "R$ 4.538 (DF)"], DEN = ["2,53 (AM)", "489,06 (DF)"], MOT = ["296,15 (AM)", "816,18 (SC)"], PCT = ["0%", "100%"];
-    const UF = {
-      "Acre": [["Qualidade de vida (IDH)", "IDH 0,710", IDHr, .872, 9, "(0,710 ÷ 0,814) × 10 = 8,72"],
-        ["Renda da população", "R$ 1.392", REN, .052, 1, "1 + 9 × 0,052 = 1,47"],
-        ["Densidade populacional", "5,06 hab/km²", DEN, .005, 1, "1 + 9 × 0,005 = 1,05"],
-        ["População funcional", "54% entre 20 e 60 anos", PCT, .543, 6, "54% × 9 + 1 = 5,88"],
-        ["Motorização", "497,8 veículos por mil hab.", MOT, .388, 4, "1 + 9 × 0,388 = 4,49"],
-        ["Poder de crédito", "6,3% da carteira inadimplente", PCT, .063, 9, "10 − 0,57 = 9,43 (quanto menos à direita, melhor)"]],
-      "Distrito Federal": [["Qualidade de vida (IDH)", "IDH 0,814", IDHr, 1, 10, "(0,814 ÷ 0,814) × 10 = 10"],
-        ["Renda da população", "R$ 4.538", REN, 1, 10, "1 + 9 × 1 = 10"], ["Densidade populacional", "489,06 hab/km²", DEN, 1, 10, "1 + 9 × 1 = 10"]],
-      "São Paulo": [["Densidade populacional", "178,92 hab/km²", DEN, .363, 4, "1 + 9 × 0,363 = 4,26. O estado tem muito interior, o que baixa a densidade."]],
-      "Rio de Janeiro": [["Densidade populacional", "366,97 hab/km²", DEN, .749, 8, "1 + 9 × 0,749 = 7,74"]],
-      "Amazonas": [["Densidade populacional", "2,53 hab/km²", DEN, 0, 1, "1 + 9 × 0 = 1"], ["Motorização", "296,15 veículos por mil hab.", MOT, 0, 1, "1 + 9 × 0 = 1"]],
-      "Maranhão": [["Renda da população", "R$ 1.219", REN, 0, 1, "1 + 9 × 0 = 1"]],
-      "Santa Catarina": [["Motorização", "816,18 veículos por mil hab.", MOT, 1, 10, "1 + 9 × 1 = 10"]]
-    };
-    let mode = "p", cur = 0, ax = 0;
-    const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
-
-    function render() {
-      const [note, a, b] = AX[ax], d = IND[cur];
-      $$("#axes button").forEach((x, i) => x.setAttribute("aria-pressed", i === ax));
-      $("#axnote").textContent = note + (ax && mode === "a" ? " Os exemplos usam a amostragem de 2026 do SCR, já tratada e estruturada no Colab (02/11)." : "");
-      $("#pills").innerHTML = IND.slice(a, b).map((x, i) => `<button role="tab" aria-selected="${a + i === cur}" data-i="${a + i}" data-n="${a + i + 1}">${x.n}</button>`).join("");
-      $("#panel").innerHTML = `<div class="cabecalhopainel"><h3 class="titulopainel">${d.n}</h3>${d.r ? `<span class="resultadoindicador">${d.r}</span>` : ""}</div>
-        <div class="conteudopainel"><p>${d.w}</p>
-        <div class="pb"><b>Como calculamos</b><ol>${d.s.map(t => `<li>${t}</li>`).join("")}</ol></div>
-        <div class="ab"><p class="forumlascore">${d.f}</p>${d.c.length ? `<div class="x-calc">${d.c.map(t => `<div>${t}</div>`).join("")}</div>` : ""}</div></div>`;
-    }
-    function refresh() { $$("[data-k]").forEach(el => el.textContent = COPY[el.dataset.k][mode]); render(); }
-    $("#pills").onclick = e => { const b = e.target.closest("button"); if (b) { cur = +b.dataset.i; render(); } };
-    $$("#axes button").forEach((b, i) => b.onclick = () => { ax = i; cur = AX[i][1]; render(); });
-    $$("#aud button").forEach(b => b.onclick = () => {
-      mode = b.dataset.v; document.body.dataset.m = mode;
-      $$("#aud button").forEach(x => x.setAttribute("aria-pressed", x === b)); refresh();
-    });
-
-    $("#uf").innerHTML = Object.keys(UF).map(n => `<option>${n}</option>`).join("");
-    function renderUF() {
-      const n = $("#uf").value, r = UF[n];
-      $("#ufcards").innerHTML = `<p class="small mt-3 mb-0" style="color:var(--color-dark-grey)">${n}: ${r.length} de 10 indicadores com exemplo calculado. Os demais entram quando o cálculo automático estiver pronto.</p>` +
-        r.map(([i, v, [lo, hi], p, nt, c]) => `<div class="x-uf"><div class="x-nota" title="Nota ${nt} de 10">${nt}</div><div><b>${i}</b><div class="comparacaobarra"><i style="left:${p * 100}%"></i></div><div class="legendacomparacao"><span>${lo}</span><b>${v}</b><span>${hi}</span></div><div class="detalhescalc">${c}</div></div></div>`).join("");
-    }
-    $("#uf").onchange = renderUF;
-
-    $("#inds").innerHTML = IND.map((d, i) =>
-      (i === 0 ? '<div class="titulo-eixo">Eixo I · Desenvolvimento econômico</div>' : i === 6 ? '<div class="titulo-eixo">Eixo II · Saúde econômica da população</div>' : "") +
-      `<div class="x-ind"><label for="sl${i}">${i + 1}. ${d.n}</label><input id="sl${i}" type="range" min="1" max="10" value="5"><output>5</output></div>`).join("");
-    $("#track").insertAdjacentHTML("afterbegin", BANDS.map(([, c, m], i) => `<i style="background:${c};width:${m - (BANDS[i - 1]?.[2] || 0)}%"></i>`).join(""));
-    function total() {
-      const sl = $$(".x-ind input"), sc = sl.reduce((t, x) => t + +x.value, 0), b = BANDS.find(b => sc <= b[2]);
-      sl.forEach(x => x.nextElementSibling.textContent = x.value);
-      $("#score").textContent = sc; $("#band").textContent = b[0]; $("#band").style.background = b[1]; $("#band").style.color = b[3];
-      $("#mark").style.left = `calc(${sc}% - 2px)`;
-    }
-    $("#inds").addEventListener("input", total);
-    $$("[data-p]").forEach(b => b.onclick = () => { $$(".x-ind input").forEach(x => x.value = b.dataset.p); total(); });
-
-    function norm() {
-      const v = +$("#v").value, lo = +$("#lo").value, hi = +$("#hi").value;
-      if (!(hi > lo)) { $("#res").textContent = "O máximo deve ser maior que o mínimo"; return; }
-      const n = Math.min(10, Math.max(1, 1 + 9 * (v - lo) / (hi - lo)));
-      $("#res").textContent = `Nota ${n.toLocaleString("pt-BR", { maximumFractionDigits: 2 })} → ${Math.round(n)}`;
-    }
-    ["#v", "#lo", "#hi"].forEach(s => $(s).addEventListener("input", norm));
-
-    function file(k) {
-      const F = FILES[k];
-      $("#path").textContent = F.path; $("#meta").textContent = F.meta;
-      $("#fields").innerHTML = F.f.map(([a, u]) => `<div class="forumlascoreield"><span>${a}</span><span class="x-use">${u}</span></div>`).join("");
-      $$("#ftabs button").forEach(b => b.setAttribute("aria-pressed", b.dataset.f == k));
-    }
-    $$("#ftabs button").forEach(b => b.onclick = () => file(+b.dataset.f));
-
-    refresh(); renderUF(); total(); norm(); file(0);
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
 </html>
