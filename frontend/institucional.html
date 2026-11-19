@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EndiviDados - Crédito inclusivo</title>
   <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./styles/styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="./styles/styles.css">
@@ -31,7 +32,9 @@
         <div class="fluxocalculo">
           <div class="etapas">
             <b>Dados públicos</b>IBGE e Banco Central (SCR)</div>
-          <div class="etapas"><b>Dez indicadores</b>Em dois eixos: desenvolvimento e saúde econômica</div>
+          <div class="etapas">
+            <b>Dez indicadores
+            </b>Em dois eixos: desenvolvimento e saúde econômica</div>
           <div class="etapas"><b>Uma nota para cada um</b>De até 10, comparando cada estado com os demais</div>
           <div class="etapas"><b>Soma = Score</b>Até 100 pontos</div>
           <div class="etapas"><b>Faixa</b>De Perigo a “Vai na fé”</div>
@@ -51,7 +54,7 @@
             </button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link rounded-pill fw-bold border border-primary" id="eixo2-tab" data-bs-toggle="pill" data-bs-target="#eixo2"
+            <button class=" botao-eixo nav-link rounded-pill fw-bold border border-primary" id="eixo2-tab" data-bs-toggle="pill" data-bs-target="#eixo2"
               type="button" role="tab" aria-controls="eixo2" aria-selected="false">
               Eixo II · Saúde econômica da população
             </button>
@@ -71,7 +74,7 @@
                     </span>Qualidade de vida (IDH)
                   </button>
                   <button class="nav-link text-start fw-bold d-flex align-items-center gap-3" id="i2-tab" data-bs-toggle="pill" data-bs-target="#i2" type="button" role="tab" aria-controls="i2" aria-selected="false">
-                    <span class="badge rounded-pill text-bg-light">
+                    <span class="badge rounded-pill text-bg-light">2
                     </span>Renda da população
                   </button>
                   <button class="nav-link text-start fw-bold d-flex align-items-center gap-3" id="i3-tab" data-bs-toggle="pill" data-bs-target="#i3" type="button" role="tab" aria-controls="i3" aria-selected="false">
@@ -79,7 +82,7 @@
                     </span>Crescimento da população
                   </button>
                   <button class="nav-link text-start fw-bold d-flex align-items-center gap-3" id="i4-tab" data-bs-toggle="pill" data-bs-target="#i4" type="button" role="tab" aria-controls="i4" aria-selected="false">
-                    <span class="badge rounded-pill text-bg-light">
+                    <span class="badge rounded-pill text-bg-light">4
                     </span>Densidade populacional
                   </button>
                   <button class="nav-link text-start fw-bold d-flex align-items-center gap-3" id="i5-tab" data-bs-toggle="pill" data-bs-target="#i5" type="button" role="tab" aria-controls="i5" aria-selected="false">
@@ -113,7 +116,10 @@
 
                   <div class="tab-pane fade" id="i2" role="tabpanel" aria-labelledby="i2-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="card-header bg-primary-subtle p-4"><h3 class="h4 fw-bold mb-0">Renda da população</h3></div>
+                      <div class="card-header bg-primary-subtle p-4">
+                        <h3 class="h4 fw-bold mb-0">Renda da população
+                        </h3>
+                      </div>
                       <div class="card-body p-4">
                         <p class="fs-5">Compara a renda per capita de cada estado com a dos demais.</p>
                         <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
@@ -176,19 +182,19 @@
               <div class="col-md-4">
                 <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical" aria-label="Indicadores do Eixo II">
                   <button class="nav-link active text-start fw-bold d-flex align-items-center gap-3" id="i7-tab" data-bs-toggle="pill" data-bs-target="#i7" type="button" role="tab" aria-controls="i7" aria-selected="true">
-                    <span class="badge rounded-pill text-bg-light">1
+                    <span class="badge rounded-pill text-bg-light">7
                     </span>Endividamento
                   </button>
                   <button class="nav-link text-start fw-bold d-flex align-items-center gap-3" id="i8-tab" data-bs-toggle="pill" data-bs-target="#i8" type="button" role="tab" aria-controls="i8" aria-selected="false">
-                    <span class="badge rounded-pill text-bg-light">2
+                    <span class="badge rounded-pill text-bg-light">8
                     </span>Inadimplência
                   </button>
                   <button class="nav-link text-start fw-bold d-flex align-items-center gap-3" id="i9-tab" data-bs-toggle="pill" data-bs-target="#i9" type="button" role="tab" aria-controls="i9" aria-selected="false">
-                    <span class="badge rounded-pill text-bg-light">3
+                    <span class="badge rounded-pill text-bg-light">9
                     </span>Comprometimento da renda
                   </button>
                   <button class="nav-link text-start fw-bold d-flex align-items-center gap-3" id="i10-tab" data-bs-toggle="pill" data-bs-target="#i10" type="button" role="tab" aria-controls="i10" aria-selected="false">
-                    <span class="badge rounded-pill text-bg-light">4
+                    <span class="badge rounded-pill text-bg-light">10
                     </span>Acesso ao crédito
                   </button>
                 </div>

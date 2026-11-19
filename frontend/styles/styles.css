@@ -92,7 +92,7 @@ nav{
     background-repeat: no-repeat;
 }
 
-.nav-link{
+nav .nav-link{
     color: var(--color-light) !important;
     text-decoration: none;
     text-align: center;
