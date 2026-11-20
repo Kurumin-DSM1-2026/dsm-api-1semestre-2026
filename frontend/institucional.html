@@ -257,8 +257,8 @@
                         <p>Nesse caso, esse indicador compara a concentração de pessoas , enquanto o população total indica o volume por região.</p>
                         <b>Metodologia de cálculo</b>
                         <ol class="card-body-reduce">
-                          <li>Buscar no endpoint do IBGE a renda per capta mais recente de todos os estados</li>
-                          <li>Comparar os estados com maior e menor renda do país</li>
+                          <li>Buscar no endpoint do IBGE a densidade populacional de todos os estados</li>
+                          <li>Comparar os estados com maior e menor populacão do país</li>
                           <li>Normalizar os dados usando formula linear min-max</li>
                         </ol>
                       </div>
@@ -267,13 +267,20 @@
 
                   <div class="tab-pane fade" id="i5" role="tabpanel" aria-labelledby="i5-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="card-header bg-primary-subtle p-4"><h3 class="h4 fw-bold mb-0">População funcional</h3></div>
-                      <div class="card-body p-4">
-                        <p>Compara a parcela da população em idade de trabalhar.</p>
-                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
-                        <ol class="mb-0">
-                          <li>Buscar a população por faixa etária</li>
-                          <li>Calcular a parcela em idade de trabalhar</li>
+                      <div class="indicator-header">População funcional</div>
+                      <div class="card-body">
+                        <p>
+                          Este indicador irá avaliar a capacidade de um estado de movimentar sua economia por meio da disponibilidade de mão de obra
+                          em idade potencialmente produtiva. Alta disponibilidade de mão de obra implica maior Score.
+                        </p>
+                        <p>
+                          O indicador considera a população entre 20 e 60 anos, partindo do princípio de que essa parcela representa uma importante
+                          força potencial de trabalho para a economia.
+                        </p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Buscar no endpoint do IBGE dados mais recente populacionais de todos os estados</li>
+                          <li>Comparar a média de idades por estado e em relação ao mais produtivo</li>
                           <li>Normalizar o resultado em escala de 1 a 10</li>
                         </ol>
                       </div>
@@ -282,14 +289,21 @@
 
                   <div class="tab-pane fade" id="i6" role="tabpanel" aria-labelledby="i6-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="card-header bg-primary-subtle p-4"><h3 class="h4 fw-bold mb-0">Motorização</h3></div>
-                      <div class="card-body p-4">
-                        <p>Compara a quantidade de veículos por habitante em cada estado.</p>
-                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
-                        <ol class="mb-0">
-                          <li>Buscar a frota de veículos e a população de cada estado</li>
-                          <li>Calcular veículos por habitante</li>
-                          <li>Normalizar o resultado em escala de 1 a 10</li>
+                      <div class="indicator-header">Estrutura do estado - Motorização</div>
+                      <div class="card-body">
+                        <p>
+                          A taxa de motorização é indicador que foca na avaliação do nível de acesso da população a veículos e, indiretamente,
+                          aspectos da capacidade econômica e da infraestrutura de mobilidade de um estado.
+                        </p>
+                        <p>
+                          Este indicador pode ajudar em específico operadores de crédito automotivo, já que mostra onde estão as maiores concentrações
+                          de veículos e a capacidade da população de manter a manutenção destes.
+                        </p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Buscar no endpoint do IBGE os dados de População e Total de veículos do ano vigente</li>
+                          <li>Comparar o a frota do estado com as demais UFs do país</li>
+                          <li>Normalizar o resultado em escala de 1 a 10 usando min-max</li>
                         </ol>
                       </div>
                     </div>
@@ -299,7 +313,10 @@
             </div>
           </div>
           <div class="tab-pane fade" id="eixo2" role="tabpanel" aria-labelledby="eixo2-tab" tabindex="0">
-            <p>Este eixo olha para a situação financeira das pessoas: quanto devem, quanto conseguem pagar e como isso pesa na renda.</p>
+            <p>
+              O inadimplência da população pode ser um risco para o operador de crédito, a partir desse eixo vamos analisar a dívida populacional e
+              direcionar as oportunidades para onde o risco seja mais baixo..
+            </p>
             <div class="row g-4">
               <div class="col-md-4">
                 <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical" aria-label="Indicadores do Eixo II">
@@ -357,15 +374,20 @@
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="i7" role="tabpanel" aria-labelledby="i7-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="card-header bg-primary-subtle p-4">
-                        <h3 class="h4 fw-bold mb-0">Endividamento</h3>
-                      </div>
-                      <div class="card-body p-4">
-                        <p>Compara o volume de dívida da população em cada estado.</p>
-                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
-                        <ol class="mb-0">
-                          <li>Buscar no SCR do Banco Central o saldo de crédito por estado</li>
-                          <li>Comparar com o menor e o maior do país</li>
+                      <div class="indicator-header">Inadimplência populacional</div>
+                      <div class="card-body">
+                        <p>
+                          Esse indicador permite identificar o endividamento médio por pessoa em cada estado, oferecendo uma base para avaliar o
+                          potencial de recuperação do crédito e comparar os níveis de endividamento entre as diferentes unidades da Federação.
+                        </p>
+                        <p>
+                          Cada Unidade da Federação (UF) recebe uma classificação em uma escala de 1 a 10. Quanto maior o Score, maior o potencial de
+                          recuperação da dívida e a propensão ao pagamento.
+                        </p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Buscar nos dados do banco central (SCR) a dívida populacional</li>
+                          <li>Calcular a probalidade de pagamento</li>
                           <li>Normalizar o resultado em escala de 1 a 10</li>
                         </ol>
                       </div>
@@ -374,15 +396,17 @@
 
                   <div class="tab-pane fade" id="i8" role="tabpanel" aria-labelledby="i8-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="card-header bg-primary-subtle p-4">
-                        <h3 class="h4 fw-bold mb-0">Inadimplência</h3>
-                      </div>
-                      <div class="card-body p-4">
-                        <p>Compara a parcela de crédito em atraso em cada estado.</p>
-                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
-                        <ol class="mb-0">
-                          <li>Buscar no SCR o saldo em atraso por estado</li>
-                          <li>Calcular a parcela sobre o saldo total</li>
+                      <div class="indicator-header">Tempo inadimplente</div>
+                      <div class="card-body">
+                        <p>
+                          Esse indicador irá comparar a relação de dívida total populacional com a dívida de recuperação rápida, quanto mais rápido
+                          for a chance da dívida ser quitada maior potencial para um novo empréstimo ou carta de crédito a população tem.
+                        </p>
+                        <p>A comparação de dívidas será baseada em inadimplência menor que 90 dias e cartiera inadimplente total.</p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Buscar nos dados do Banco Central dados de inadimplência</li>
+                          <li>Comparar os tipos de divida e possibilidade de pagamento</li>
                           <li>Normalizar o resultado em escala de 1 a 10</li>
                         </ol>
                       </div>
@@ -391,15 +415,20 @@
 
                   <div class="tab-pane fade" id="i9" role="tabpanel" aria-labelledby="i9-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="card-header bg-primary-subtle p-4">
-                        <h3 class="h4 fw-bold mb-0">Comprometimento da renda</h3>
-                      </div>
-                      <div class="card-body p-4">
-                        <p>Compara quanto da renda vai para pagar dívidas.</p>
-                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
-                        <ol class="mb-0">
-                          <li>Relacionar o saldo de crédito com a renda do estado</li>
-                          <li>Comparar com o menor e o maior do país</li>
+                      <div class="indicator-header">Porte dos endividades</div>
+                      <div class="card-body">
+                        <p>
+                          O porte implica em quão rápido a dívida pode ser quitada baseado no poder aquisitivo do inadimplente, um porte maior implica
+                          que a possibilidade de quitação de divida maior
+                        </p>
+                        <p>
+                          Dos dados abertos do Banco Central os dados são comparados e estimado a probabilidade de quitação de dívida de acordo com a
+                          renda média da população inadimplente.
+                        </p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Realizado a comparação de faixa salarial da população por UF</li>
+                          <li>Comparar o valor médio de dívida por cidadão</li>
                           <li>Normalizar o resultado em escala de 1 a 10</li>
                         </ol>
                       </div>
@@ -408,13 +437,18 @@
 
                   <div class="tab-pane fade" id="i10" role="tabpanel" aria-labelledby="i10-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="card-header bg-primary-subtle p-4"><h3 class="h4 fw-bold mb-0">Acesso ao crédito</h3></div>
-                      <div class="card-body p-4">
-                        <p>Compara quantas pessoas têm operações de crédito ativas.</p>
-                        <h4 class="h5 fw-bold mt-4">Como calculamos</h4>
-                        <ol class="mb-0">
-                          <li>Buscar o número de clientes com crédito por estado</li>
-                          <li>Dividir pela população adulta</li>
+                      <div class="indicator-header">Acesso ao crédito</div>
+                      <div class="card-body">
+                        <p>
+                          Avalia a relação entre o volume de crédito concedido pelas instituições financeiras e o nível de inadimplência da população.
+                          O indicador busca identificar regiões nas quais o acesso ao crédito está associado a uma carteira saudável, com menor
+                          comprometimento por dívidas em atraso.
+                        </p>
+                        <p>Uma carteira de crédito expressiva pode dizer que a instituição financeira já “acredita” que um emprestimo será pago.</p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Buscar no endpoint do Banco central os dados de inadimplência</li>
+                          <li>Compara o valor de carteira ativa e inadimplência total</li>
                           <li>Normalizar o resultado em escala de 1 a 10</li>
                         </ol>
                       </div>
