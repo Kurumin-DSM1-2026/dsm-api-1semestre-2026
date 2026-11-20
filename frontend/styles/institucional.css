@@ -66,7 +66,7 @@ section li {
 }
 #axes .nav-link:hover:not(.active) {
   background-color: #c3dcea;
-  color: black;
+  color: var(--color-black);
 }
 #axes .nav-link.active {
   background-color: var(--color-primary);
@@ -105,12 +105,11 @@ section li {
   height: 2px;
   opacity: 0.1;
   width: 100%;
-  background: black;
+  background: var(--color-black);
 }
 .etapas b {
   display: block;
   font-size: 15px;
-  /* margin-bottom: 0.2rem; */
 }
 .navegacaoabas {
   display: flex;
@@ -125,7 +124,6 @@ section li {
   border-radius: 99px;
   padding: 0.4rem 1.1rem;
   font-weight: bold;
-  /* font-size: 14px; */
 }
 .navegacaoabas button[aria-pressed='true'] {
   background: var(--color-primary);
@@ -157,7 +155,6 @@ section li {
   color: var(--color-primary-dark);
   border-radius: 12px;
   padding: 0.55rem 0.7rem;
-  /* font-size: 14px; */
   font-weight: bold;
 }
 .lista-indicadores button::before {
@@ -168,8 +165,7 @@ section li {
   width: 1.7rem;
   height: 1.7rem;
   border-radius: 50%;
-  background: var(--x-tint);
-  /* font-size: 12px; */
+  background: var(--color-light);
 }
 .lista-indicadores button:hover {
   background: rgba(255, 255, 255, 0.7);

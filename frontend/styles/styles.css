@@ -4,6 +4,7 @@
   --color-light: #ffffff;
   --color-grey: #a5aab4;
   --color-dark-grey: #717f9c;
+  --color-black: #000000;
 }
 
 * {
@@ -17,7 +18,7 @@ body {
   width: 100%;
   font-size: 16px;
   background-color: var(--color-light);
-  color: black;
+  color: var(--color-black);
   font-family: Arial, Helvetica, sans-serif;
   display: block;
   background: linear-gradient(45deg, #ffffff 0%, #d8eaf3 100%);
@@ -164,7 +165,7 @@ nav button {
   font-size: 16px;
   line-height: 1.3rem;
   font-weight: lighter;
-  -webkit-text-stroke: 0.5px black;
+  -webkit-text-stroke: 0.5px var(--color-black);
 }
 
 .progress {
