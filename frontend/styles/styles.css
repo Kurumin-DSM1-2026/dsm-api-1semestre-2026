@@ -101,7 +101,7 @@ nav .nav-link {
   background-repeat: no-repeat;
 }
 
-nav .nav-link {
+.nav-link {
   color: var(--color-light) !important;
   text-decoration: none;
   text-align: center;
@@ -252,12 +252,8 @@ nav button {
     margin-right: auto !important;
   }
 
-  #axes .nav-link {
-    display: visible !important;
-  }
-
-  nav .nav-link {
-    display: none;
+  .nav-link {
+    display: none !important;
   }
 
   .menu-btn {
