@@ -57,21 +57,79 @@ section li {
   background: var(--color-light);
   color: var(--color-primary-dark);
 }
-#axes .nav-link {
-  background-color: #d8eaf3;
-  color: black;
-  border: 1px solid var(--color-dark-grey);
+
+.stepColor {
+  background-color: transparent;
+  color: var(--color-black) !important;
+}
+
+.nav-link3:hover:not(.active) .stepColor {
+  background-color: var(--color-light);
+  color: var(--color-black) !important;
+}
+
+.nav-link3.active .stepColor {
+  background-color: var(--color-light);
+  color: var(--color-black) !important;
+}
+
+.nav-link3 {
   opacity: 1;
-  font-size: 1rem !;
+  background-color: transparent;
+  padding: 0.5rem 0.5rem;
+  border-radius: 10px;
+  border: none;
+  margin: 0.1rem 0;
 }
-#axes .nav-link:hover:not(.active) {
-  background-color: #c3dcea;
-  color: var(--color-black);
+
+.nav-link3:hover:not(.active) {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
 }
-#axes .nav-link.active {
+
+.nav-link3.active {
   background-color: var(--color-primary);
   color: var(--color-light);
 }
+
+#axes .nav-link2 {
+  padding: 0.3rem 1.5rem !important;
+  background-color: var(--color-primary-light);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-black);
+  border: 1px solid var(--color-dark-grey);
+  opacity: 1;
+}
+
+#axes .nav-link2:hover {
+  border: 1px solid var(--color-primary);
+}
+
+#axes .nav-link2:hover:not(.active) {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+}
+#axes .nav-link2.active {
+  background-color: var(--color-primary);
+  color: var(--color-light) !important;
+}
+
+.indicator-header {
+  width: 100%;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  background-color: var(--color-primary-light);
+  font-weight: bold;
+}
+
+.card-body {
+  line-height: 1.4;
+}
+
+.card-body .card-body-reduce {
+  font-size: 14px;
+}
+
 .fluxocalculo {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -194,7 +252,6 @@ section li {
   padding: 1.1rem 1.5rem;
 }
 .titulopainel {
-  /* font-size: 1.25rem; */
   font-weight: 800;
 }
 .conteudopainel {
@@ -206,7 +263,6 @@ section li {
 }
 .conteudopainel ol {
   padding-left: 1.2rem;
-  /* font-size: 14px; */
   margin-top: 0.4rem;
 }
 .conteudopainel li {
@@ -218,11 +274,9 @@ section li {
   color: var(--color-light);
   border-radius: 99px;
   padding: 0.3rem 0.9rem;
-  /* font-size: 13px; */
   font-weight: bold;
 }
 .formulascore {
-  /* font-family: Consolas, monospace; */
   font-size: 13px;
   background: var(--color-primary);
   border-left: 4px solid var(--color-primary);
@@ -230,7 +284,6 @@ section li {
   padding: 0.7rem 0.9rem;
 }
 .x-calc {
-  /* font-family: Consolas, monospace; */
   font-size: 13px;
   background: #f6f8fc;
   border-radius: 10px;
@@ -264,7 +317,6 @@ section li {
   border-radius: 50%;
   background: var(--color-primary-dark);
   color: var(--color-light);
-  /* font-size: 1.5rem; */
   font-weight: 800;
 }
 .comparacaobarra {
@@ -288,17 +340,14 @@ section li {
   display: flex;
   justify-content: space-between;
   gap: 0.5rem;
-  /* font-size: 12px; */
   color: var(--color-dark-grey);
   margin-top: 0.5rem;
 }
 .legendacomparacao b {
   color: var(--color-primary-dark);
-  /* font-size: 13px; */
   text-align: center;
 }
 .detalhescalc {
-  /* font-size: 13px; */
   color: var(--color-dark-grey);
   margin-top: 0.3rem;
 }
@@ -320,7 +369,6 @@ section li {
   flex-wrap: wrap;
 }
 .x-score {
-  /* font-size: 3rem; */
   font-weight: 800;
   line-height: 1;
 }
@@ -364,7 +412,6 @@ section li {
 .x-scale {
   display: flex;
   justify-content: space-between;
-  /* font-size: 12px; */
   opacity: 0.75;
 }
 .titulo-eixo {
@@ -382,7 +429,6 @@ section li {
   padding: 0.7rem 1rem;
   margin-bottom: 0.5rem;
   font-weight: bold;
-  /* font-size: 14px; */
 }
 .x-tool {
   display: grid;
@@ -395,13 +441,11 @@ section li {
   padding: 1.2rem 1.4rem;
 }
 .x-tool label {
-  /* font-size: 13px; */
   font-weight: bold;
   display: block;
   margin-bottom: 0.2rem;
 }
 .x-res {
-  /* font-size: 1.5rem; */
   font-weight: 800;
   color: var(--color-primary);
 }
@@ -411,7 +455,6 @@ section li {
   gap: 1rem;
   padding: 0.6rem 0;
   border-bottom: 1px solid var(--x-line);
-  /* font-size: 14px; */
 }
 .x-field:last-child {
   border: 0;
@@ -434,7 +477,6 @@ section li {
 }
 .x-bd b {
   display: block;
-  /* font-size: 1.35rem; */
 }
 .x-bd span {
   display: block;
@@ -443,7 +485,6 @@ section li {
 }
 .x-bd small {
   color: var(--color-dark-grey);
-  /* font-size: 13px; */
 }
 [data-m='p'] .ab,
 [data-m='p'] .s-a {

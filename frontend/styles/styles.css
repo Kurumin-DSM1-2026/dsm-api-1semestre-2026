@@ -1,5 +1,6 @@
 :root {
   --color-primary: #0357ed;
+  --color-primary-light: #e0ebff;
   --color-primary-dark: #002c78;
   --color-light: #ffffff;
   --color-grey: #a5aab4;
@@ -82,7 +83,7 @@ nav {
 }
 
 nav .nav-link {
-  color: var(--color-light) !important;
+  color: var(--color-light);
   text-decoration: none;
   text-align: center;
   z-index: 10;
@@ -253,8 +254,12 @@ nav button {
     margin-right: auto !important;
   }
 
-  .nav-link {
-    display: none !important;
+  nav .nav-link {
+    display: none;
+  }
+
+  #axes .nav-link {
+    display: visible !important;
   }
 
   .menu-btn {
