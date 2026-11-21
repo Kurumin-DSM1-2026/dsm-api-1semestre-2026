@@ -12,6 +12,7 @@ let dadosApostas = [];
 let dadosJuros = [];
 let dadosInadimplencia = [];
 let dadosInadimplencia2 = [];
+let dadosPorte = [];
 let ufSelecionada = '';
 let instituicoes = [];
 
@@ -69,6 +70,10 @@ async function carregarDados() {
   const respostaInadimplencia2 = await fetch('./js/Dados do Colab/divida_saudavel_critica_uf.json');
   const jsonInadimplencia2 = await respostaInadimplencia2.json();
   dadosInadimplencia2 = jsonInadimplencia2;
+
+  const respostaPorte = await fetch('./js/Dados do Colab/porte_uf.json');
+  const jsonPorte = await respostaPorte.json();
+  dadosPorte = await jsonPorte;
 
   atualizarScore(prepararScore(ufSelecionada));
   criarGraficos(ufSelecionada);
@@ -741,11 +746,6 @@ function IndicadorAtraso(ufSelecionada) {
   return Math.round((totalInadimplencia * 9) / totalInadimplencia90 + 1);
 }
 
-function IndicadorPorte() {
-  // FALTOU A EXPORTAÇÃO DE NUMERO DE REGISTROS DO PORTE DO BACK;
-  return 5;
-}
-
 function IndicadorPoder(ufSelecionada, dadosInadimplencia, dadosInadimplencia2) {
   const totalInadimplencia = dadosInadimplencia
     .filter((item) => item.estado === ufSelecionada)
@@ -754,6 +754,36 @@ function IndicadorPoder(ufSelecionada, dadosInadimplencia, dadosInadimplencia2) 
     .filter((item) => item.estado === ufSelecionada)
     .reduce((total, item) => total + Number(item.carteira_ativa_total), 0);
   return Math.round(10 - (totalInadimplencia * 9) / totalCarteira);
+}
+
+function IndicadorPorte(dados, ufSelecionada) {
+  const mesReferencia = dados
+    .map((item) => item.mes)
+    .sort()
+    .at(-1);
+
+  const dadosEstado = dados.filter((item) => item.mes === mesReferencia && (item.uf === ufSelecionada || item.estado === ufSelecionada));
+
+  if (dadosEstado.length === 0) return 1;
+
+  const faixasSelecionadas = [
+    'Mais de 3 a 5 salários mínimos',
+    'Mais de 5 a 10 salários mínimos',
+    'Mais de 10 a 20 salários mínimos',
+    'Acima de 20 salários mínimos',
+  ];
+
+  const registrosSomados = dadosEstado
+    .filter((item) => faixasSelecionadas.includes(item.porte))
+    .reduce((total, item) => total + Number(item.registros), 0);
+
+  const totalRegistros = dadosEstado.reduce((total, item) => total + Number(item.registros), 0);
+
+  if (totalRegistros === 0) return 5;
+
+  const score = (registrosSomados * 10) / totalRegistros;
+
+  return Math.round(score);
 }
 
 function calcularScoreFinal(ufSelecionada) {
@@ -766,12 +796,11 @@ function calcularScoreFinal(ufSelecionada) {
     IndicadorMotorizacao: IndicadorMotorizacao(dadosDensidade, ufSelecionada),
     IndicadorInadimplencia: IndicadorInadimplencia(dadosInadimplencia, ufSelecionada),
     IndicadorAtraso: IndicadorAtraso(ufSelecionada, dadosInadimplencia),
-    IndicadorPorte: IndicadorPorte(ufSelecionada, dadosInadimplencia, dadosInadimplencia2),
+    IndicadorPorte: IndicadorPorte(dadosPorte, ufSelecionada),
     IndicadorPoder: IndicadorPoder(ufSelecionada, dadosInadimplencia, dadosInadimplencia2),
   };
   const valores = Object.values(indicadores);
   const scoreFinal = valores.reduce((total, valor) => total + valor, 0);
-  console.log(indicadores);
   return {
     indicadores,
     scoreFinal,
