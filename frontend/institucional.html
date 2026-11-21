@@ -14,7 +14,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body onload="pegarUf()">
     <nav class="nav flex-column">
       <div class="nav-logo"></div>
       <a class="nav-link active" href="./index.html">Dashboard</a>
@@ -499,53 +499,14 @@
           </div>
         </section>
       </section>
-      <section class="s-a">
-        <h2 class="x-h">Como cada nota nasce</h2>
-        <p class="subtitulo">
-          Quase todos os indicadores comparam o estado com o menor e o maior valor do país. Toda nota é arredondada: abaixo de 0,5 para baixo, a
-          partir de 0,5 para cima.
-        </p>
-        <div class="table-responsive">
-          <table class="table table-bordered align-middle">
-            <caption>
-              Exemplo de renda per capita
-            </caption>
-            <tbody>
-              <tr>
-                <th scope="row">Valor do estado (Acre)</th>
-                <td>R$ 1.392</td>
-              </tr>
-              <tr>
-                <th scope="row">Menor do país (Maranhão)</th>
-                <td>R$ 1.219</td>
-              </tr>
-              <tr>
-                <th scope="row">Maior do país (Distrito Federal)</th>
-                <td>R$ 4.538</td>
-              </tr>
-              <tr>
-                <th scope="row">Fórmula</th>
-                <td>1 + 9 × (valor − mín) / (máx − mín)</td>
-              </tr>
-              <tr>
-                <th scope="row">Conta</th>
-                <td>1 + 9 × (1.392 − 1.219) / (4.538 − 1.219) ≈ 1,47</td>
-              </tr>
-              <tr class="table-primary">
-                <th scope="row">Nota (arredondada)</th>
-                <td><b>1</b></td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
+
       <section>
         <h2 class="x-h">De onde vêm os números</h2>
         <p class="subtitulo">Todos os números vêm de bases públicas e são atualizados a partir das fontes oficiais.</p>
         <ul class="nav nav-pills gap-2 mb-3" id="ftabs" role="tablist" aria-label="Fonte de dados">
           <li class="nav-item" role="presentation">
             <button
-              class="nav-link active rounded-pill"
+              class="nav-link3 active"
               id="f0-tab"
               data-bs-toggle="pill"
               data-bs-target="#f0"
@@ -559,7 +520,7 @@
           </li>
           <li class="nav-item" role="presentation">
             <button
-              class="nav-link rounded-pill"
+              class="nav-link3"
               id="f1-tab"
               data-bs-toggle="pill"
               data-bs-target="#f1"
@@ -573,10 +534,10 @@
           </li>
           <li class="nav-item" role="presentation">
             <button
-              class="nav-link rounded-pill"
-              id="f1-tab"
+              class="nav-link3"
+              id="f2-tab"
               data-bs-toggle="pill"
-              data-bs-target="#f1"
+              data-bs-target="#f2"
               type="button"
               role="tab"
               aria-controls="f1"
@@ -590,7 +551,7 @@
           <div class="tab-pane fade show active" id="f0" role="tabpanel" aria-labelledby="f0-tab" tabindex="0">
             <div class="card card-body">
               <p class="mb-1">
-                <code> Endpoint do IBGE (preencha a URL) </code>
+                <code> Endpoint do IBGE</code>
               </p>
               <p class="small text-secondary">Dados do IBGE, usados nos indicadores do Eixo I.</p>
               <ul class="mb-0">
@@ -599,16 +560,30 @@
                 <li>População</li>
                 <li>Área territorial</li>
                 <li>Frota de veículos</li>
+                <li>Dados demográficos</li>
               </ul>
             </div>
           </div>
           <div class="tab-pane fade" id="f1" role="tabpanel" aria-labelledby="f1-tab" tabindex="0">
             <div class="card card-body">
-              <p class="mb-1"><code>Base do SCR (preencha a URL)</code></p>
+              <p class="mb-1"><code>Base do SCR</code></p>
               <p class="small text-secondary">Dados do Banco Central, usados nos indicadores do Eixo II.</p>
               <ul class="mb-0">
                 <li>Saldo de crédito</li>
                 <li>Saldo em atraso</li>
+                <li>Carteira ativa</li>
+                <li>Porte dos inadimplentes</li>
+                <li>População inadimplente</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="f2" role="tabpanel" aria-labelledby="f2-tab" tabindex="0">
+            <div class="card card-body">
+              <p class="mb-1"><code>Olinda BCB</code></p>
+              <p class="small text-secondary">Dados do Banco Central, usados nos indicadores do Eixo II.</p>
+              <ul class="mb-0">
+                <li>Taxa de Juros crédito</li>
+                <li>Instituições financeiras</li>
                 <li>Número de clientes</li>
               </ul>
             </div>
@@ -620,13 +595,13 @@
         <h2 class="x-h">Faixas do Score</h2>
         <div class="faixa-scores">
           <div class="x-bd" style="--c: #d64545">
-            <b>Até 30 </b>
+            <b>0 a 30 </b>
             <span> Perigo </span>
             <small> Maior alerta </small>
           </div>
           <div class="x-bd" style="--c: #e8912d"><b>31 a 50</b><span>Risco</span><small>Risco elevado</small></div>
-          <div class="x-bd" style="--c: #f2c94c"><b>51 a 70</b><span>Atenção</span><small>Faixa intermediária, pede acompanhamento</small></div>
-          <div class="x-bd" style="--c: #2e9e6b"><b>Acima de 70</b><span>“Vai na fé”</span><small>Melhor faixa</small></div>
+          <div class="x-bd" style="--c: #f2c94c"><b>51 a 70</b><span>Atenção</span><small>Requer atenção</small></div>
+          <div class="x-bd" style="--c: #2e9e6b"><b>70 a 100</b><span>Muito bom</span><small>Melhor faixa</small></div>
         </div>
         <p class="small mt-4">
           O Score compara <b>estados</b>, não pessoas, e não deve decidir crédito individual. Médias estaduais escondem diferenças entre cidades.
@@ -642,5 +617,5 @@
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"
   ></script>
-  <script src="./js/global.js"></script>
+  <script src="./js/institucional.js"></script>
 </html>

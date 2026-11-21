@@ -761,6 +761,7 @@ function calcularScoreFinal(ufSelecionada) {
   };
   const valores = Object.values(indicadores);
   const scoreFinal = valores.reduce((total, valor) => total + valor, 0);
+  console.log(indicadores);
   return {
     indicadores,
     scoreFinal,
@@ -774,3 +775,12 @@ function prepararScore(ufSelecionada) {
   document.getElementById('scoreInfo').innerText = `${resultado.scoreFinal} / 100`;
   return resultado.scoreFinal;
 }
+
+document.addEventListener('click', function (event) {
+  const navMenu = document.getElementById('nav-menu');
+
+  if (!navMenu.contains(event.target)) {
+    navMenu.classList.remove('collapsed');
+    navMenu.classList.remove('show');
+  }
+});
