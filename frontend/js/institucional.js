@@ -238,6 +238,7 @@ document.addEventListener('click', function (event) {
 filtroUFSelect.addEventListener('change', () => {
   ufSelecionada = filtroUFSelect.value;
   prepararScore(ufSelecionada);
+  atualizarSliders();
 });
 
 document.querySelectorAll('[data-bs-toggle="pill"]').forEach((tab) => {

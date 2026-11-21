@@ -250,7 +250,7 @@ nav button {
   }
 
   .nav-logo {
-    background-image: url(../imgs/Logo.png);
+    background-image: url(../imgs/logo.png);
     height: 3.5rem !important;
     width: 10rem !important;
     margin-bottom: 0 !important;
@@ -258,6 +258,10 @@ nav button {
   }
 
   nav .nav-link {
+    display: none;
+  }
+
+  .nav-admin {
     display: none;
   }
 
