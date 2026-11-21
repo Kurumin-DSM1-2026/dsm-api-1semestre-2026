@@ -17,7 +17,7 @@ async function carregarDados() {
   // const jsonUF = await resposta.json();
   // dadosUF = jsonUF.ufs;
 
-  const respostaIBGE = await fetch('./js/Dados do Colab/Dados_IBGE.json');
+  const respostaIBGE = await fetch('./js/Dados do Colab/dados_ibge.json');
   const jsonIBGE = await respostaIBGE.json();
   dadosDensidade = jsonIBGE;
 

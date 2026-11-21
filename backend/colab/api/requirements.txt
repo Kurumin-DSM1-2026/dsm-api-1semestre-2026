@@ -1,2 +1,0 @@
-Flask
-gunicorn; platform_system != "Windows"

@@ -261,10 +261,6 @@ nav button {
     display: none;
   }
 
-  #axes .nav-link {
-    display: visible !important;
-  }
-
   .menu-btn {
     display: inline-block !important;
     width: auto;
@@ -319,7 +315,7 @@ nav button {
     flex-direction: row;
     flex-wrap: wrap;
     /* position: relative; */
-    top: 0;
+    top: 5.5rem;
   }
 
   .contentWrapper-main--buttons {
@@ -374,4 +370,20 @@ nav button {
     font-size: 14px;
     line-height: 1.1rem;
   }
+}
+
+.nav-admin {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--color-light);
+  opacity: 0.25;
+  line-height: 0;
+  transition: opacity 0.2s;
+}
+
+.nav-admin:hover,
+.nav-admin:focus-visible {
+  opacity: 0.9;
 }
