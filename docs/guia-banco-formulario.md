@@ -140,7 +140,7 @@ Todos os comandos abaixo rodam na máquina da AWS, dentro da conexão SSH.
 
    As outras (`DB_NAME` e `DB_USER`) podem ficar como estão.
 
-   Escolha as senhas você mesma, e combine com o grupo quem vai guardá-las. Regras para não dar problema: pelo menos 12 caracteres, só letras e números, e sem espaços, aspas, `$` ou `#`. Para salvar no `nano`: `Ctrl+O`, `Enter`, e para sair `Ctrl+X`.
+   Quem estiver subindo o projeto escolhe as três senhas e depois passa para o grupo, para ficarem guardadas. Regras para não dar problema: pelo menos 12 caracteres, só letras e números, e sem espaços, aspas, `$` ou `#`. Para salvar no `nano`: `Ctrl+O`, `Enter`, e para sair `Ctrl+X`.
 
    O `.env` não vai para o GitHub (está no `.gitignore`). Cada máquina tem o seu, e no servidor deve ter senhas novas, não as usadas em testes.
 
