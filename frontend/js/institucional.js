@@ -3,6 +3,7 @@ let dadosInadimplencia = [];
 let dadosInadimplencia2 = [];
 let score = 0;
 let ufSelecionada = '';
+let indicadores = {};
 
 function pegarUf() {
   ufSelecionada = filtroUFSelect.value;
@@ -36,6 +37,7 @@ async function carregarDados() {
   dadosInadimplencia2 = jsonInadimplencia2;
 
   prepararScore(ufSelecionada);
+  atualizarSliders();
 }
 
 function montarDatasetDensidadeIBGE(dados, ufSelecionada) {
@@ -161,8 +163,7 @@ function IndicadorPoder(ufSelecionada, dadosInadimplencia, dadosInadimplencia2) 
 }
 
 function calcularScoreFinal(ufSelecionada) {
-  console.log('Entrou Score');
-  const indicadores = {
+  indicadores = {
     IndicadorIDH: indicadorIDH(dadosDensidade, ufSelecionada),
     IndicadorRenda: indicadorRenda(dadosDensidade, ufSelecionada),
     IndicadorPopulacao: indicadorPopulacao(dadosDensidade, ufSelecionada),
@@ -176,7 +177,6 @@ function calcularScoreFinal(ufSelecionada) {
   };
   const valores = Object.values(indicadores);
   const scoreFinal = valores.reduce((total, valor) => total + valor, 0);
-  console.log(indicadores);
   return {
     indicadores,
     scoreFinal,
@@ -192,9 +192,74 @@ document.addEventListener('click', function (event) {
     navMenu.classList.remove('collapsed');
     navMenu.classList.remove('show');
   }
+  atualizarSliders();
 });
 
 filtroUFSelect.addEventListener('change', () => {
   ufSelecionada = filtroUFSelect.value;
   prepararScore(ufSelecionada);
 });
+
+document.querySelectorAll('[data-bs-toggle="pill"]').forEach((tab) => {
+  tab.addEventListener('shown.bs.tab', () => {
+    atualizarSliders();
+  });
+});
+
+function atualizarSliders() {
+  for (let i = 1; i <= 10; i++) {
+    if (document.getElementById('i' + i).classList.contains('active')) {
+      switch (i) {
+        case 1:
+          document.getElementById('e1i1').style.left = indicadores.IndicadorIDH * 10 + '%';
+          document.getElementById('e1i1-n').innerText = `Score ${indicadores.IndicadorIDH} / 10`;
+          break;
+
+        case 2:
+          document.getElementById('e1i2').style.left = indicadores.IndicadorRenda * 10 + '%';
+          document.getElementById('e1i2-n').innerText = `Score ${indicadores.IndicadorRenda} / 10`;
+          break;
+
+        case 3:
+          document.getElementById('e1i3').style.left = indicadores.IndicadorPopulacao * 10 + '%';
+          document.getElementById('e1i3-n').innerText = `Score ${indicadores.IndicadorPopulacao} / 10`;
+          break;
+
+        case 4:
+          document.getElementById('e1i4').style.left = indicadores.IndicadorDensidade * 10 + '%';
+          document.getElementById('e1i4-n').innerText = `Score ${indicadores.IndicadorDensidade} / 10`;
+          break;
+
+        case 5:
+          document.getElementById('e1i5').style.left = indicadores.IndicadorFuncional * 10 + '%';
+          document.getElementById('e1i5-n').innerText = `Score ${indicadores.IndicadorFuncional} / 10`;
+          break;
+
+        case 6:
+          document.getElementById('e1i6').style.left = indicadores.IndicadorMotorizacao * 10 + '%';
+          document.getElementById('e1i6-n').innerText = `Score ${indicadores.IndicadorMotorizacao} / 10`;
+          break;
+
+        case 7:
+          document.getElementById('e2i7').style.left = indicadores.IndicadorInadimplencia * 10 + '%';
+          document.getElementById('e2i7-n').innerText = `Score ${indicadores.IndicadorInadimplencia} / 10`;
+          break;
+
+        case 8:
+          document.getElementById('e2i8').style.left = indicadores.IndicadorAtraso * 10 + '%';
+          document.getElementById('e2i8-n').innerText = `Score ${indicadores.IndicadorAtraso} / 10`;
+          break;
+
+        case 9:
+          document.getElementById('e2i9').style.left = indicadores.IndicadorPorte * 10 + '%';
+          document.getElementById('e2i9-n').innerText = `Score ${indicadores.IndicadorPorte} / 10`;
+          break;
+
+        case 10:
+          document.getElementById('e2i10').style.left = indicadores.IndicadorPoder * 10 + '%';
+          document.getElementById('e2i10-n').innerText = `Score ${indicadores.IndicadorPoder} / 10`;
+          break;
+      }
+    }
+  }
+}

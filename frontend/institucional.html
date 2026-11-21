@@ -55,7 +55,41 @@
           melhor a faixa.
         </p>
       </section>
-
+      <!-- <section>
+        <h2>Veja um estado na prática</h2>
+        <p class="subtitulo">
+          Escolha um estado. A bolinha mostra sua posição entre o menor e o maior valor do país, e a nota indica a pontuação obtida no indicador.
+        </p>
+        <select class="form-select" aria-label="" id="filtroUFSelect" selected="Acre">
+          <option selected value="Acre">Acre</option>
+          <option value="Alagoas">Alagoas</option>
+          <option value="Amapa">Amapá</option>
+          <option value="Amazonas">Amazonas</option>
+          <option value="Bahia">Bahia</option>
+          <option value="Ceara">Ceará</option>
+          <option value="Distrito Federal">Distrito Federal</option>
+          <option value="Espirito Santo">Espírito Santo</option>
+          <option value="Goias">Goiás</option>
+          <option value="Maranhao">Maranhão</option>
+          <option value="Mato Grosso">Mato Grosso</option>
+          <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+          <option value="Minas Gerais">Minas Gerais</option>
+          <option value="Para">Pará</option>
+          <option value="Paraiba">Paraíba</option>
+          <option value="Parana">Paraná</option>
+          <option value="Pernambuco">Pernambuco</option>
+          <option value="Piaui">Piauí</option>
+          <option value="Rio de Janeiro">Rio de Janeiro</option>
+          <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+          <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+          <option value="Rondonia">Rondônia</option>
+          <option value="Roraima">Roraima</option>
+          <option value="Santa Catarina">Santa Catarina</option>
+          <option value="Sao Paulo">São Paulo</option>
+          <option value="Sergipe">Sergipe</option>
+          <option value="Tocantins">Tocantins</option>
+        </select>
+      </section> -->
       <section>
         <h2 class="x-h contentWrapper-header">Como o calculo é feito</h2>
         <p class="">
@@ -64,10 +98,10 @@
           crédito com menor risco de inadimplência.
         </p>
         <p>Escolha um indicador para ver como a nota é calculada.</p>
-        <ul class="nav nav-pills gap-2 mb-3" id="axes" role="tablist" aria-label="Eixo">
+        <ul class="nav gap-2 mb-3" id="axes" role="tablist" aria-label="Eixo">
           <li class="nav-item" role="presentation">
             <button
-              class="nav-link2 active rounded-pill"
+              class="nav-link2 active"
               id="eixo1-tab"
               data-bs-toggle="pill"
               data-bs-target="#eixo1"
@@ -81,7 +115,7 @@
           </li>
           <li class="nav-item" role="presentation">
             <button
-              class="botao-eixo nav-link2 rounded-pill"
+              class="botao-eixo nav-link2"
               id="eixo2-tab"
               data-bs-toggle="pill"
               data-bs-target="#eixo2"
@@ -92,6 +126,37 @@
             >
               Eixo II · Saúde econômica populacional
             </button>
+          </li>
+          <li>
+            <select class="form-select" aria-label="" id="filtroUFSelect" selected="Acre">
+              <option selected value="Acre">Acre</option>
+              <option value="Alagoas">Alagoas</option>
+              <option value="Amapa">Amapá</option>
+              <option value="Amazonas">Amazonas</option>
+              <option value="Bahia">Bahia</option>
+              <option value="Ceara">Ceará</option>
+              <option value="Distrito Federal">Distrito Federal</option>
+              <option value="Espirito Santo">Espírito Santo</option>
+              <option value="Goias">Goiás</option>
+              <option value="Maranhao">Maranhão</option>
+              <option value="Mato Grosso">Mato Grosso</option>
+              <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+              <option value="Minas Gerais">Minas Gerais</option>
+              <option value="Para">Pará</option>
+              <option value="Paraiba">Paraíba</option>
+              <option value="Parana">Paraná</option>
+              <option value="Pernambuco">Pernambuco</option>
+              <option value="Piaui">Piauí</option>
+              <option value="Rio de Janeiro">Rio de Janeiro</option>
+              <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+              <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+              <option value="Rondonia">Rondônia</option>
+              <option value="Roraima">Roraima</option>
+              <option value="Santa Catarina">Santa Catarina</option>
+              <option value="Sao Paulo">São Paulo</option>
+              <option value="Sergipe">Sergipe</option>
+              <option value="Tocantins">Tocantins</option>
+            </select>
           </li>
         </ul>
 
@@ -182,7 +247,12 @@
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="i1" role="tabpanel" aria-labelledby="i1-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="indicator-header">Qualidade de vida (IDH)</div>
+                      <div class="indicator-header">
+                        Qualidade de vida (IDH)
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e1i1"></span></div>
+                        <div class="nota" id="e1i1-n">Score 1/10</div>
+                      </div>
                       <div class="card-body">
                         <p>
                           Este indicador compara os estados brasileiros a partir dos dados do Índice de Desenvolvimento Humano (IDH), obtidos por meio
@@ -204,7 +274,12 @@
 
                   <div class="tab-pane fade" id="i2" role="tabpanel" aria-labelledby="i2-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="indicator-header">Renda da população</div>
+                      <div class="indicator-header">
+                        Renda da população
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e1i2"></span></div>
+                        <div class="nota" id="e1i2-n">Score 1/10</div>
+                      </div>
                       <div class="card-body">
                         <p>
                           Este indicador apresenta um comparativo da renda per capita entre todos os estados brasileiros. Com base nesses dados, o
@@ -225,7 +300,12 @@
 
                   <div class="tab-pane fade" id="i3" role="tabpanel" aria-labelledby="i3-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="indicator-header">Crescimento da população</div>
+                      <div class="indicator-header">
+                        Crescimento da população
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e1i3"></span></div>
+                        <div class="nota" id="e1i3-n">Score 1/10</div>
+                      </div>
                       <div class="card-body">
                         <p>
                           População total representa o tamanho do mercado consumidor, este indicador compara a média nacional e indica quão populoso o
@@ -248,7 +328,12 @@
 
                   <div class="tab-pane fade" id="i4" role="tabpanel" aria-labelledby="i4-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="indicator-header">Densidade populacional</div>
+                      <div class="indicator-header">
+                        Densidade populacional
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e1i4"></span></div>
+                        <div class="nota" id="e1i4-n">Score 1/10</div>
+                      </div>
                       <div class="card-body">
                         <p>
                           Densidade populacional representa a concentração geográfica de consumidores e atividades econômicas. Quanto mais denso e
@@ -267,7 +352,12 @@
 
                   <div class="tab-pane fade" id="i5" role="tabpanel" aria-labelledby="i5-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="indicator-header">População funcional</div>
+                      <div class="indicator-header">
+                        População funcional
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e1i5"></span></div>
+                        <div class="nota" id="e1i5-n">Score 1/10</div>
+                      </div>
                       <div class="card-body">
                         <p>
                           Este indicador irá avaliar a capacidade de um estado de movimentar sua economia por meio da disponibilidade de mão de obra
@@ -289,7 +379,12 @@
 
                   <div class="tab-pane fade" id="i6" role="tabpanel" aria-labelledby="i6-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="indicator-header">Estrutura do estado - Motorização</div>
+                      <div class="indicator-header">
+                        Estrutura do estado - Motorização
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e1i6"></span></div>
+                        <div class="nota" id="e1i6-n">Score 1/10</div>
+                      </div>
                       <div class="card-body">
                         <p>
                           A taxa de motorização é indicador que foca na avaliação do nível de acesso da população a veículos e, indiretamente,
@@ -374,7 +469,12 @@
                 <div class="tab-content">
                   <div class="tab-pane fade show active" id="i7" role="tabpanel" aria-labelledby="i7-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="indicator-header">Inadimplência populacional</div>
+                      <div class="indicator-header">
+                        Inadimplência populacional
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e2i7"></span></div>
+                        <div class="nota" id="e2i7-n">Score 1/10</div>
+                      </div>
                       <div class="card-body">
                         <p>
                           Esse indicador permite identificar o endividamento médio por pessoa em cada estado, oferecendo uma base para avaliar o
@@ -396,7 +496,12 @@
 
                   <div class="tab-pane fade" id="i8" role="tabpanel" aria-labelledby="i8-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="indicator-header">Tempo inadimplente</div>
+                      <div class="indicator-header">
+                        Tempo inadimplente
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e2i8"></span></div>
+                        <div class="nota" id="e2i8-n">Score 1/10</div>
+                      </div>
                       <div class="card-body">
                         <p>
                           Esse indicador irá comparar a relação de dívida total populacional com a dívida de recuperação rápida, quanto mais rápido
@@ -415,7 +520,12 @@
 
                   <div class="tab-pane fade" id="i9" role="tabpanel" aria-labelledby="i9-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="indicator-header">Porte dos endividades</div>
+                      <div class="indicator-header">
+                        Porte dos endividades
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e2i9"></span></div>
+                        <div class="nota" id="e2i9-n">Score 1/10</div>
+                      </div>
                       <div class="card-body">
                         <p>
                           O porte implica em quão rápido a dívida pode ser quitada baseado no poder aquisitivo do inadimplente, um porte maior implica
@@ -437,7 +547,12 @@
 
                   <div class="tab-pane fade" id="i10" role="tabpanel" aria-labelledby="i10-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
-                      <div class="indicator-header">Acesso ao crédito</div>
+                      <div class="indicator-header">
+                        Acesso ao crédito
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e2i10"></span></div>
+                        <div class="nota" id="e2i10-n">Score 1/10</div>
+                      </div>
                       <div class="card-body">
                         <p>
                           Avalia a relação entre o volume de crédito concedido pelas instituições financeiras e o nível de inadimplência da população.
@@ -460,46 +575,6 @@
           </div>
         </div>
       </section>
-      <section class="s-p">
-        <section class="s-p">
-          <h2 class="x-h">Veja um estado na prática</h2>
-          <p class="subtitulo">
-            Escolha um estado. A bolinha mostra onde ele fica entre o menor e o maior valor do país, e o círculo ao lado é a nota que isso rende.
-          </p>
-          <div class="contentWrapper-main">
-            <select class="form-select" aria-label="" id="filtroUFSelect" selected="Acre">
-              <option selected value="Acre">Acre</option>
-              <option value="Alagoas">Alagoas</option>
-              <option value="Amapa">Amapá</option>
-              <option value="Amazonas">Amazonas</option>
-              <option value="Bahia">Bahia</option>
-              <option value="Ceara">Ceará</option>
-              <option value="Distrito Federal">Distrito Federal</option>
-              <option value="Espirito Santo">Espírito Santo</option>
-              <option value="Goias">Goiás</option>
-              <option value="Maranhao">Maranhão</option>
-              <option value="Mato Grosso">Mato Grosso</option>
-              <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
-              <option value="Minas Gerais">Minas Gerais</option>
-              <option value="Para">Pará</option>
-              <option value="Paraiba">Paraíba</option>
-              <option value="Parana">Paraná</option>
-              <option value="Pernambuco">Pernambuco</option>
-              <option value="Piaui">Piauí</option>
-              <option value="Rio de Janeiro">Rio de Janeiro</option>
-              <option value="Rio Grande do Norte">Rio Grande do Norte</option>
-              <option value="Rio Grande do Sul">Rio Grande do Sul</option>
-              <option value="Rondonia">Rondônia</option>
-              <option value="Roraima">Roraima</option>
-              <option value="Santa Catarina">Santa Catarina</option>
-              <option value="Sao Paulo">São Paulo</option>
-              <option value="Sergipe">Sergipe</option>
-              <option value="Tocantins">Tocantins</option>
-            </select>
-          </div>
-        </section>
-      </section>
-
       <section>
         <h2 class="x-h">De onde vêm os números</h2>
         <p class="subtitulo">Todos os números vêm de bases públicas e são atualizados a partir das fontes oficiais.</p>

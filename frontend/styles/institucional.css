@@ -9,7 +9,8 @@
   text-align: justify;
   text-justify: inter-word;
 }
-.textoprincipal {
+.textoprincipal,
+p {
   opacity: 0, 9;
   text-align: justify;
   text-justify: inter-word;
@@ -92,13 +93,59 @@ section li {
   color: var(--color-light);
 }
 
+.valor {
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+.escala {
+  z-index: 100;
+  height: 7px;
+  border-radius: 10px;
+  background: white;
+  opacity: 0.7;
+  position: relative;
+  margin: 3px 0 3px;
+}
+.marcador {
+  width: 14px;
+  height: 14px;
+  border: 3px solid var(--color-light);
+  border-radius: 50%;
+  background: var(--color-primary-dark);
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 1px var(--color-primary-dark);
+}
+.nota {
+  font-weight: bold;
+  color: var(--color-black);
+  opacity: 0.7;
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+}
+#axes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-grow: 1;
+}
+
+#axes select {
+  border-radius: 30px;
+  font-size: 0.8rem;
+  height: 100%;
+  padding: 0.3rem 1.5rem !important;
+}
+
 #axes .nav-link2 {
   padding: 0.3rem 1.5rem !important;
   background-color: var(--color-primary-light);
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: var(--color-black);
   border: 1px solid var(--color-dark-grey);
+  border-radius: 30px;
   opacity: 1;
 }
 
@@ -120,6 +167,7 @@ section li {
   padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
   background-color: var(--color-primary-light);
   font-weight: bold;
+  position: relative;
 }
 
 .card-body {
