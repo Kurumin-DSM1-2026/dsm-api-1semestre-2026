@@ -47,27 +47,27 @@ const estados = {
 };
 
 async function carregarDados() {
-  const resposta = await fetch('./js/Dados do Colab/Dados_SCR_2026.json');
+  const resposta = await fetch('/api/scr');
   const jsonUF = await resposta.json();
   dadosUF = jsonUF.ufs;
 
-  const respostaIBGE = await fetch('./js/Dados do Colab/Dados_IBGE.json');
+  const respostaIBGE = await fetch('/api/ibge');
   const jsonIBGE = await respostaIBGE.json();
   dadosDensidade = jsonIBGE;
 
-  const respostaApostas = await fetch('./js/Dados do Colab/bets_mensal.json');
+  const respostaApostas = await fetch('/api/apostas');
   const jsonApostas = await respostaApostas.json();
   dadosApostas = jsonApostas;
 
-  const respostaJuros = await fetch('./js/Dados do Colab/taxa_juros_instituicoes.json');
+  const respostaJuros = await fetch('/api/juros');
   const jsonJuros = await respostaJuros.json();
   dadosJuros = jsonJuros;
 
-  const respostaInadimplencia = await fetch('./js/Dados do Colab/inadimplencia_uf.json');
+  const respostaInadimplencia = await fetch('/api/inadimplencia');
   const jsonInadimplencia = await respostaInadimplencia.json();
   dadosInadimplencia = jsonInadimplencia;
 
-  const respostaInadimplencia2 = await fetch('./js/Dados do Colab/divida_saudavel_critica_uf.json');
+  const respostaInadimplencia2 = await fetch('/api/dividas');
   const jsonInadimplencia2 = await respostaInadimplencia2.json();
   dadosInadimplencia2 = jsonInadimplencia2;
 
