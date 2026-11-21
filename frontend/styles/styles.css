@@ -1,8 +1,9 @@
 :root {
-  --color-primary: #0357ed;
-  --color-primary-dark: #002c78;
+  --color-primary: #006fc4;
+  --color-primary-green: #04af3a;
+  --color-primary-light: #8bc3ed;
+  --color-primary-dark: #002d8f;
   --color-light: #ffffff;
-  --color-grey: #a5aab4;
   --color-dark-grey: #717f9c;
   --color-black: #000000;
 }
@@ -82,7 +83,7 @@ nav {
 }
 
 nav .nav-link {
-  color: var(--color-light) !important;
+  color: var(--color-light);
   text-decoration: none;
   text-align: center;
   z-index: 10;
@@ -93,13 +94,15 @@ nav .nav-link {
 .nav-logo {
   display: block;
   width: 100%;
-  height: 5rem;
+  height: 6rem;
   content: '';
   margin-bottom: 3rem;
-  background-image: url(../imgs/logo.png);
+  background-image: url(../imgs/Logo-vertical.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-filter: drop-shadow(0px 0px 5px #ffffff2d);
+  filter: drop-shadow(0px 0px 5px #ffffff2d);
 }
 
 .nav-link {
@@ -107,7 +110,7 @@ nav .nav-link {
   text-decoration: none;
   text-align: center;
   z-index: 10;
-  font-size: 14px;
+  font-size: 1rem;
   opacity: 0.7;
 }
 
@@ -238,7 +241,7 @@ nav button {
   nav {
     width: 100%;
     height: 5rem;
-    position: relative;
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -247,14 +250,19 @@ nav button {
   }
 
   .nav-logo {
+    background-image: url(../imgs/Logo.png);
     height: 3.5rem !important;
     width: 10rem !important;
     margin-bottom: 0 !important;
     margin-right: auto !important;
   }
 
-  .nav-link {
-    display: none !important;
+  nav .nav-link {
+    display: none;
+  }
+
+  #axes .nav-link {
+    display: visible !important;
   }
 
   .menu-btn {
@@ -303,14 +311,14 @@ nav button {
   }
 
   .contentWrapper {
-    padding: 1.5rem;
+    padding: 6rem 1.5rem 1.5rem 1.5rem;
     width: 100%;
   }
 
   .contentWrapper-main {
     flex-direction: row;
     flex-wrap: wrap;
-    position: relative;
+    /* position: relative; */
     top: 0;
   }
 
@@ -361,5 +369,9 @@ nav button {
   .dbCard .row:last-of-type {
     grid-column: 2;
     grid-row: 3;
+  }
+  .scoreConteiner .scoreConteiner-info {
+    font-size: 14px;
+    line-height: 1.1rem;
   }
 }
