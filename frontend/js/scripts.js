@@ -621,7 +621,7 @@ function atualizarScore(score) {
 
   const progressBar = document.getElementById('scoreBar');
   progressBar.classList.remove('bg-warning', 'bg-info', 'bg-success', 'bg-danger');
-  // progressBar.innerText  = (score);
+
   if (score < 20) {
     progressBar.classList.add('bg-danger');
     document.getElementById('scoreInfoDesc').innerText = 'Ruim';
@@ -716,9 +716,19 @@ function IndicadorMotorizacao(dadosDensidade, ufSelecionada) {
   return normalizarMinMax(atual, maior, menor);
 }
 
-function IndicadorInadimplencia() {
-  // FALTOU A EXPORTAÇÃO DE NUMERO DE REGISTROS DO BACK;
-  return 5;
+function IndicadorInadimplencia(dadosInadimplencia, ufSelecionada) {
+  const medias = calcularMediaDividaPorEstado(dadosInadimplencia);
+
+  const estado = medias.find((item) => item.estado === ufSelecionada || item.uf === ufSelecionada);
+
+  if (!estado || medias.length === 0) return 5;
+
+  const valores = medias.map((item) => item.media);
+
+  const maior = Math.max(...valores);
+  const menor = Math.min(...valores);
+
+  return normalizarMinMax(estado.media, maior, menor);
 }
 
 function IndicadorAtraso(ufSelecionada) {
@@ -754,9 +764,9 @@ function calcularScoreFinal(ufSelecionada) {
     IndicadorDensidade: IndicadorDensidade(dadosDensidade, ufSelecionada),
     IndicadorFuncional: IndicadorFuncional(dadosDensidade, ufSelecionada),
     IndicadorMotorizacao: IndicadorMotorizacao(dadosDensidade, ufSelecionada),
-    IndicadorInadimplencia: IndicadorInadimplencia(ufSelecionada),
+    IndicadorInadimplencia: IndicadorInadimplencia(dadosInadimplencia, ufSelecionada),
     IndicadorAtraso: IndicadorAtraso(ufSelecionada, dadosInadimplencia),
-    IndicadorPorte: IndicadorPorte(),
+    IndicadorPorte: IndicadorPorte(ufSelecionada, dadosInadimplencia, dadosInadimplencia2),
     IndicadorPoder: IndicadorPoder(ufSelecionada, dadosInadimplencia, dadosInadimplencia2),
   };
   const valores = Object.values(indicadores);
@@ -784,3 +794,37 @@ document.addEventListener('click', function (event) {
     navMenu.classList.remove('show');
   }
 });
+
+function calcularMediaDividaPorEstado(dados) {
+  const mesReferencia = dados
+    .map((item) => item.mes)
+    .sort()
+    .at(-1);
+  const dadosMes = dados.filter((item) => item.mes === mesReferencia);
+
+  const estadosAgrupados = {};
+  dadosMes.forEach((item) => {
+    const uf = item.uf;
+
+    if (!estadosAgrupados[uf]) {
+      estadosAgrupados[uf] = {
+        uf: uf,
+        estado: item.estado,
+        divida: 0,
+        registros: 0,
+      };
+    }
+
+    estadosAgrupados[uf].divida += Number(item.a_vencer_90d);
+
+    estadosAgrupados[uf].registros += Number(item.inadimplencia);
+  });
+
+  return Object.values(estadosAgrupados)
+    .filter((item) => item.registros > 0)
+    .map((item) => ({
+      uf: item.uf,
+      estado: item.estado,
+      media: item.divida / item.registros / 36,
+    }));
+}

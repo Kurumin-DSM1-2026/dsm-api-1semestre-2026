@@ -1,6 +1,6 @@
 <h1 align="center">FATEC Profº Jessen Vidal - São José dos Campos - 1º Semestre DSM - 2026</h1>
 <div align="center">
-  <img src="./frontend/imgs/Logo.png" alt="Logo Kurumin" width="300">
+  <img src="./frontend/imgs/logo.png" alt="Logo Kurumin" width="300">
   <h2>Crédito Fácil - Soluções financeiras</h2>
 </div>
 
