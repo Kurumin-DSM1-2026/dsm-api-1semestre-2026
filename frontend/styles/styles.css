@@ -375,3 +375,19 @@ nav button {
     line-height: 1.1rem;
   }
 }
+
+.nav-admin {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--color-light);
+  opacity: 0.25;
+  line-height: 0;
+  transition: opacity 0.2s;
+}
+
+.nav-admin:hover,
+.nav-admin:focus-visible {
+  opacity: 0.9;
+}
