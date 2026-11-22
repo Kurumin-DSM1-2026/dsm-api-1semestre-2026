@@ -12,4 +12,4 @@
 
 Convenções Adicionais:
 
-Nomenclatura de Variáveis: Utiliza-se o padrão camelCase (ex: nomeCompleto).
+Nomenclatura de Variáveis: snake_case em Python (ex: nome_completo) e camelCase em JavaScript (ex: nomeCompleto).

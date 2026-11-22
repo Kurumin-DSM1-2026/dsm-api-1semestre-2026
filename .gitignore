@@ -1,0 +1,12 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Ambientes virtuais
+venv/
+.venv/
+
+# Variáveis de ambiente
+.env

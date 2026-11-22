@@ -1,0 +1,1508 @@
+[
+    { 
+        "mes": "2024-01", 
+        "nome_mes": "Jan-2024", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 1.02 
+    },
+    { 
+        "mes": "2024-01", 
+        "nome_mes": "Jan-2024", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.85 
+    },
+    { 
+        "mes": "2024-01", 
+        "nome_mes": "Jan-2024", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 0.81 
+    },
+    { 
+        "mes": "2024-01", 
+        "nome_mes": "Jan-2024", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.91 
+    },
+    { 
+        "mes": "2024-01", 
+        "nome_mes": "Jan-2024", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.8 
+    },
+    { 
+        "mes": "2024-01", 
+        "nome_mes": "Jan-2024", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.84 
+    },
+    { 
+        "mes": "2024-02", 
+        "nome_mes": "Fev-2024", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.92 
+    },
+    { 
+        "mes": "2024-02", 
+        "nome_mes": "Fev-2024", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.88 
+    },
+    { 
+        "mes": "2024-02", 
+        "nome_mes": "Fev-2024", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.84 
+    },
+    { 
+        "mes": "2024-02", 
+        "nome_mes": "Fev-2024", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 0.81 
+    },
+    { 
+        "mes": "2024-02", 
+        "nome_mes": "Fev-2024", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.91 
+    },
+    { 
+        "mes": "2024-02", 
+        "nome_mes": "Fev-2024", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.81 
+    },
+    { 
+        "mes": "2024-02", 
+        "nome_mes": "Fev-2024", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.85 
+    },
+    { 
+        "mes": "2024-03", 
+        "nome_mes": "Mar-2024", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 1.0 
+    },
+    { 
+        "mes": "2024-03", 
+        "nome_mes": "Mar-2024", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.96 
+    },
+    { 
+        "mes": "2024-03", 
+        "nome_mes": "Mar-2024", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.88 
+    },
+    { 
+        "mes": "2024-03", 
+        "nome_mes": "Mar-2024", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.84 
+    },
+    { 
+        "mes": "2024-03", 
+        "nome_mes": "Mar-2024", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 0.81 
+    },
+    { 
+        "mes": "2024-03", 
+        "nome_mes": "Mar-2024", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.9 
+    },
+    { 
+        "mes": "2024-03", 
+        "nome_mes": "Mar-2024", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.82 
+    },
+    { 
+        "mes": "2024-03", 
+        "nome_mes": "Mar-2024", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.84 
+    },
+    { 
+        "mes": "2024-04", 
+        "nome_mes": "Abr-2024", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.92 
+    },
+    { 
+        "mes": "2024-04", 
+        "nome_mes": "Abr-2024", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.83 
+    },
+    { 
+        "mes": "2024-04", 
+        "nome_mes": "Abr-2024", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.88 
+    },
+    { 
+        "mes": "2024-04", 
+        "nome_mes": "Abr-2024", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.84 
+    },
+    { 
+        "mes": "2024-04", 
+        "nome_mes": "Abr-2024", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 0.81 
+    },
+    { 
+        "mes": "2024-04", 
+        "nome_mes": "Abr-2024", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.89 
+    },
+    { 
+        "mes": "2024-04", 
+        "nome_mes": "Abr-2024", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.82 
+    },
+    { 
+        "mes": "2024-04", 
+        "nome_mes": "Abr-2024", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.83 
+    },
+    { 
+        "mes": "2024-05", 
+        "nome_mes": "Mai-2024", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 1.03 
+    },
+    { 
+        "mes": "2024-05", 
+        "nome_mes": "Mai-2024", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.84 
+    },
+    { 
+        "mes": "2024-05", 
+        "nome_mes": "Mai-2024", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 0.8 
+    },
+    { 
+        "mes": "2024-05", 
+        "nome_mes": "Mai-2024", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.9 
+    },
+    { 
+        "mes": "2024-05", 
+        "nome_mes": "Mai-2024", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.82 
+    },
+    { 
+        "mes": "2024-05", 
+        "nome_mes": "Mai-2024", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.82 
+    },
+    { 
+        "mes": "2024-06", 
+        "nome_mes": "Jun-2024", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 1.03 
+    },
+    { 
+        "mes": "2024-06", 
+        "nome_mes": "Jun-2024", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.93 
+    },
+    { 
+        "mes": "2024-06", 
+        "nome_mes": "Jun-2024", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.85 
+    },
+    { 
+        "mes": "2024-06", 
+        "nome_mes": "Jun-2024", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 0.8 
+    },
+    { 
+        "mes": "2024-06", 
+        "nome_mes": "Jun-2024", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.89 
+    },
+    { 
+        "mes": "2024-06", 
+        "nome_mes": "Jun-2024", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.82 
+    },
+    { 
+        "mes": "2024-06", 
+        "nome_mes": "Jun-2024", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.83 
+    },
+    { 
+        "mes": "2024-07", 
+        "nome_mes": "Jul-2024", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.62 
+    },
+    { 
+        "mes": "2024-07", 
+        "nome_mes": "Jul-2024", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.92 
+    },
+    { 
+        "mes": "2024-07", 
+        "nome_mes": "Jul-2024", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.85 
+    },
+    { 
+        "mes": "2024-07", 
+        "nome_mes": "Jul-2024", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 0.81 
+    },
+    { 
+        "mes": "2024-07", 
+        "nome_mes": "Jul-2024", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.91 
+    },
+    { 
+        "mes": "2024-07", 
+        "nome_mes": "Jul-2024", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.82 
+    },
+    { 
+        "mes": "2024-07", 
+        "nome_mes": "Jul-2024", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.83 
+    },
+    { 
+        "mes": "2024-08", 
+        "nome_mes": "Ago-2024", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.8 
+    },
+    { 
+        "mes": "2024-08", 
+        "nome_mes": "Ago-2024", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.98 
+    },
+    { 
+        "mes": "2024-08", 
+        "nome_mes": "Ago-2024", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.92 
+    },
+    { 
+        "mes": "2024-08", 
+        "nome_mes": "Ago-2024", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.85 
+    },
+    { 
+        "mes": "2024-08", 
+        "nome_mes": "Ago-2024", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 0.81 
+    },
+    { 
+        "mes": "2024-08", 
+        "nome_mes": "Ago-2024", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.89 
+    },
+    { 
+        "mes": "2024-08", 
+        "nome_mes": "Ago-2024", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.82 
+    },
+    { 
+        "mes": "2024-08", 
+        "nome_mes": "Ago-2024", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.83 
+    },
+    { 
+        "mes": "2024-09", 
+        "nome_mes": "Set-2024", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.92 
+    },
+    { 
+        "mes": "2024-09", 
+        "nome_mes": "Set-2024", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.87 
+    },
+    { 
+        "mes": "2024-09", 
+        "nome_mes": "Set-2024", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.88 
+    },
+    { 
+        "mes": "2024-09", 
+        "nome_mes": "Set-2024", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.84 
+    },
+    { 
+        "mes": "2024-09", 
+        "nome_mes": "Set-2024", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 0.83 
+    },
+    { 
+        "mes": "2024-09", 
+        "nome_mes": "Set-2024", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.88 
+    },
+    { 
+        "mes": "2024-09", 
+        "nome_mes": "Set-2024", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.82 
+    },
+    { 
+        "mes": "2024-09", 
+        "nome_mes": "Set-2024", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.82 
+    },
+    { 
+        "mes": "2024-10", 
+        "nome_mes": "Out-2024", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 1.16 
+    },
+    { 
+        "mes": "2024-10", 
+        "nome_mes": "Out-2024", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.89 
+    },
+    { 
+        "mes": "2024-10", 
+        "nome_mes": "Out-2024", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.9 
+    },
+    { 
+        "mes": "2024-10", 
+        "nome_mes": "Out-2024", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.85 
+    },
+    { 
+        "mes": "2024-10", 
+        "nome_mes": "Out-2024", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 0.83 
+    },
+    { 
+        "mes": "2024-10", 
+        "nome_mes": "Out-2024", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.89 
+    },
+    { 
+        "mes": "2024-10", 
+        "nome_mes": "Out-2024", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.81 
+    },
+    { 
+        "mes": "2024-10", 
+        "nome_mes": "Out-2024", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.83 
+    },
+    { 
+        "mes": "2024-11", 
+        "nome_mes": "Nov-2024", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.82 
+    },
+    { 
+        "mes": "2024-11", 
+        "nome_mes": "Nov-2024", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.88 
+    },
+    { 
+        "mes": "2024-11", 
+        "nome_mes": "Nov-2024", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.89 
+    },
+    { 
+        "mes": "2024-11", 
+        "nome_mes": "Nov-2024", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.85 
+    },
+    { 
+        "mes": "2024-11", 
+        "nome_mes": "Nov-2024", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 0.84 
+    },
+    { 
+        "mes": "2024-11", 
+        "nome_mes": "Nov-2024", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.89 
+    },
+    { 
+        "mes": "2024-11", 
+        "nome_mes": "Nov-2024", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.81 
+    },
+    { 
+        "mes": "2024-11", 
+        "nome_mes": "Nov-2024", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.84 
+    },
+    { 
+        "mes": "2024-12", 
+        "nome_mes": "Dez-2024", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.85 
+    },
+    { 
+        "mes": "2024-12", 
+        "nome_mes": "Dez-2024", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.84 
+    },
+    { 
+        "mes": "2024-12", 
+        "nome_mes": "Dez-2024", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 0.87 
+    },
+    { 
+        "mes": "2024-12", 
+        "nome_mes": "Dez-2024", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.92 
+    },
+    { 
+        "mes": "2024-12", 
+        "nome_mes": "Dez-2024", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.78 
+    },
+    { 
+        "mes": "2024-12", 
+        "nome_mes": "Dez-2024", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.85 
+    },
+    { 
+        "mes": "2025-01", 
+        "nome_mes": "Jan-2025", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.83 
+    },
+    { 
+        "mes": "2025-01", 
+        "nome_mes": "Jan-2025", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.9 
+    },
+    { 
+        "mes": "2025-01", 
+        "nome_mes": "Jan-2025", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.87 
+    },
+    { 
+        "mes": "2025-01", 
+        "nome_mes": "Jan-2025", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 0.92 
+    },
+    { 
+        "mes": "2025-01", 
+        "nome_mes": "Jan-2025", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.96 
+    },
+    { 
+        "mes": "2025-01", 
+        "nome_mes": "Jan-2025", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.86 
+    },
+    { 
+        "mes": "2025-01", 
+        "nome_mes": "Jan-2025", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.87 
+    },
+    { 
+        "mes": "2025-02", 
+        "nome_mes": "Fev-2025", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.91 
+    },
+    { 
+        "mes": "2025-02", 
+        "nome_mes": "Fev-2025", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.98 
+    },
+    { 
+        "mes": "2025-02", 
+        "nome_mes": "Fev-2025", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.87 
+    },
+    { 
+        "mes": "2025-02", 
+        "nome_mes": "Fev-2025", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 0.98 
+    },
+    { 
+        "mes": "2025-02", 
+        "nome_mes": "Fev-2025", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 1.0 
+    },
+    { 
+        "mes": "2025-02", 
+        "nome_mes": "Fev-2025", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.87 
+    },
+    { 
+        "mes": "2025-02", 
+        "nome_mes": "Fev-2025", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.92 
+    },
+    { 
+        "mes": "2025-03", 
+        "nome_mes": "Mar-2025", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.87 
+    },
+    { 
+        "mes": "2025-03", 
+        "nome_mes": "Mar-2025", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.87 
+    },
+    { 
+        "mes": "2025-03", 
+        "nome_mes": "Mar-2025", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.91 
+    },
+    { 
+        "mes": "2025-03", 
+        "nome_mes": "Mar-2025", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.03 
+    },
+    { 
+        "mes": "2025-03", 
+        "nome_mes": "Mar-2025", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 1.03 
+    },
+    { 
+        "mes": "2025-03", 
+        "nome_mes": "Mar-2025", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.87 
+    },
+    { 
+        "mes": "2025-03", 
+        "nome_mes": "Mar-2025", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2025-04", 
+        "nome_mes": "Abr-2025", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2025-04", 
+        "nome_mes": "Abr-2025", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.9 
+    },
+    { 
+        "mes": "2025-04", 
+        "nome_mes": "Abr-2025", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.89 
+    },
+    { 
+        "mes": "2025-04", 
+        "nome_mes": "Abr-2025", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.93 
+    },
+    { 
+        "mes": "2025-04", 
+        "nome_mes": "Abr-2025", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.07 
+    },
+    { 
+        "mes": "2025-04", 
+        "nome_mes": "Abr-2025", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 1.03 
+    },
+    { 
+        "mes": "2025-04", 
+        "nome_mes": "Abr-2025", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.81 
+    },
+    { 
+        "mes": "2025-04", 
+        "nome_mes": "Abr-2025", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.97 
+    },
+    { 
+        "mes": "2025-05", 
+        "nome_mes": "Mai-2025", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.93 
+    },
+    { 
+        "mes": "2025-05", 
+        "nome_mes": "Mai-2025", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.94 
+    },
+    { 
+        "mes": "2025-05", 
+        "nome_mes": "Mai-2025", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.88 
+    },
+    { 
+        "mes": "2025-05", 
+        "nome_mes": "Mai-2025", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.94 
+    },
+    { 
+        "mes": "2025-05", 
+        "nome_mes": "Mai-2025", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.12 
+    },
+    { 
+        "mes": "2025-05", 
+        "nome_mes": "Mai-2025", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 1.04 
+    },
+    { 
+        "mes": "2025-05", 
+        "nome_mes": "Mai-2025", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.88 
+    },
+    { 
+        "mes": "2025-05", 
+        "nome_mes": "Mai-2025", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.98 
+    },
+    { 
+        "mes": "2025-06", 
+        "nome_mes": "Jun-2025", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.96 
+    },
+    { 
+        "mes": "2025-06", 
+        "nome_mes": "Jun-2025", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.92 
+    },
+    { 
+        "mes": "2025-06", 
+        "nome_mes": "Jun-2025", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.89 
+    },
+    { 
+        "mes": "2025-06", 
+        "nome_mes": "Jun-2025", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.98 
+    },
+    { 
+        "mes": "2025-06", 
+        "nome_mes": "Jun-2025", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.14 
+    },
+    { 
+        "mes": "2025-06", 
+        "nome_mes": "Jun-2025", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 1.04 
+    },
+    { 
+        "mes": "2025-06", 
+        "nome_mes": "Jun-2025", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.9 
+    },
+    { 
+        "mes": "2025-06", 
+        "nome_mes": "Jun-2025", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.98 
+    },
+    { 
+        "mes": "2025-07", 
+        "nome_mes": "Jul-2025", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.94 
+    },
+    { 
+        "mes": "2025-07", 
+        "nome_mes": "Jul-2025", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.97 
+    },
+    { 
+        "mes": "2025-07", 
+        "nome_mes": "Jul-2025", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.89 
+    },
+    { 
+        "mes": "2025-07", 
+        "nome_mes": "Jul-2025", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 1.02 
+    },
+    { 
+        "mes": "2025-07", 
+        "nome_mes": "Jul-2025", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.17 
+    },
+    { 
+        "mes": "2025-07", 
+        "nome_mes": "Jul-2025", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 1.06 
+    },
+    { 
+        "mes": "2025-07", 
+        "nome_mes": "Jul-2025", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.89 
+    },
+    { 
+        "mes": "2025-07", 
+        "nome_mes": "Jul-2025", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.98 
+    },
+    { 
+        "mes": "2025-08", 
+        "nome_mes": "Ago-2025", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2025-08", 
+        "nome_mes": "Ago-2025", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.97 
+    },
+    { 
+        "mes": "2025-08", 
+        "nome_mes": "Ago-2025", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.88 
+    },
+    { 
+        "mes": "2025-08", 
+        "nome_mes": "Ago-2025", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 1.04 
+    },
+    { 
+        "mes": "2025-08", 
+        "nome_mes": "Ago-2025", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.18 
+    },
+    { 
+        "mes": "2025-08", 
+        "nome_mes": "Ago-2025", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 1.05 
+    },
+    { 
+        "mes": "2025-08", 
+        "nome_mes": "Ago-2025", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.9 
+    },
+    { 
+        "mes": "2025-08", 
+        "nome_mes": "Ago-2025", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.98 
+    },
+    { 
+        "mes": "2025-09", 
+        "nome_mes": "Set-2025", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2025-09", 
+        "nome_mes": "Set-2025", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 1.0 
+    },
+    { 
+        "mes": "2025-09", 
+        "nome_mes": "Set-2025", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.88 
+    },
+    { 
+        "mes": "2025-09", 
+        "nome_mes": "Set-2025", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 1.04 
+    },
+    { 
+        "mes": "2025-09", 
+        "nome_mes": "Set-2025", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.19 
+    },
+    { 
+        "mes": "2025-09", 
+        "nome_mes": "Set-2025", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 1.05 
+    },
+    { 
+        "mes": "2025-09", 
+        "nome_mes": "Set-2025", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.91 
+    },
+    { 
+        "mes": "2025-09", 
+        "nome_mes": "Set-2025", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.98 
+    },
+    { 
+        "mes": "2025-10", 
+        "nome_mes": "Out-2025", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.9 
+    },
+    { 
+        "mes": "2025-10", 
+        "nome_mes": "Out-2025", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.88 
+    },
+    { 
+        "mes": "2025-10", 
+        "nome_mes": "Out-2025", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 1.03 
+    },
+    { 
+        "mes": "2025-10", 
+        "nome_mes": "Out-2025", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.2 
+    },
+    { 
+        "mes": "2025-10", 
+        "nome_mes": "Out-2025", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 1.04 
+    },
+    { 
+        "mes": "2025-10", 
+        "nome_mes": "Out-2025", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.91 
+    },
+    { 
+        "mes": "2025-10", 
+        "nome_mes": "Out-2025", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.98 
+    },
+    { 
+        "mes": "2025-11", 
+        "nome_mes": "Nov-2025", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.94 
+    },
+    { 
+        "mes": "2025-11", 
+        "nome_mes": "Nov-2025", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.86 
+    },
+    { 
+        "mes": "2025-11", 
+        "nome_mes": "Nov-2025", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.9 
+    },
+    { 
+        "mes": "2025-11", 
+        "nome_mes": "Nov-2025", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 1.0 
+    },
+    { 
+        "mes": "2025-11", 
+        "nome_mes": "Nov-2025", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.2 
+    },
+    { 
+        "mes": "2025-11", 
+        "nome_mes": "Nov-2025", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 1.04 
+    },
+    { 
+        "mes": "2025-11", 
+        "nome_mes": "Nov-2025", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.92 
+    },
+    { 
+        "mes": "2025-11", 
+        "nome_mes": "Nov-2025", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.99 
+    },
+    { 
+        "mes": "2025-12", 
+        "nome_mes": "Dez-2025", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.97 
+    },
+    { 
+        "mes": "2025-12", 
+        "nome_mes": "Dez-2025", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2025-12", 
+        "nome_mes": "Dez-2025", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.88 
+    },
+    { 
+        "mes": "2025-12", 
+        "nome_mes": "Dez-2025", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 1.0 
+    },
+    { 
+        "mes": "2025-12", 
+        "nome_mes": "Dez-2025", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.2 
+    },
+    { 
+        "mes": "2025-12", 
+        "nome_mes": "Dez-2025", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 1.04 
+    },
+    { 
+        "mes": "2025-12", 
+        "nome_mes": "Dez-2025", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.93 
+    },
+    { 
+        "mes": "2025-12", 
+        "nome_mes": "Dez-2025", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.98 
+    },
+    { 
+        "mes": "2026-01", 
+        "nome_mes": "Jan-2026", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2026-01", 
+        "nome_mes": "Jan-2026", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.83 
+    },
+    { 
+        "mes": "2026-01", 
+        "nome_mes": "Jan-2026", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.89 
+    },
+    { 
+        "mes": "2026-01", 
+        "nome_mes": "Jan-2026", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.98 
+    },
+    { 
+        "mes": "2026-01", 
+        "nome_mes": "Jan-2026", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.2 
+    },
+    { 
+        "mes": "2026-01", 
+        "nome_mes": "Jan-2026", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 1.02 
+    },
+    { 
+        "mes": "2026-01", 
+        "nome_mes": "Jan-2026", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.94 
+    },
+    { 
+        "mes": "2026-01", 
+        "nome_mes": "Jan-2026", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.98 
+    },
+    { 
+        "mes": "2026-02", 
+        "nome_mes": "Fev-2026", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.92 
+    },
+    { 
+        "mes": "2026-02", 
+        "nome_mes": "Fev-2026", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.92 
+    },
+    { 
+        "mes": "2026-02", 
+        "nome_mes": "Fev-2026", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.92 
+    },
+    { 
+        "mes": "2026-02", 
+        "nome_mes": "Fev-2026", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.98 
+    },
+    { 
+        "mes": "2026-02", 
+        "nome_mes": "Fev-2026", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.2 
+    },
+    { 
+        "mes": "2026-02", 
+        "nome_mes": "Fev-2026", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 1.0 
+    },
+    { 
+        "mes": "2026-02", 
+        "nome_mes": "Fev-2026", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2026-02", 
+        "nome_mes": "Fev-2026", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.97 
+    },
+    { 
+        "mes": "2026-03", 
+        "nome_mes": "Mar-2026", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.91 
+    },
+    { 
+        "mes": "2026-03", 
+        "nome_mes": "Mar-2026", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2026-03", 
+        "nome_mes": "Mar-2026", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.94 
+    },
+    { 
+        "mes": "2026-03", 
+        "nome_mes": "Mar-2026", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.97 
+    },
+    { 
+        "mes": "2026-03", 
+        "nome_mes": "Mar-2026", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.19 
+    },
+    { 
+        "mes": "2026-03", 
+        "nome_mes": "Mar-2026", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.96 
+    },
+    { 
+        "mes": "2026-03", 
+        "nome_mes": "Mar-2026", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2026-03", 
+        "nome_mes": "Mar-2026", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.96 
+    },
+    { 
+        "mes": "2026-04", 
+        "nome_mes": "Abr-2026", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.93 
+    },
+    { 
+        "mes": "2026-04", 
+        "nome_mes": "Abr-2026", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.93 
+    },
+    { 
+        "mes": "2026-04", 
+        "nome_mes": "Abr-2026", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.93 
+    },
+    { 
+        "mes": "2026-04", 
+        "nome_mes": "Abr-2026", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.97 
+    },
+    { 
+        "mes": "2026-04", 
+        "nome_mes": "Abr-2026", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.21 
+    },
+    { 
+        "mes": "2026-04", 
+        "nome_mes": "Abr-2026", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.99 
+    },
+    { 
+        "mes": "2026-04", 
+        "nome_mes": "Abr-2026", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2026-04", 
+        "nome_mes": "Abr-2026", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.96 
+    },
+    { 
+        "mes": "2026-05", 
+        "nome_mes": "Mai-2026", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.89 
+    },
+    { 
+        "mes": "2026-05", 
+        "nome_mes": "Mai-2026", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 1.0 
+    },
+    { 
+        "mes": "2026-05", 
+        "nome_mes": "Mai-2026", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.94 
+    },
+    { 
+        "mes": "2026-05", 
+        "nome_mes": "Mai-2026", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.97 
+    },
+    { 
+        "mes": "2026-05", 
+        "nome_mes": "Mai-2026", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.15 
+    },
+    { 
+        "mes": "2026-05", 
+        "nome_mes": "Mai-2026", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.99 
+    },
+    { 
+        "mes": "2026-05", 
+        "nome_mes": "Mai-2026", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2026-05", 
+        "nome_mes": "Mai-2026", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2026-06", 
+        "nome_mes": "Jun-2026", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.88 
+    },
+    { 
+        "mes": "2026-06", 
+        "nome_mes": "Jun-2026", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 1.02 
+    },
+    { 
+        "mes": "2026-06", 
+        "nome_mes": "Jun-2026", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.91 
+    },
+    { 
+        "mes": "2026-06", 
+        "nome_mes": "Jun-2026", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.86 
+    },
+    { 
+        "mes": "2026-06", 
+        "nome_mes": "Jun-2026", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.13 
+    },
+    { 
+        "mes": "2026-06", 
+        "nome_mes": "Jun-2026", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 1.0 
+    },
+    { 
+        "mes": "2026-06", 
+        "nome_mes": "Jun-2026", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2026-06", 
+        "nome_mes": "Jun-2026", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2026-07", 
+        "nome_mes": "Jul-2026", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.88 
+    },
+    { 
+        "mes": "2026-07", 
+        "nome_mes": "Jul-2026", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.99 
+    },
+    { 
+        "mes": "2026-07", 
+        "nome_mes": "Jul-2026", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.86 
+    },
+    { 
+        "mes": "2026-07", 
+        "nome_mes": "Jul-2026", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.97 
+    },
+    { 
+        "mes": "2026-07", 
+        "nome_mes": "Jul-2026", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.13 
+    },
+    { 
+        "mes": "2026-07", 
+        "nome_mes": "Jul-2026", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.97 
+    },
+    { 
+        "mes": "2026-07", 
+        "nome_mes": "Jul-2026", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.96 
+    },
+    { 
+        "mes": "2026-07", 
+        "nome_mes": "Jul-2026", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2026-08", 
+        "nome_mes": "Ago-2026", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.91 
+    },
+    { 
+        "mes": "2026-08", 
+        "nome_mes": "Ago-2026", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 0.98 
+    },
+    { 
+        "mes": "2026-08", 
+        "nome_mes": "Ago-2026", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.87 
+    },
+    { 
+        "mes": "2026-08", 
+        "nome_mes": "Ago-2026", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.97 
+    },
+    { 
+        "mes": "2026-08", 
+        "nome_mes": "Ago-2026", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.14 
+    },
+    { 
+        "mes": "2026-08", 
+        "nome_mes": "Ago-2026", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.97 
+    },
+    { 
+        "mes": "2026-08", 
+        "nome_mes": "Ago-2026", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.96 
+    },
+    { 
+        "mes": "2026-08", 
+        "nome_mes": "Ago-2026", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2026-09", 
+        "nome_mes": "Set-2026", 
+        "instituicao": "BANCO COOPERATIVO SICREDI", 
+        "taxa": 0.92 
+    },
+    { 
+        "mes": "2026-09", 
+        "nome_mes": "Set-2026", 
+        "instituicao": "BANCO INTER", 
+        "taxa": 1.02 
+    },
+    { 
+        "mes": "2026-09", 
+        "nome_mes": "Set-2026", 
+        "instituicao": "BANCO SICOOB S.A.", 
+        "taxa": 0.86 
+    },
+    { 
+        "mes": "2026-09", 
+        "nome_mes": "Set-2026", 
+        "instituicao": "BCO BRADESCO S.A.", 
+        "taxa": 0.97 
+    },
+    { 
+        "mes": "2026-09", 
+        "nome_mes": "Set-2026", 
+        "instituicao": "BCO DO BRASIL S.A.", 
+        "taxa": 1.13 
+    },
+    { 
+        "mes": "2026-09", 
+        "nome_mes": "Set-2026", 
+        "instituicao": "BCO SANTANDER (BRASIL) S.A.", 
+        "taxa": 0.97 
+    },
+    { 
+        "mes": "2026-09", 
+        "nome_mes": "Set-2026", 
+        "instituicao": "CAIXA ECONOMICA FEDERAL", 
+        "taxa": 0.95 
+    },
+    { 
+        "mes": "2026-09", 
+        "nome_mes": "Set-2026", 
+        "instituicao": "ITAÚ UNIBANCO S.A.", 
+        "taxa": 0.96
+     }
+]

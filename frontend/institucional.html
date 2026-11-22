@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crédito Fácil - Soluções financeiras</title>
+    <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/institucional.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body onload="pegarUf()">
+    <nav class="nav flex-column">
+      <a class="nav-logo" href="./index.html" aria-label="Ir para o Dashboard"></a>
+      <a class="nav-link active" href="./index.html">Dashboard</a>
+      <a class="nav-link" href="./institucional.html">Institucional</a>
+      <a class="nav-link" href="./contato.html">Contato</a>
+      <button class="nav-link menu-btn" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-expanded="false">&#9776;</button>
+      <div class="menu collapse" id="nav-menu">
+        <a class="menu-item" href="./index.html">Dashboard</a>
+        <a class="menu-item" href="./institucional.html">Institucional</a>
+        <a class="menu-item" href="./contato.html">Contato</a>
+      </div>
+    </nav>
+    <main class="contentWrapper">
+      <section>
+        <div class="contentWrapper-header">
+          <h1>Crédito Fácil - Soluções financeiras</h1>
+          <p>
+            Um painel analítico que permite visualizar e comparar os principais indicadores relacionados ao crédito inclusivo entre os diferentes
+            estados brasileiros, oferecendo uma visão estratégica das condições socioeconômicas, dos níveis de inadimplência e das oportunidades de
+            concessão de crédito.
+          </p>
+          <p>
+            Por meio de gráficos e visualizações de dados, a plataforma facilita a interpretação das informações socioeconômicas e financeiras,
+            consolidando os resultados em um Score de Crédito que resume os indicadores e auxilia na identificação de oportunidades.
+          </p>
+        </div>
+        <h2 class="x-h contentWrapper-header">Score</h2>
+        <div class="fluxocalculo">
+          <div class="etapas"><b>Dados públicos</b>IBGE e Banco Central (SCR)</div>
+          <div class="etapas"><b>Dez indicadores </b>Em dois eixos: desenvolvimento e saúde econômica</div>
+          <div class="etapas"><b>Notas independentes</b>De 1 a 10, avaliando pontos estratégicos do estado</div>
+          <div class="etapas"><b>Normaliza</b>Regula os dados e compara com a situação nacional</div>
+          <div class="etapas"><b>Score</b>Cria um selo de acordo com a pontuação do estado</div>
+        </div>
+        <p class="subtitulo s-p mt-4">
+          Em resumo: para cada indicador, comparamos o estado com os demais estados do país, e quem está melhor recebe a nota mais alta (de 1 a 10).
+          Na maioria dos indicadores, quem está no menor valor ganha nota 1, quem está no maior ganha nota 10, e os demais ficam no meio, na mesma proporção. Depois somamos as dez notas: quanto mais alto o total,
+          melhor a faixa.
+        </p>
+      </section>
+      <section>
+        <h2 class="x-h contentWrapper-header">Como o cálculo é feito</h2>
+        <p class="">
+          Cada estado recebe dez notas, variando de 1 a 10, cuja soma compõe o Score final. A avaliação é estruturada em dois eixos de análise,
+          fundamentados em critérios econômicos que ajudam a identificar o potencial de consumo da população e as oportunidades de concessão de
+          crédito com menor risco de inadimplência.
+        </p>
+        <p>Escolha um indicador para ver como a nota é calculada.</p>
+        <ul class="nav gap-2 mb-3" id="axes" role="tablist" aria-label="Eixo">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link2 active"
+              id="eixo1-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#eixo1"
+              type="button"
+              role="tab"
+              aria-controls="eixo1"
+              aria-selected="true"
+            >
+              Eixo I · Desenvolvimento econômico
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="botao-eixo nav-link2"
+              id="eixo2-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#eixo2"
+              type="button"
+              role="tab"
+              aria-controls="eixo2"
+              aria-selected="false"
+            >
+              Eixo II · Saúde econômica populacional
+            </button>
+          </li>
+          <li>
+            <select class="form-select" aria-label="" id="filtroUFSelect" selected="Acre">
+              <option selected value="Acre">Acre</option>
+              <option value="Alagoas">Alagoas</option>
+              <option value="Amapa">Amapá</option>
+              <option value="Amazonas">Amazonas</option>
+              <option value="Bahia">Bahia</option>
+              <option value="Ceara">Ceará</option>
+              <option value="Distrito Federal">Distrito Federal</option>
+              <option value="Espirito Santo">Espírito Santo</option>
+              <option value="Goias">Goiás</option>
+              <option value="Maranhao">Maranhão</option>
+              <option value="Mato Grosso">Mato Grosso</option>
+              <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+              <option value="Minas Gerais">Minas Gerais</option>
+              <option value="Para">Pará</option>
+              <option value="Paraiba">Paraíba</option>
+              <option value="Parana">Paraná</option>
+              <option value="Pernambuco">Pernambuco</option>
+              <option value="Piaui">Piauí</option>
+              <option value="Rio de Janeiro">Rio de Janeiro</option>
+              <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+              <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+              <option value="Rondonia">Rondônia</option>
+              <option value="Roraima">Roraima</option>
+              <option value="Santa Catarina">Santa Catarina</option>
+              <option value="Sao Paulo">São Paulo</option>
+              <option value="Sergipe">Sergipe</option>
+              <option value="Tocantins">Tocantins</option>
+            </select>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="eixo1" role="tabpanel" aria-labelledby="eixo1-tab" tabindex="0">
+            <p>
+              A alta densidade demográfica pode impulsionar o desenvolvimento se houver planejamento e infraestrutura, mas pode gerar colapso
+              urbanístico e pobreza se ocorrer de forma desordenada.
+            </p>
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical" aria-label="Indicadores do Eixo I">
+                  <button
+                    class="nav-link3 active text-start d-flex align-items-center gap-3"
+                    id="i1-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#i1"
+                    type="button"
+                    role="tab"
+                    aria-controls="i1"
+                    aria-selected="true"
+                  >
+                    <span class="badge rounded-pill stepColor">1 </span>Qualidade de vida (IDH)
+                  </button>
+                  <button
+                    class="nav-link3 text-start d-flex align-items-center gap-3"
+                    id="i2-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#i2"
+                    type="button"
+                    role="tab"
+                    aria-controls="i2"
+                    aria-selected="false"
+                  >
+                    <span class="badge rounded-pill stepColor">2 </span>Renda da população
+                  </button>
+                  <button
+                    class="nav-link3 text-start d-flex align-items-center gap-3"
+                    id="i3-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#i3"
+                    type="button"
+                    role="tab"
+                    aria-controls="i3"
+                    aria-selected="false"
+                  >
+                    <span class="badge rounded-pill stepColor">3 </span>Crescimento da população
+                  </button>
+                  <button
+                    class="nav-link3 text-start d-flex align-items-center gap-3"
+                    id="i4-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#i4"
+                    type="button"
+                    role="tab"
+                    aria-controls="i4"
+                    aria-selected="false"
+                  >
+                    <span class="badge rounded-pill stepColor">4 </span>Densidade populacional
+                  </button>
+                  <button
+                    class="nav-link3 text-start d-flex align-items-center gap-3"
+                    id="i5-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#i5"
+                    type="button"
+                    role="tab"
+                    aria-controls="i5"
+                    aria-selected="false"
+                  >
+                    <span class="badge rounded-pill stepColor">5 </span>População funcional
+                  </button>
+                  <button
+                    class="nav-link3 text-start d-flex align-items-center gap-3"
+                    id="i6-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#i6"
+                    type="button"
+                    role="tab"
+                    aria-controls="i6"
+                    aria-selected="false"
+                  >
+                    <span class="badge rounded-pill stepColor">6 </span>Motorização
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="i1" role="tabpanel" aria-labelledby="i1-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="indicator-header">
+                        Qualidade de vida (IDH)
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e1i1"></span></div>
+                        <div class="nota" id="e1i1-n">Score 1/10</div>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          Este indicador compara os estados brasileiros a partir dos dados do Índice de Desenvolvimento Humano (IDH), obtidos por meio
+                          do endpoint do IBGE.
+                        </p>
+                        <p>
+                          Cada Unidade da Federação (UF) recebe uma classificação em uma escala de 1 a 10, permitindo avaliar e comparar seu nível de
+                          qualidade de vida em relação às demais unidades do país.
+                        </p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Buscar no endpoint do IBGE o IDH mais recente de todos os estados</li>
+                          <li>Comparar o IDH do estado com o maior IDH do país</li>
+                          <li>Normalizar o resultado em escala de 1 a 10</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i2" role="tabpanel" aria-labelledby="i2-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="indicator-header">
+                        Renda da população
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e1i2"></span></div>
+                        <div class="nota" id="e1i2-n">Score 1/10</div>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          Este indicador apresenta um comparativo da renda per capita entre todos os estados brasileiros. Com base nesses dados, o
+                          estado atualmente selecionado recebe uma pontuação (score) de 1 a 10, permitindo visualizar sua posição em relação às demais
+                          Unidades da Federação (UFs).
+                        </p>
+                        <p>A métrica de normalização é a fórmula de normalização linear Min-Max.</p>
+                        <p>Score = 1 + 9 × ((x − xmin) / (xmax − xmin))</p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Buscar no endpoint do IBGE a renda per capita mais recente de todos os estados</li>
+                          <li>Comparar os estados com maior e menor renda do país</li>
+                          <li>Normalizar os dados usando fórmula linear min-max</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i3" role="tabpanel" aria-labelledby="i3-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="indicator-header">
+                        Crescimento da população
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e1i3"></span></div>
+                        <div class="nota" id="e1i3-n">Score 1/10</div>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          O crescimento da população indica se o mercado consumidor do estado está aumentando ou diminuindo ao longo do tempo, e este indicador
+                          compara o crescimento do estado selecionado com o das demais UFs.
+                        </p>
+                        <p>
+                          Primeiro calculamos a taxa de crescimento populacional de cada estado e depois fazemos a normalização usando a fórmula
+                          de Score Min-Max.
+                        </p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Buscar no endpoint do IBGE os dados populacionais de todos os estados</li>
+                          <li>Comparar o crescimento populacional de todos</li>
+                          <li>Crescimento populacional = ((Pf − Pi) / Pi) × 100</li>
+                          <li>Normalizar o resultado em escala de 1 a 10</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i4" role="tabpanel" aria-labelledby="i4-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="indicator-header">
+                        Densidade populacional
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e1i4"></span></div>
+                        <div class="nota" id="e1i4-n">Score 1/10</div>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          Densidade populacional representa a concentração geográfica de consumidores e atividades econômicas. Quanto mais denso e
+                          populoso, maior o número de oportunidades de empreender ou de gerar maior movimento econômico na região.
+                        </p>
+                        <p>Nesse caso, esse indicador compara a concentração de pessoas, enquanto a população total indica o volume por região.</p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Buscar no endpoint do IBGE a densidade populacional de todos os estados</li>
+                          <li>Comparar os estados com maior e menor população do país</li>
+                          <li>Normalizar os dados usando fórmula linear min-max</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i5" role="tabpanel" aria-labelledby="i5-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="indicator-header">
+                        População funcional
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e1i5"></span></div>
+                        <div class="nota" id="e1i5-n">Score 1/10</div>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          Este indicador irá avaliar a capacidade de um estado de movimentar sua economia por meio da disponibilidade de mão de obra
+                          em idade potencialmente produtiva. Alta disponibilidade de mão de obra implica maior Score.
+                        </p>
+                        <p>
+                          O indicador considera a população entre 20 e 60 anos, partindo do princípio de que essa parcela representa uma importante
+                          força potencial de trabalho para a economia.
+                        </p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Buscar no endpoint do IBGE dados populacionais mais recentes de todos os estados</li>
+                          <li>Comparar a média de idades por estado e em relação ao mais produtivo</li>
+                          <li>Normalizar o resultado em escala de 1 a 10</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i6" role="tabpanel" aria-labelledby="i6-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="indicator-header">
+                        Estrutura do estado - Motorização
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e1i6"></span></div>
+                        <div class="nota" id="e1i6-n">Score 1/10</div>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          A taxa de motorização é indicador que foca na avaliação do nível de acesso da população a veículos e, indiretamente,
+                          aspectos da capacidade econômica e da infraestrutura de mobilidade de um estado.
+                        </p>
+                        <p>
+                          Este indicador pode ajudar em específico operadores de crédito automotivo, já que mostra onde estão as maiores concentrações
+                          de veículos e a capacidade da população de manter a manutenção destes.
+                        </p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Buscar no endpoint do IBGE os dados de População e Total de veículos do ano vigente</li>
+                          <li>Comparar a frota do estado com as demais UFs do país</li>
+                          <li>Normalizar o resultado em escala de 1 a 10 usando min-max</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="eixo2" role="tabpanel" aria-labelledby="eixo2-tab" tabindex="0">
+            <p>
+              A inadimplência da população pode ser um risco para o operador de crédito. A partir desse eixo vamos analisar a dívida populacional e
+              direcionar as oportunidades para onde o risco seja mais baixo.
+            </p>
+            <div class="row g-4">
+              <div class="col-md-4">
+                <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical" aria-label="Indicadores do Eixo II">
+                  <button
+                    class="nav-link3 active text-start d-flex align-items-center gap-3"
+                    id="i7-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#i7"
+                    type="button"
+                    role="tab"
+                    aria-controls="i7"
+                    aria-selected="true"
+                  >
+                    <span class="badge rounded-pill stepColor">7 </span>Endividamento
+                  </button>
+                  <button
+                    class="nav-link3 text-start d-flex align-items-center gap-3"
+                    id="i8-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#i8"
+                    type="button"
+                    role="tab"
+                    aria-controls="i8"
+                    aria-selected="false"
+                  >
+                    <span class="badge rounded-pill stepColor">8 </span>Inadimplência
+                  </button>
+                  <button
+                    class="nav-link3 text-start d-flex align-items-center gap-3"
+                    id="i9-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#i9"
+                    type="button"
+                    role="tab"
+                    aria-controls="i9"
+                    aria-selected="false"
+                  >
+                    <span class="badge rounded-pill stepColor">9 </span>Comprometimento da renda
+                  </button>
+                  <button
+                    class="nav-link3 text-start d-flex align-items-center gap-3"
+                    id="i10-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#i10"
+                    type="button"
+                    role="tab"
+                    aria-controls="i10"
+                    aria-selected="false"
+                  >
+                    <span class="badge rounded-pill stepColor">10 </span>Acesso ao crédito
+                  </button>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="i7" role="tabpanel" aria-labelledby="i7-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="indicator-header">
+                        Inadimplência populacional
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e2i7"></span></div>
+                        <div class="nota" id="e2i7-n">Score 1/10</div>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          Esse indicador permite identificar o endividamento médio por pessoa em cada estado, oferecendo uma base para avaliar o
+                          potencial de recuperação do crédito e comparar os níveis de endividamento entre as diferentes unidades da Federação.
+                        </p>
+                        <p>
+                          Cada Unidade da Federação (UF) recebe uma classificação em uma escala de 1 a 10. Quanto maior o Score, maior o potencial de
+                          recuperação da dívida e a propensão ao pagamento.
+                        </p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Buscar nos dados do banco central (SCR) a dívida populacional</li>
+                          <li>Calcular a probabilidade de pagamento</li>
+                          <li>Normalizar o resultado em escala de 1 a 10</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i8" role="tabpanel" aria-labelledby="i8-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="indicator-header">
+                        Tempo inadimplente
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e2i8"></span></div>
+                        <div class="nota" id="e2i8-n">Score 1/10</div>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          Esse indicador irá comparar a relação de dívida total populacional com a dívida de recuperação rápida, quanto mais rápido
+                          for a chance da dívida ser quitada maior potencial para um novo empréstimo ou carta de crédito que a população tem.
+                        </p>
+                        <p>A comparação de dívidas será baseada em inadimplência menor que 90 dias e carteira inadimplente total.</p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Buscar nos dados do Banco Central dados de inadimplência</li>
+                          <li>Comparar os tipos de divida e possibilidade de pagamento</li>
+                          <li>Normalizar o resultado em escala de 1 a 10</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i9" role="tabpanel" aria-labelledby="i9-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="indicator-header">
+                        Porte dos endividados
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e2i9"></span></div>
+                        <div class="nota" id="e2i9-n">Score 1/10</div>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          O porte implica em quão rápido a dívida pode ser quitada baseado no poder aquisitivo do inadimplente, um porte maior implica
+                          que a possibilidade de quitação de divida maior
+                        </p>
+                        <p>
+                          Dos dados abertos do Banco Central os dados são comparados e estimado a probabilidade de quitação de dívida de acordo com a
+                          renda média da população inadimplente.
+                        </p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Realizar a comparação de faixa salarial da população por UF</li>
+                          <li>Comparar o valor médio de dívida por cidadão</li>
+                          <li>Normalizar o resultado em escala de 1 a 10</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="i10" role="tabpanel" aria-labelledby="i10-tab" tabindex="0">
+                    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+                      <div class="indicator-header">
+                        Acesso ao crédito
+                        <div class="valor"></div>
+                        <div class="escala"><span class="marcador" id="e2i10"></span></div>
+                        <div class="nota" id="e2i10-n">Score 1/10</div>
+                      </div>
+                      <div class="card-body">
+                        <p>
+                          Avalia a relação entre o volume de crédito concedido pelas instituições financeiras e o nível de inadimplência da população.
+                          O indicador busca identificar regiões nas quais o acesso ao crédito está associado a uma carteira saudável, com menor
+                          comprometimento por dívidas em atraso.
+                        </p>
+                        <p>Uma carteira de crédito expressiva pode dizer que a instituição financeira já “acredita” que um empréstimo será pago.</p>
+                        <b>Metodologia de cálculo</b>
+                        <ol class="card-body-reduce">
+                          <li>Buscar no endpoint do Banco central os dados de inadimplência</li>
+                          <li>Compara o valor de carteira ativa e inadimplência total</li>
+                          <li>Normalizar o resultado em escala de 1 a 10</li>
+                        </ol>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 class="x-h">De onde vêm os números</h2>
+        <p class="subtitulo">Todos os números vêm de bases públicas e são atualizados a partir das fontes oficiais.</p>
+        <ul class="nav nav-pills gap-2 mb-3" id="ftabs" role="tablist" aria-label="Fonte de dados">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link3 active"
+              id="f0-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#f0"
+              type="button"
+              role="tab"
+              aria-controls="f0"
+              aria-selected="true"
+            >
+              IBGE
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link3"
+              id="f1-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#f1"
+              type="button"
+              role="tab"
+              aria-controls="f1"
+              aria-selected="false"
+            >
+              Banco Central · SCR
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link3"
+              id="f2-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#f2"
+              type="button"
+              role="tab"
+              aria-controls="f1"
+              aria-selected="false"
+            >
+              Banco Central - Olinda BCB
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="f0" role="tabpanel" aria-labelledby="f0-tab" tabindex="0">
+            <div class="card card-body">
+              <p class="mb-1">
+                <code> Endpoint do IBGE</code>
+              </p>
+              <p class="small text-secondary">Dados do IBGE, usados nos indicadores do Eixo I.</p>
+              <ul class="mb-0">
+                <li>IDH</li>
+                <li>Renda per capita</li>
+                <li>População</li>
+                <li>Área territorial</li>
+                <li>Frota de veículos</li>
+                <li>Dados demográficos</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="f1" role="tabpanel" aria-labelledby="f1-tab" tabindex="0">
+            <div class="card card-body">
+              <p class="mb-1"><code>Base do SCR</code></p>
+              <p class="small text-secondary">Dados do Banco Central, usados nos indicadores do Eixo II.</p>
+              <ul class="mb-0">
+                <li>Saldo de crédito</li>
+                <li>Saldo em atraso</li>
+                <li>Carteira ativa</li>
+                <li>Porte dos inadimplentes</li>
+                <li>População inadimplente</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="f2" role="tabpanel" aria-labelledby="f2-tab" tabindex="0">
+            <div class="card card-body">
+              <p class="mb-1"><code>Olinda BCB</code></p>
+              <p class="small text-secondary">Dados do Banco Central, usados nos indicadores do Eixo II.</p>
+              <ul class="mb-0">
+                <li>Taxa de Juros crédito</li>
+                <li>Instituições financeiras</li>
+                <li>Número de clientes</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="x-h">Faixas do Score</h2>
+        <div class="faixa-scores">
+          <div class="x-bd" style="--c: #d64545"><b>0 a 30</b><span>Perigo</span><small>Maior alerta</small></div>
+          <div class="x-bd" style="--c: #e8912d"><b>31 a 50</b><span>Risco</span><small>Risco elevado</small></div>
+          <div class="x-bd" style="--c: #f2c94c"><b>51 a 70</b><span>Atenção</span><small>Requer atenção</small></div>
+          <div class="x-bd" style="--c: #2e9e6b"><b>71 a 100</b><span>Muito bom</span><small>Melhor faixa</small></div>
+        </div>
+        <p class="small mt-4">
+          O Score compara <b>estados</b>, não pessoas, e não deve decidir crédito individual. Médias estaduais escondem diferenças entre cidades.
+          Fontes: <a href="https://www.ibge.gov.br" target="_blank" rel="noopener noreferrer">IBGE</a> e
+          <a href="https://www.bcb.gov.br" target="_blank" rel="noopener noreferrer">Banco Central</a>. Equipe Kurumin ·
+          <a href="./contato.html">Contato</a>.
+        </p>
+      </section>
+    </main>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./js/institucional.js"></script>
+</html>

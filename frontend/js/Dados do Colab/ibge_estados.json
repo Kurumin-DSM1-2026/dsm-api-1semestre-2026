@@ -1,0 +1,245 @@
+[
+    {
+        "estado": "Acre",
+        "area_km2": 164064.761,
+        "densidade_2022": 5.06,
+        "idh_2021": 0.71,
+        "receitas_brutas_2025": 14543589194.55,
+        "despesas_brutas_2025": 13432510393.99,
+        "veiculos_2025": 387557
+    },
+    {
+        "estado": "Alagoas",
+        "area_km2": 27830.662,
+        "densidade_2022": 112.38,
+        "idh_2021": 0.684,
+        "receitas_brutas_2025": 26741268080.76,
+        "despesas_brutas_2025": 23223066121.51,
+        "veiculos_2025": 1242109
+    },
+    {
+        "estado": "Amapa",
+        "area_km2": 142253.88,
+        "densidade_2022": 5.15,
+        "idh_2021": 0.688,
+        "receitas_brutas_2025": 14135307259.38,
+        "despesas_brutas_2025": 11428106271.0,
+        "veiculos_2025": 281414
+    },
+    {
+        "estado": "Amazonas",
+        "area_km2": 1558704.331,
+        "densidade_2022": 2.53,
+        "idh_2021": 0.7,
+        "receitas_brutas_2025": 40115383452.57,
+        "despesas_brutas_2025": 36568768474.92,
+        "veiculos_2025": 1279847
+    },
+    {
+        "estado": "Bahia",
+        "area_km2": 564763.876,
+        "densidade_2022": 25.04,
+        "idh_2021": 0.691,
+        "receitas_brutas_2025": 100703267606.75,
+        "despesas_brutas_2025": 81379195221.93,
+        "veiculos_2025": 5712095
+    },
+    {
+        "estado": "Ceara",
+        "area_km2": 148894.44,
+        "densidade_2022": 59.07,
+        "idh_2021": 0.734,
+        "receitas_brutas_2025": 62023148034.97,
+        "despesas_brutas_2025": 51055749658.22,
+        "veiculos_2025": 4095525
+    },
+    {
+        "estado": "Distrito Federal",
+        "area_km2": 5760.785,
+        "densidade_2022": 489.06,
+        "idh_2021": 0.814,
+        "receitas_brutas_2025": 42812567643.95,
+        "despesas_brutas_2025": 44096962992.15,
+        "veiculos_2025": 2239078
+    },
+    {
+        "estado": "Espirito Santo",
+        "area_km2": 46074.44,
+        "densidade_2022": 83.21,
+        "idh_2021": 0.771,
+        "receitas_brutas_2025": 42477289676.83,
+        "despesas_brutas_2025": 31095180621.39,
+        "veiculos_2025": 2661373
+    },
+    {
+        "estado": "Goias",
+        "area_km2": 340242.859,
+        "densidade_2022": 20.74,
+        "idh_2021": 0.737,
+        "receitas_brutas_2025": 67721802140.16,
+        "despesas_brutas_2025": 54953337151.86,
+        "veiculos_2025": 5139959
+    },
+    {
+        "estado": "Maranhao",
+        "area_km2": 329651.463,
+        "densidade_2022": 20.56,
+        "idh_2021": 0.676,
+        "receitas_brutas_2025": 44252925706.51,
+        "despesas_brutas_2025": 35596803198.41,
+        "veiculos_2025": 2392096
+    },
+    {
+        "estado": "Mato Grosso",
+        "area_km2": 903208.027,
+        "densidade_2022": 4.05,
+        "idh_2021": 0.736,
+        "receitas_brutas_2025": 68034017020.22,
+        "despesas_brutas_2025": 42607964769.86,
+        "veiculos_2025": 2966603
+    },
+    {
+        "estado": "Mato Grosso do Sul",
+        "area_km2": 357142.01,
+        "densidade_2022": 7.72,
+        "idh_2021": 0.742,
+        "receitas_brutas_2025": 40712607164.04,
+        "despesas_brutas_2025": 27085715700.73,
+        "veiculos_2025": 2035421
+    },
+    {
+        "estado": "Minas Gerais",
+        "area_km2": 586514.008,
+        "densidade_2022": 35.02,
+        "idh_2021": 0.774,
+        "receitas_brutas_2025": 164497609248.01,
+        "despesas_brutas_2025": 131563975828.04,
+        "veiculos_2025": 14494037
+    },
+    {
+        "estado": "Parana",
+        "area_km2": 199293.571,
+        "densidade_2022": 57.42,
+        "idh_2021": 0.769,
+        "receitas_brutas_2025": 103271910396.04,
+        "despesas_brutas_2025": 80740414542.18,
+        "veiculos_2025": 9638181
+    },
+    {
+        "estado": "Paraiba",
+        "area_km2": 56467.243,
+        "densidade_2022": 70.39,
+        "idh_2021": 0.698,
+        "receitas_brutas_2025": 29681321046.81,
+        "despesas_brutas_2025": 24063200011.89,
+        "veiculos_2025": 1792957
+    },
+    {
+        "estado": "Para",
+        "area_km2": 1245831.512,
+        "densidade_2022": 6.52,
+        "idh_2021": 0.69,
+        "receitas_brutas_2025": 64498178683.17,
+        "despesas_brutas_2025": 52844119142.2,
+        "veiculos_2025": 3028300
+    },
+    {
+        "estado": "Pernambuco",
+        "area_km2": 98064.415,
+        "densidade_2022": 92.37,
+        "idh_2021": 0.719,
+        "receitas_brutas_2025": 67910142686.84,
+        "despesas_brutas_2025": 55408980614.89,
+        "veiculos_2025": 3924951
+    },
+    {
+        "estado": "Piaui",
+        "area_km2": 251755.499,
+        "densidade_2022": 12.99,
+        "idh_2021": 0.69,
+        "receitas_brutas_2025": 33336934167.54,
+        "despesas_brutas_2025": 30633540577.71,
+        "veiculos_2025": 1623112
+    },
+    {
+        "estado": "Rio Grande do Norte",
+        "area_km2": 52809.6,
+        "densidade_2022": 62.54,
+        "idh_2021": 0.728,
+        "receitas_brutas_2025": 26977966021.5,
+        "despesas_brutas_2025": 23874415460.69,
+        "veiculos_2025": 1720240
+    },
+    {
+        "estado": "Rio Grande do Sul",
+        "area_km2": 281707.15,
+        "densidade_2022": 38.63,
+        "idh_2021": 0.771,
+        "receitas_brutas_2025": 99064854490.17,
+        "despesas_brutas_2025": 87282443958.46,
+        "veiculos_2025": 8527152
+    },
+    {
+        "estado": "Rio de Janeiro",
+        "area_km2": 43750.424,
+        "densidade_2022": 366.97,
+        "idh_2021": 0.762,
+        "receitas_brutas_2025": 141237460927.79,
+        "despesas_brutas_2025": 116553974377.47,
+        "veiculos_2025": 8266784
+    },
+    {
+        "estado": "Rondonia",
+        "area_km2": 237753.439,
+        "densidade_2022": 6.65,
+        "idh_2021": 0.7,
+        "receitas_brutas_2025": 22380087899.46,
+        "despesas_brutas_2025": 17798587337.04,
+        "veiculos_2025": 1295415
+    },
+    {
+        "estado": "Roraima",
+        "area_km2": 223505.058,
+        "densidade_2022": 2.85,
+        "idh_2021": 0.699,
+        "receitas_brutas_2025": 12105985559.85,
+        "despesas_brutas_2025": 9128235018.68,
+        "veiculos_2025": 305045
+    },
+    {
+        "estado": "Santa Catarina",
+        "area_km2": 95736.1,
+        "densidade_2022": 79.5,
+        "idh_2021": 0.792,
+        "receitas_brutas_2025": 75990059382.39,
+        "despesas_brutas_2025": 56377237279.78,
+        "veiculos_2025": 6682071
+    },
+    {
+        "estado": "Sergipe",
+        "area_km2": 21938.188,
+        "densidade_2022": 100.74,
+        "idh_2021": 0.702,
+        "receitas_brutas_2025": 22622399347.76,
+        "despesas_brutas_2025": 18618811294.16,
+        "veiculos_2025": 1069578
+    },
+    {
+        "estado": "Sao Paulo",
+        "area_km2": 248219.485,
+        "densidade_2022": 178.92,
+        "idh_2021": 0.806,
+        "receitas_brutas_2025": 400067309037.12,
+        "despesas_brutas_2025": 385042592630.74,
+        "veiculos_2025": 35327701
+    },
+    {
+        "estado": "Tocantins",
+        "area_km2": 277423.625,
+        "densidade_2022": 5.45,
+        "idh_2021": 0.731,
+        "receitas_brutas_2025": 24234003534.42,
+        "despesas_brutas_2025": 18735886514.39,
+        "veiculos_2025": 973613
+    }
+]

@@ -1,0 +1,4322 @@
+[
+    {
+        "mes": "2026-01",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2631727473.69,
+        "carteira_critica": 5760267941.18,
+        "carteira_ativa_total": 11666275301.77
+    },
+    {
+        "mes": "2026-01",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 575664686.45,
+        "carteira_critica": 2059656427.06,
+        "carteira_ativa_total": 2917230539.81
+    },
+    {
+        "mes": "2026-01",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 9549041062.86,
+        "carteira_critica": 13848809353.18,
+        "carteira_ativa_total": 25776343595.57
+    },
+    {
+        "mes": "2026-01",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 6080660332.42,
+        "carteira_critica": 9512003448.31,
+        "carteira_ativa_total": 16230448327.99
+    },
+    {
+        "mes": "2026-01",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 13285320713.91,
+        "carteira_critica": 17089246770.26,
+        "carteira_ativa_total": 31652235600.95
+    },
+    {
+        "mes": "2026-01",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 3706946957.61,
+        "carteira_critica": 8715716391.25,
+        "carteira_ativa_total": 12798117941.02
+    },
+    {
+        "mes": "2026-01",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2383456347.25,
+        "carteira_critica": 7940918083.67,
+        "carteira_ativa_total": 10534195895.0
+    },
+    {
+        "mes": "2026-01",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 609365202.6,
+        "carteira_critica": 1748567344.52,
+        "carteira_ativa_total": 2431809893.72
+    },
+    {
+        "mes": "2026-01",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 39466946420.42,
+        "carteira_critica": 63732672045.72,
+        "carteira_ativa_total": 129862514622.6
+    },
+    {
+        "mes": "2026-01",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 17398998474.38,
+        "carteira_critica": 37714474747.58,
+        "carteira_ativa_total": 58178373314.92
+    },
+    {
+        "mes": "2026-01",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 28657452234.84,
+        "carteira_critica": 38255970327.98,
+        "carteira_ativa_total": 70604841731.67
+    },
+    {
+        "mes": "2026-01",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 15431290141.17,
+        "carteira_critica": 24730822566.04,
+        "carteira_ativa_total": 41536572455.27
+    },
+    {
+        "mes": "2026-01",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 34078762039.32,
+        "carteira_critica": 43653020709.31,
+        "carteira_ativa_total": 84669664943.96
+    },
+    {
+        "mes": "2026-01",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 10231387346.83,
+        "carteira_critica": 8700917314.67,
+        "carteira_ativa_total": 19430361649.72
+    },
+    {
+        "mes": "2026-01",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 18880999278.54,
+        "carteira_critica": 23161518247.51,
+        "carteira_ativa_total": 58529251206.37
+    },
+    {
+        "mes": "2026-01",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5222561476.88,
+        "carteira_critica": 9790612958.76,
+        "carteira_ativa_total": 16205031514.58
+    },
+    {
+        "mes": "2026-01",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 61736285788.79,
+        "carteira_critica": 54920295441.03,
+        "carteira_ativa_total": 200821997768.65
+    },
+    {
+        "mes": "2026-01",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 29250764854.51,
+        "carteira_critica": 18914801650.03,
+        "carteira_ativa_total": 51109707635.77
+    },
+    {
+        "mes": "2026-01",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 15705341759.96,
+        "carteira_critica": 26013449772.92,
+        "carteira_ativa_total": 59650924080.13
+    },
+    {
+        "mes": "2026-01",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 8393377404.21,
+        "carteira_critica": 19478938982.37,
+        "carteira_ativa_total": 28995922854.39
+    },
+    {
+        "mes": "2026-01",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 105968325867.14,
+        "carteira_critica": 121690437943.95,
+        "carteira_ativa_total": 316359267919.63
+    },
+    {
+        "mes": "2026-01",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 51473562516.14,
+        "carteira_critica": 56230575002.75,
+        "carteira_ativa_total": 113103153049.01
+    },
+    {
+        "mes": "2026-01",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 21439155296.21,
+        "carteira_critica": 26041309646.41,
+        "carteira_ativa_total": 85876019660.4
+    },
+    {
+        "mes": "2026-01",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 8271134635.18,
+        "carteira_critica": 8360060615.22,
+        "carteira_ativa_total": 17718478427.62
+    },
+    {
+        "mes": "2026-01",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 33332766226.08,
+        "carteira_critica": 35711309817.07,
+        "carteira_ativa_total": 159314776236.71
+    },
+    {
+        "mes": "2026-01",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 9155067960.47,
+        "carteira_critica": 8906240807.53,
+        "carteira_ativa_total": 20473364338.16
+    },
+    {
+        "mes": "2026-01",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 20209728661.16,
+        "carteira_critica": 41708387699.77,
+        "carteira_ativa_total": 81080455581.17
+    },
+    {
+        "mes": "2026-01",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 7626468028.56,
+        "carteira_critica": 20266714865.56,
+        "carteira_ativa_total": 29116530688.63
+    },
+    {
+        "mes": "2026-01",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 14078010700.81,
+        "carteira_critica": 19292180971.15,
+        "carteira_ativa_total": 35238745371.83
+    },
+    {
+        "mes": "2026-01",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 13855420505.83,
+        "carteira_critica": 10944056710.57,
+        "carteira_ativa_total": 25434407432.41
+    },
+    {
+        "mes": "2026-01",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 28583494340.1,
+        "carteira_critica": 41246075249.88,
+        "carteira_ativa_total": 75180589281.64
+    },
+    {
+        "mes": "2026-01",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 16791365837.56,
+        "carteira_critica": 23957898606.21,
+        "carteira_ativa_total": 42504493433.75
+    },
+    {
+        "mes": "2026-01",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 8039257265.36,
+        "carteira_critica": 13495574286.43,
+        "carteira_ativa_total": 24585121920.58
+    },
+    {
+        "mes": "2026-01",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5162599735.2,
+        "carteira_critica": 9588897191.66,
+        "carteira_ativa_total": 15201833851.38
+    },
+    {
+        "mes": "2026-01",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 95371754755.03,
+        "carteira_critica": 88854464954.95,
+        "carteira_ativa_total": 266971422921.71
+    },
+    {
+        "mes": "2026-01",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 41625792845.81,
+        "carteira_critica": 32633742659.67,
+        "carteira_ativa_total": 78199507116.2
+    },
+    {
+        "mes": "2026-01",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 83615810514.23,
+        "carteira_critica": 119693338909.53,
+        "carteira_ativa_total": 211217802311.28
+    },
+    {
+        "mes": "2026-01",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 23804258461.91,
+        "carteira_critica": 47709346783.87,
+        "carteira_ativa_total": 74213813933.37
+    },
+    {
+        "mes": "2026-01",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 11620502841.24,
+        "carteira_critica": 18210987477.13,
+        "carteira_ativa_total": 31176204740.01
+    },
+    {
+        "mes": "2026-01",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 9776262976.47,
+        "carteira_critica": 10045909951.02,
+        "carteira_ativa_total": 20474134350.29
+    },
+    {
+        "mes": "2026-01",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 8025939269.23,
+        "carteira_critica": 14120251358.51,
+        "carteira_ativa_total": 43508386953.44
+    },
+    {
+        "mes": "2026-01",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 2867214776.28,
+        "carteira_critica": 4212365063.4,
+        "carteira_ativa_total": 8115314791.34
+    },
+    {
+        "mes": "2026-01",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2263660295.46,
+        "carteira_critica": 5349450322.55,
+        "carteira_ativa_total": 9423826622.42
+    },
+    {
+        "mes": "2026-01",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 900181979.25,
+        "carteira_critica": 1881590276.85,
+        "carteira_ativa_total": 2960767468.51
+    },
+    {
+        "mes": "2026-01",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 81171375589.23,
+        "carteira_critica": 84652902941.15,
+        "carteira_ativa_total": 269453192617.09
+    },
+    {
+        "mes": "2026-01",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 32287972673.64,
+        "carteira_critica": 33471772627.48,
+        "carteira_ativa_total": 72481465832.12
+    },
+    {
+        "mes": "2026-01",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 73754627087.59,
+        "carteira_critica": 61298147442.06,
+        "carteira_ativa_total": 175394500037.81
+    },
+    {
+        "mes": "2026-01",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 22675728080.51,
+        "carteira_critica": 21887538184.03,
+        "carteira_ativa_total": 48200713117.69
+    },
+    {
+        "mes": "2026-01",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 8246746370.38,
+        "carteira_critica": 11149291024.53,
+        "carteira_ativa_total": 22449332649.64
+    },
+    {
+        "mes": "2026-01",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 6015805822.63,
+        "carteira_critica": 7131293643.09,
+        "carteira_ativa_total": 13639334763.54
+    },
+    {
+        "mes": "2026-01",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 456850898829.86,
+        "carteira_critica": 371904700085.35,
+        "carteira_ativa_total": 918059067535.15
+    },
+    {
+        "mes": "2026-01",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 136206786012.59,
+        "carteira_critica": 137665677698.83,
+        "carteira_ativa_total": 283219851212.8
+    },
+    {
+        "mes": "2026-01",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 7301596297.08,
+        "carteira_critica": 10866639520.47,
+        "carteira_ativa_total": 36011893956.48
+    },
+    {
+        "mes": "2026-01",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 2218148041.2,
+        "carteira_critica": 3821957837.69,
+        "carteira_ativa_total": 6631338563.89
+    },
+    {
+        "mes": "2026-02",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2666924921.44,
+        "carteira_critica": 5827804601.58,
+        "carteira_ativa_total": 11800006042.49
+    },
+    {
+        "mes": "2026-02",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 587175599.05,
+        "carteira_critica": 2088207994.63,
+        "carteira_ativa_total": 2960399140.05
+    },
+    {
+        "mes": "2026-02",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 9677192364.22,
+        "carteira_critica": 13792790324.52,
+        "carteira_ativa_total": 25875384073.99
+    },
+    {
+        "mes": "2026-02",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 6115658745.26,
+        "carteira_critica": 9597237059.74,
+        "carteira_ativa_total": 16364918267.95
+    },
+    {
+        "mes": "2026-02",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 13446162354.19,
+        "carteira_critica": 17112747294.11,
+        "carteira_ativa_total": 31847437213.82
+    },
+    {
+        "mes": "2026-02",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 3746905825.85,
+        "carteira_critica": 8817079222.06,
+        "carteira_ativa_total": 12948313961.65
+    },
+    {
+        "mes": "2026-02",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2421273196.79,
+        "carteira_critica": 8032055542.01,
+        "carteira_ativa_total": 10664629048.16
+    },
+    {
+        "mes": "2026-02",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 621770924.01,
+        "carteira_critica": 1755818704.75,
+        "carteira_ativa_total": 2453381001.46
+    },
+    {
+        "mes": "2026-02",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 39856850087.29,
+        "carteira_critica": 63524070999.0,
+        "carteira_ativa_total": 129969525926.01
+    },
+    {
+        "mes": "2026-02",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 17575528461.76,
+        "carteira_critica": 38212706914.93,
+        "carteira_ativa_total": 59203682270.22
+    },
+    {
+        "mes": "2026-02",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 29043930899.76,
+        "carteira_critica": 38086535418.2,
+        "carteira_ativa_total": 70846674511.43
+    },
+    {
+        "mes": "2026-02",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 15661095417.9,
+        "carteira_critica": 24957419790.66,
+        "carteira_ativa_total": 42031448273.56
+    },
+    {
+        "mes": "2026-02",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 34432844623.0,
+        "carteira_critica": 43480043619.13,
+        "carteira_ativa_total": 84909575758.25
+    },
+    {
+        "mes": "2026-02",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 10281788776.91,
+        "carteira_critica": 8781983242.53,
+        "carteira_ativa_total": 19578592839.78
+    },
+    {
+        "mes": "2026-02",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 19122560773.87,
+        "carteira_critica": 23084330040.49,
+        "carteira_ativa_total": 58920913828.62
+    },
+    {
+        "mes": "2026-02",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5231208727.86,
+        "carteira_critica": 9883180317.6,
+        "carteira_ativa_total": 16387117607.04
+    },
+    {
+        "mes": "2026-02",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 62473327385.82,
+        "carteira_critica": 54735785015.98,
+        "carteira_ativa_total": 201863487404.73
+    },
+    {
+        "mes": "2026-02",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 29472606600.09,
+        "carteira_critica": 19162860506.43,
+        "carteira_ativa_total": 52149758158.2
+    },
+    {
+        "mes": "2026-02",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 15898930673.1,
+        "carteira_critica": 26103922691.56,
+        "carteira_ativa_total": 59832620655.41
+    },
+    {
+        "mes": "2026-02",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 8478850102.41,
+        "carteira_critica": 19667613876.39,
+        "carteira_ativa_total": 29438060917.57
+    },
+    {
+        "mes": "2026-02",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 107156661947.74,
+        "carteira_critica": 121208271561.0,
+        "carteira_ativa_total": 318103951316.59
+    },
+    {
+        "mes": "2026-02",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 51699192395.93,
+        "carteira_critica": 56898231436.05,
+        "carteira_ativa_total": 114343785876.7
+    },
+    {
+        "mes": "2026-02",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 21584633433.51,
+        "carteira_critica": 26031926039.7,
+        "carteira_ativa_total": 86283061971.97
+    },
+    {
+        "mes": "2026-02",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 8353978120.38,
+        "carteira_critica": 8466750477.77,
+        "carteira_ativa_total": 18178394190.88
+    },
+    {
+        "mes": "2026-02",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 33610342715.93,
+        "carteira_critica": 35457881983.21,
+        "carteira_ativa_total": 159465491193.62
+    },
+    {
+        "mes": "2026-02",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 9277834836.82,
+        "carteira_critica": 9053908950.98,
+        "carteira_ativa_total": 21151225981.36
+    },
+    {
+        "mes": "2026-02",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 20480278317.75,
+        "carteira_critica": 41785144323.65,
+        "carteira_ativa_total": 81629971248.47
+    },
+    {
+        "mes": "2026-02",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 7735305398.05,
+        "carteira_critica": 20463122989.1,
+        "carteira_ativa_total": 29494291769.96
+    },
+    {
+        "mes": "2026-02",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 14299024127.58,
+        "carteira_critica": 19226329174.11,
+        "carteira_ativa_total": 35396596246.18
+    },
+    {
+        "mes": "2026-02",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 13914662459.44,
+        "carteira_critica": 11038676240.1,
+        "carteira_ativa_total": 25614743691.48
+    },
+    {
+        "mes": "2026-02",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 28946801432.44,
+        "carteira_critica": 40971651701.85,
+        "carteira_ativa_total": 75335051573.64
+    },
+    {
+        "mes": "2026-02",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 16981634105.33,
+        "carteira_critica": 24196876446.79,
+        "carteira_ativa_total": 42968805591.47
+    },
+    {
+        "mes": "2026-02",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 8123163675.34,
+        "carteira_critica": 13532753738.46,
+        "carteira_ativa_total": 24646310345.29
+    },
+    {
+        "mes": "2026-02",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5212442033.97,
+        "carteira_critica": 9705293092.56,
+        "carteira_ativa_total": 15466664023.72
+    },
+    {
+        "mes": "2026-02",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 96326708992.47,
+        "carteira_critica": 88498748343.33,
+        "carteira_ativa_total": 268165388465.31
+    },
+    {
+        "mes": "2026-02",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 41981149537.84,
+        "carteira_critica": 33099835675.62,
+        "carteira_ativa_total": 79387120140.33
+    },
+    {
+        "mes": "2026-02",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 84233336883.77,
+        "carteira_critica": 118835141188.21,
+        "carteira_ativa_total": 211062581827.76
+    },
+    {
+        "mes": "2026-02",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 23907614054.94,
+        "carteira_critica": 48104442984.58,
+        "carteira_ativa_total": 74815330416.12
+    },
+    {
+        "mes": "2026-02",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 11809801954.99,
+        "carteira_critica": 18121309509.18,
+        "carteira_ativa_total": 31274361207.22
+    },
+    {
+        "mes": "2026-02",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 9866149761.25,
+        "carteira_critica": 10158729323.4,
+        "carteira_ativa_total": 20690650223.86
+    },
+    {
+        "mes": "2026-02",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 8110324910.82,
+        "carteira_critica": 14175650991.75,
+        "carteira_ativa_total": 43659967688.25
+    },
+    {
+        "mes": "2026-02",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 2899944431.42,
+        "carteira_critica": 4252120274.04,
+        "carteira_ativa_total": 8273986469.95
+    },
+    {
+        "mes": "2026-02",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2301465236.71,
+        "carteira_critica": 5407502846.9,
+        "carteira_ativa_total": 9541089997.16
+    },
+    {
+        "mes": "2026-02",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 925905283.4,
+        "carteira_critica": 1912814919.52,
+        "carteira_ativa_total": 3018218060.05
+    },
+    {
+        "mes": "2026-02",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 81738090162.23,
+        "carteira_critica": 84254620411.31,
+        "carteira_ativa_total": 270049515519.77
+    },
+    {
+        "mes": "2026-02",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 32583796256.14,
+        "carteira_critica": 33875154661.51,
+        "carteira_ativa_total": 73121555770.21
+    },
+    {
+        "mes": "2026-02",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 74440161352.93,
+        "carteira_critica": 61217810333.17,
+        "carteira_ativa_total": 176322256181.51
+    },
+    {
+        "mes": "2026-02",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 22808347983.24,
+        "carteira_critica": 22105787599.47,
+        "carteira_ativa_total": 48664066416.0
+    },
+    {
+        "mes": "2026-02",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 8331044536.39,
+        "carteira_critica": 11068899567.38,
+        "carteira_ativa_total": 22446507968.39
+    },
+    {
+        "mes": "2026-02",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 6069287781.45,
+        "carteira_critica": 7174585476.29,
+        "carteira_ativa_total": 13763689766.78
+    },
+    {
+        "mes": "2026-02",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 461416781752.91,
+        "carteira_critica": 369761728765.15,
+        "carteira_ativa_total": 921652343471.5699
+    },
+    {
+        "mes": "2026-02",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 137159785858.77,
+        "carteira_critica": 138974569007.78,
+        "carteira_ativa_total": 285896660692.63
+    },
+    {
+        "mes": "2026-02",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 7391445837.89,
+        "carteira_critica": 10901044190.15,
+        "carteira_ativa_total": 36232829043.22
+    },
+    {
+        "mes": "2026-02",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 2245646306.85,
+        "carteira_critica": 3869230327.83,
+        "carteira_ativa_total": 6809099739.07
+    },
+    {
+        "mes": "2026-03",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2712463743.08,
+        "carteira_critica": 5860607931.56,
+        "carteira_ativa_total": 11889472294.45
+    },
+    {
+        "mes": "2026-03",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 598156751.87,
+        "carteira_critica": 2115524857.41,
+        "carteira_ativa_total": 2996052990.89
+    },
+    {
+        "mes": "2026-03",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 9815757520.91,
+        "carteira_critica": 13990999179.87,
+        "carteira_ativa_total": 26242033748.39
+    },
+    {
+        "mes": "2026-03",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 6193462175.4,
+        "carteira_critica": 9670544402.5,
+        "carteira_ativa_total": 16516139697.33
+    },
+    {
+        "mes": "2026-03",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 13623998428.31,
+        "carteira_critica": 17260589828.32,
+        "carteira_ativa_total": 32190003904.93
+    },
+    {
+        "mes": "2026-03",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 3797740019.51,
+        "carteira_critica": 8913852035.49,
+        "carteira_ativa_total": 13100514725.43
+    },
+    {
+        "mes": "2026-03",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2454393939.16,
+        "carteira_critica": 8066260880.12,
+        "carteira_ativa_total": 10733051394.36
+    },
+    {
+        "mes": "2026-03",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 635389768.69,
+        "carteira_critica": 1769931509.92,
+        "carteira_ativa_total": 2482226330.51
+    },
+    {
+        "mes": "2026-03",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 40344471758.87,
+        "carteira_critica": 64548812674.02,
+        "carteira_ativa_total": 131924084703.7
+    },
+    {
+        "mes": "2026-03",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 17817664393.76,
+        "carteira_critica": 38564413557.75,
+        "carteira_ativa_total": 59768371002.44
+    },
+    {
+        "mes": "2026-03",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 29427630724.11,
+        "carteira_critica": 38504000364.81,
+        "carteira_ativa_total": 71651476577.9
+    },
+    {
+        "mes": "2026-03",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 15911233490.73,
+        "carteira_critica": 25203894188.24,
+        "carteira_ativa_total": 42530598863.44
+    },
+    {
+        "mes": "2026-03",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 34846119998.99,
+        "carteira_critica": 44117824886.14,
+        "carteira_ativa_total": 86015204608.44
+    },
+    {
+        "mes": "2026-03",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 10410399257.67,
+        "carteira_critica": 8841814871.91,
+        "carteira_ativa_total": 19764653477.21
+    },
+    {
+        "mes": "2026-03",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 19350297209.47,
+        "carteira_critica": 23573767941.19,
+        "carteira_ativa_total": 60135895546.71
+    },
+    {
+        "mes": "2026-03",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5280375141.23,
+        "carteira_critica": 9991126072.87,
+        "carteira_ativa_total": 16543736131.3
+    },
+    {
+        "mes": "2026-03",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 63209988847.45,
+        "carteira_critica": 55420659505.2,
+        "carteira_ativa_total": 203024844523.13
+    },
+    {
+        "mes": "2026-03",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 29784684518.86,
+        "carteira_critica": 19398438453.59,
+        "carteira_ativa_total": 52603390438.31
+    },
+    {
+        "mes": "2026-03",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 16067409157.74,
+        "carteira_critica": 26393831150.63,
+        "carteira_ativa_total": 60031893542.47
+    },
+    {
+        "mes": "2026-03",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 8567628725.02,
+        "carteira_critica": 19810680525.13,
+        "carteira_ativa_total": 29648748277.74
+    },
+    {
+        "mes": "2026-03",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 108386196016.32,
+        "carteira_critica": 123338417906.45,
+        "carteira_ativa_total": 322527522665.94
+    },
+    {
+        "mes": "2026-03",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 52100368941.12,
+        "carteira_critica": 57792050337.2,
+        "carteira_ativa_total": 115651200902.61
+    },
+    {
+        "mes": "2026-03",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 21763071798.36,
+        "carteira_critica": 26394898280.61,
+        "carteira_ativa_total": 86463128871.9
+    },
+    {
+        "mes": "2026-03",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 8432534850.19,
+        "carteira_critica": 8535897747.71,
+        "carteira_ativa_total": 18301992523.18
+    },
+    {
+        "mes": "2026-03",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 34025151930.86,
+        "carteira_critica": 35705345489.36,
+        "carteira_ativa_total": 160099847689.0
+    },
+    {
+        "mes": "2026-03",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 9392471248.25,
+        "carteira_critica": 9225091509.23,
+        "carteira_ativa_total": 21407615369.06
+    },
+    {
+        "mes": "2026-03",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 20708372450.3,
+        "carteira_critica": 42156166709.19,
+        "carteira_ativa_total": 82357653625.34
+    },
+    {
+        "mes": "2026-03",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 7819788738.54,
+        "carteira_critica": 20684915964.98,
+        "carteira_ativa_total": 29800984376.52
+    },
+    {
+        "mes": "2026-03",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 14517895429.47,
+        "carteira_critica": 19521648410.08,
+        "carteira_ativa_total": 35942957620.44
+    },
+    {
+        "mes": "2026-03",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 14070018372.46,
+        "carteira_critica": 11135136330.35,
+        "carteira_ativa_total": 25870333124.2
+    },
+    {
+        "mes": "2026-03",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 29346309999.81,
+        "carteira_critica": 41517242446.74,
+        "carteira_ativa_total": 76336346521.36
+    },
+    {
+        "mes": "2026-03",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 17245733512.64,
+        "carteira_critica": 24431613939.18,
+        "carteira_ativa_total": 43460544643.74
+    },
+    {
+        "mes": "2026-03",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 8226151000.37,
+        "carteira_critica": 13653435889.06,
+        "carteira_ativa_total": 24891485423.15
+    },
+    {
+        "mes": "2026-03",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5274595838.38,
+        "carteira_critica": 9777083742.24,
+        "carteira_ativa_total": 15616751858.87
+    },
+    {
+        "mes": "2026-03",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 97420447607.17,
+        "carteira_critica": 89858603231.1,
+        "carteira_ativa_total": 270745845689.48
+    },
+    {
+        "mes": "2026-03",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 42392845021.88,
+        "carteira_critica": 33560937827.29,
+        "carteira_ativa_total": 80211071008.01
+    },
+    {
+        "mes": "2026-03",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 85056664578.06,
+        "carteira_critica": 120585549042.3,
+        "carteira_ativa_total": 213709214038.86
+    },
+    {
+        "mes": "2026-03",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 24066476795.54,
+        "carteira_critica": 48527521909.9,
+        "carteira_ativa_total": 75366434025.66
+    },
+    {
+        "mes": "2026-03",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 11961201068.95,
+        "carteira_critica": 18332721345.98,
+        "carteira_ativa_total": 31648595340.72
+    },
+    {
+        "mes": "2026-03",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 9997123150.26,
+        "carteira_critica": 10236637804.07,
+        "carteira_ativa_total": 20901420252.14
+    },
+    {
+        "mes": "2026-03",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 8215854833.58,
+        "carteira_critica": 14279743540.41,
+        "carteira_ativa_total": 43937584497.62
+    },
+    {
+        "mes": "2026-03",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 2928277084.27,
+        "carteira_critica": 4301831226.15,
+        "carteira_ativa_total": 8369088196.25
+    },
+    {
+        "mes": "2026-03",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2347688205.19,
+        "carteira_critica": 5462528731.59,
+        "carteira_ativa_total": 9687669357.25
+    },
+    {
+        "mes": "2026-03",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 950690019.01,
+        "carteira_critica": 1948479700.24,
+        "carteira_ativa_total": 3080779500.98
+    },
+    {
+        "mes": "2026-03",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 82479533651.63,
+        "carteira_critica": 85414229804.81,
+        "carteira_ativa_total": 272396790201.49
+    },
+    {
+        "mes": "2026-03",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 32877319611.82,
+        "carteira_critica": 34183941148.76,
+        "carteira_ativa_total": 73721143104.63
+    },
+    {
+        "mes": "2026-03",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 75219625778.34,
+        "carteira_critica": 62278316594.51,
+        "carteira_ativa_total": 178400385681.23
+    },
+    {
+        "mes": "2026-03",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 22975821654.88,
+        "carteira_critica": 22476456829.75,
+        "carteira_ativa_total": 49235206674.71
+    },
+    {
+        "mes": "2026-03",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 8418362720.85,
+        "carteira_critica": 11226463511.62,
+        "carteira_ativa_total": 22750017644.35
+    },
+    {
+        "mes": "2026-03",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 6146641361.04,
+        "carteira_critica": 7223890214.32,
+        "carteira_ativa_total": 13894551317.09
+    },
+    {
+        "mes": "2026-03",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 466246587528.08,
+        "carteira_critica": 375576058580.45,
+        "carteira_ativa_total": 933180666179.12
+    },
+    {
+        "mes": "2026-03",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 138796008968.34,
+        "carteira_critica": 140737741174.15,
+        "carteira_ativa_total": 289226023459.32
+    },
+    {
+        "mes": "2026-03",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 7491399518.96,
+        "carteira_critica": 11001707038.17,
+        "carteira_ativa_total": 36434980113.86
+    },
+    {
+        "mes": "2026-03",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 2269291481.31,
+        "carteira_critica": 3914009909.98,
+        "carteira_ativa_total": 6883579167.55
+    },
+    {
+        "mes": "2026-04",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2754030509.07,
+        "carteira_critica": 5918617470.59,
+        "carteira_ativa_total": 11972536383.27
+    },
+    {
+        "mes": "2026-04",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 590580535.29,
+        "carteira_critica": 2136282468.81,
+        "carteira_ativa_total": 3031729486.31
+    },
+    {
+        "mes": "2026-04",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 9972042902.12,
+        "carteira_critica": 14118460504.51,
+        "carteira_ativa_total": 26570685854.42
+    },
+    {
+        "mes": "2026-04",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 6202847761.27,
+        "carteira_critica": 9694690067.42,
+        "carteira_ativa_total": 16560396904.63
+    },
+    {
+        "mes": "2026-04",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 13799623845.27,
+        "carteira_critica": 17423407201.08,
+        "carteira_ativa_total": 32559494257.85
+    },
+    {
+        "mes": "2026-04",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 3784562528.69,
+        "carteira_critica": 8926444212.96,
+        "carteira_ativa_total": 13096989605.51
+    },
+    {
+        "mes": "2026-04",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2488127246.77,
+        "carteira_critica": 8151894404.65,
+        "carteira_ativa_total": 10858658114.59
+    },
+    {
+        "mes": "2026-04",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 625589900.54,
+        "carteira_critica": 1803550577.15,
+        "carteira_ativa_total": 2511245624.39
+    },
+    {
+        "mes": "2026-04",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 40902710623.35,
+        "carteira_critica": 64725408391.94,
+        "carteira_ativa_total": 132883323941.57
+    },
+    {
+        "mes": "2026-04",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 17910750320.52,
+        "carteira_critica": 38868004436.04,
+        "carteira_ativa_total": 60224365718.9
+    },
+    {
+        "mes": "2026-04",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 29869555866.07,
+        "carteira_critica": 38685198657.25,
+        "carteira_ativa_total": 72324478115.68
+    },
+    {
+        "mes": "2026-04",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 16014710704.28,
+        "carteira_critica": 25391440342.68,
+        "carteira_ativa_total": 42871550719.69
+    },
+    {
+        "mes": "2026-04",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 35204461142.36,
+        "carteira_critica": 44373541754.99,
+        "carteira_ativa_total": 86744329512.38
+    },
+    {
+        "mes": "2026-04",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 10447984027.25,
+        "carteira_critica": 8730395150.87,
+        "carteira_ativa_total": 19692632022.92
+    },
+    {
+        "mes": "2026-04",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 19590139583.41,
+        "carteira_critica": 23695906871.09,
+        "carteira_ativa_total": 60900794856.95
+    },
+    {
+        "mes": "2026-04",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5229041281.93,
+        "carteira_critica": 10088733975.26,
+        "carteira_ativa_total": 16652729746.39
+    },
+    {
+        "mes": "2026-04",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 64203783456.62,
+        "carteira_critica": 56016585304.87,
+        "carteira_ativa_total": 203390720246.04
+    },
+    {
+        "mes": "2026-04",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 29799707370.6,
+        "carteira_critica": 19277326780.43,
+        "carteira_ativa_total": 52561915675.52
+    },
+    {
+        "mes": "2026-04",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 16272614776.81,
+        "carteira_critica": 26093747013.04,
+        "carteira_ativa_total": 59801583982.54
+    },
+    {
+        "mes": "2026-04",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 8562404444.86,
+        "carteira_critica": 20358724910.85,
+        "carteira_ativa_total": 30303572747.45
+    },
+    {
+        "mes": "2026-04",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 109921915529.87,
+        "carteira_critica": 124203116050.17,
+        "carteira_ativa_total": 325650319958.8
+    },
+    {
+        "mes": "2026-04",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 51961234517.87,
+        "carteira_critica": 58060542139.74,
+        "carteira_ativa_total": 115969514676.57
+    },
+    {
+        "mes": "2026-04",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 21957311301.98,
+        "carteira_critica": 26495393585.37,
+        "carteira_ativa_total": 86095797820.16
+    },
+    {
+        "mes": "2026-04",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 8423768730.34,
+        "carteira_critica": 8572822576.54,
+        "carteira_ativa_total": 18358092958.79
+    },
+    {
+        "mes": "2026-04",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 34418972818.35,
+        "carteira_critica": 35908507863.98,
+        "carteira_ativa_total": 159122635053.05
+    },
+    {
+        "mes": "2026-04",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 9348828851.0,
+        "carteira_critica": 9243985218.11,
+        "carteira_ativa_total": 21326147792.53
+    },
+    {
+        "mes": "2026-04",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 20960940207.34,
+        "carteira_critica": 42330525476.13,
+        "carteira_ativa_total": 82877288258.41
+    },
+    {
+        "mes": "2026-04",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 7764637652.16,
+        "carteira_critica": 21000137831.67,
+        "carteira_ativa_total": 30170762041.12
+    },
+    {
+        "mes": "2026-04",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 14762952257.66,
+        "carteira_critica": 19730233723.03,
+        "carteira_ativa_total": 36451311109.94
+    },
+    {
+        "mes": "2026-04",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 14173456578.18,
+        "carteira_critica": 11110563363.42,
+        "carteira_ativa_total": 25943737843.06
+    },
+    {
+        "mes": "2026-04",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 29785405719.42,
+        "carteira_critica": 41965067331.43,
+        "carteira_ativa_total": 77392694005.72
+    },
+    {
+        "mes": "2026-04",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 17369277286.07,
+        "carteira_critica": 24319558789.94,
+        "carteira_ativa_total": 43453344395.03
+    },
+    {
+        "mes": "2026-04",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 8337925908.24,
+        "carteira_critica": 13644488835.46,
+        "carteira_ativa_total": 25020442813.74
+    },
+    {
+        "mes": "2026-04",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5298980848.85,
+        "carteira_critica": 9887063152.53,
+        "carteira_ativa_total": 15737778251.99
+    },
+    {
+        "mes": "2026-04",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 98723706385.5,
+        "carteira_critica": 90327302882.67,
+        "carteira_ativa_total": 270927564785.48
+    },
+    {
+        "mes": "2026-04",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 42340852895.74,
+        "carteira_critica": 33707558196.86,
+        "carteira_ativa_total": 80424244042.75
+    },
+    {
+        "mes": "2026-04",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 86131885867.12,
+        "carteira_critica": 120778299559.56,
+        "carteira_ativa_total": 215235592076.0
+    },
+    {
+        "mes": "2026-04",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 23980607021.26,
+        "carteira_critica": 48694665333.36,
+        "carteira_ativa_total": 75483907824.9
+    },
+    {
+        "mes": "2026-04",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 12141982764.51,
+        "carteira_critica": 18509158681.77,
+        "carteira_ativa_total": 32074596155.61
+    },
+    {
+        "mes": "2026-04",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 10065375269.88,
+        "carteira_critica": 10140625281.33,
+        "carteira_ativa_total": 20864151318.51
+    },
+    {
+        "mes": "2026-04",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 8325762008.16,
+        "carteira_critica": 14294902088.13,
+        "carteira_ativa_total": 44048374445.92
+    },
+    {
+        "mes": "2026-04",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 2929194984.07,
+        "carteira_critica": 4323586449.42,
+        "carteira_ativa_total": 8482315190.28
+    },
+    {
+        "mes": "2026-04",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2380647673.83,
+        "carteira_critica": 5486037455.11,
+        "carteira_ativa_total": 9757690936.56
+    },
+    {
+        "mes": "2026-04",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 959293172.72,
+        "carteira_critica": 1991578663.15,
+        "carteira_ativa_total": 3142839716.61
+    },
+    {
+        "mes": "2026-04",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 83427306287.15,
+        "carteira_critica": 85350241923.92,
+        "carteira_ativa_total": 273277539447.45
+    },
+    {
+        "mes": "2026-04",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 32802105476.35,
+        "carteira_critica": 34721346737.46,
+        "carteira_ativa_total": 74355732317.56
+    },
+    {
+        "mes": "2026-04",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 76251259400.59,
+        "carteira_critica": 62355025071.16,
+        "carteira_ativa_total": 179635765795.64
+    },
+    {
+        "mes": "2026-04",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 22835663032.23,
+        "carteira_critica": 22702744258.51,
+        "carteira_ativa_total": 49403918794.17
+    },
+    {
+        "mes": "2026-04",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 8544449541.79,
+        "carteira_critica": 11239817097.45,
+        "carteira_ativa_total": 22985580148.16
+    },
+    {
+        "mes": "2026-04",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 6171045295.98,
+        "carteira_critica": 7283711650.64,
+        "carteira_ativa_total": 14011419675.7
+    },
+    {
+        "mes": "2026-04",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 471757380414.09,
+        "carteira_critica": 378443185826.51,
+        "carteira_ativa_total": 942686505719.61
+    },
+    {
+        "mes": "2026-04",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 138925227665.25,
+        "carteira_critica": 139545124245.8,
+        "carteira_ativa_total": 287943950927.33
+    },
+    {
+        "mes": "2026-04",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 7585364403.99,
+        "carteira_critica": 11021624020.34,
+        "carteira_ativa_total": 36500139118.01
+    },
+    {
+        "mes": "2026-04",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 2273451148.16,
+        "carteira_critica": 3979079370.25,
+        "carteira_ativa_total": 6986918234.76
+    },
+    {
+        "mes": "2026-05",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2921698747.13,
+        "carteira_critica": 6031919451.16,
+        "carteira_ativa_total": 12288461229.5
+    },
+    {
+        "mes": "2026-05",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 454078919.89,
+        "carteira_critica": 2082593596.83,
+        "carteira_ativa_total": 2837453002.82
+    },
+    {
+        "mes": "2026-05",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 11964851288.35,
+        "carteira_critica": 14553497878.35,
+        "carteira_ativa_total": 29076682045.93
+    },
+    {
+        "mes": "2026-05",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 4402854861.12,
+        "carteira_critica": 9462407795.68,
+        "carteira_ativa_total": 14486744765.67
+    },
+    {
+        "mes": "2026-05",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 14886513138.97,
+        "carteira_critica": 17667440055.77,
+        "carteira_ativa_total": 33909319836.5
+    },
+    {
+        "mes": "2026-05",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 2890168690.79,
+        "carteira_critica": 8860847470.57,
+        "carteira_ativa_total": 12129989294.18
+    },
+    {
+        "mes": "2026-05",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2616565259.01,
+        "carteira_critica": 8321982065.25,
+        "carteira_ativa_total": 11166126480.56
+    },
+    {
+        "mes": "2026-05",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 514916909.64,
+        "carteira_critica": 1753836848.4,
+        "carteira_ativa_total": 2350422658.99
+    },
+    {
+        "mes": "2026-05",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 48130194511.05,
+        "carteira_critica": 66152899800.23,
+        "carteira_ativa_total": 141975541726.14
+    },
+    {
+        "mes": "2026-05",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 11361799028.16,
+        "carteira_critica": 38338517313.51,
+        "carteira_ativa_total": 52836400125.79
+    },
+    {
+        "mes": "2026-05",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 35466661874.05,
+        "carteira_critica": 39529722928.75,
+        "carteira_ativa_total": 78900097866.9
+    },
+    {
+        "mes": "2026-05",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 11018927991.02,
+        "carteira_critica": 25116743447.9,
+        "carteira_ativa_total": 37529810460.05
+    },
+    {
+        "mes": "2026-05",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 39981415379.09,
+        "carteira_critica": 44678402789.04,
+        "carteira_ativa_total": 91834241204.14
+    },
+    {
+        "mes": "2026-05",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 6119454107.18,
+        "carteira_critica": 8694364385.14,
+        "carteira_ativa_total": 15263879406.77
+    },
+    {
+        "mes": "2026-05",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 21745316467.83,
+        "carteira_critica": 24022402865.06,
+        "carteira_ativa_total": 63705592312.89
+    },
+    {
+        "mes": "2026-05",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 3307736866.25,
+        "carteira_critica": 10003108040.88,
+        "carteira_ativa_total": 14614100328.04
+    },
+    {
+        "mes": "2026-05",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 78021172014.21,
+        "carteira_critica": 56939170768.63,
+        "carteira_ativa_total": 218599729898.17
+    },
+    {
+        "mes": "2026-05",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 17110250447.29,
+        "carteira_critica": 18794591369.54,
+        "carteira_ativa_total": 38484798992.18
+    },
+    {
+        "mes": "2026-05",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 18825046788.14,
+        "carteira_critica": 26892967747.7,
+        "carteira_ativa_total": 63078977051.8
+    },
+    {
+        "mes": "2026-05",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 6181300438.95,
+        "carteira_critica": 19808648199.23,
+        "carteira_ativa_total": 27307634558.01
+    },
+    {
+        "mes": "2026-05",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 133325742226.06,
+        "carteira_critica": 125697663965.38,
+        "carteira_ativa_total": 351456619037.63
+    },
+    {
+        "mes": "2026-05",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 30145286520.22,
+        "carteira_critica": 57857820855.27,
+        "carteira_ativa_total": 93186425381.63
+    },
+    {
+        "mes": "2026-05",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 25344012018.42,
+        "carteira_critica": 26927739043.27,
+        "carteira_ativa_total": 89817933481.02
+    },
+    {
+        "mes": "2026-05",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5218888044.19,
+        "carteira_critica": 8338940432.79,
+        "carteira_ativa_total": 14670817520.72
+    },
+    {
+        "mes": "2026-05",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 38421725294.89,
+        "carteira_critica": 36275591858.74,
+        "carteira_ativa_total": 163545048466.74
+    },
+    {
+        "mes": "2026-05",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5690922109.5,
+        "carteira_critica": 9046358703.05,
+        "carteira_ativa_total": 16900053225.54
+    },
+    {
+        "mes": "2026-05",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 22994496412.95,
+        "carteira_critica": 43042668547.59,
+        "carteira_ativa_total": 85745300780.99
+    },
+    {
+        "mes": "2026-05",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5914144283.77,
+        "carteira_critica": 20851010492.99,
+        "carteira_ativa_total": 28127636322.79
+    },
+    {
+        "mes": "2026-05",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 19610840073.64,
+        "carteira_critica": 20137265830.24,
+        "carteira_ativa_total": 41777621148.91
+    },
+    {
+        "mes": "2026-05",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 9660916394.71,
+        "carteira_critica": 10964851603.71,
+        "carteira_ativa_total": 21265079306.46
+    },
+    {
+        "mes": "2026-05",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 35848230560.68,
+        "carteira_critica": 42748157636.79,
+        "carteira_ativa_total": 84383174424.9
+    },
+    {
+        "mes": "2026-05",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 11956032251.63,
+        "carteira_critica": 24049869430.35,
+        "carteira_ativa_total": 37684768472.81
+    },
+    {
+        "mes": "2026-05",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 10090884906.58,
+        "carteira_critica": 14077898156.42,
+        "carteira_ativa_total": 27207792475.54
+    },
+    {
+        "mes": "2026-05",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 3674186203.66,
+        "carteira_critica": 9644155881.25,
+        "carteira_ativa_total": 13853406325.14
+    },
+    {
+        "mes": "2026-05",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 116846011089.03,
+        "carteira_critica": 91424472208.86,
+        "carteira_ativa_total": 288483669434.62
+    },
+    {
+        "mes": "2026-05",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 25529835735.34,
+        "carteira_critica": 33453523637.47,
+        "carteira_ativa_total": 62867636362.24
+    },
+    {
+        "mes": "2026-05",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 96661292297.53,
+        "carteira_critica": 121622026659.76,
+        "carteira_ativa_total": 226835733895.07
+    },
+    {
+        "mes": "2026-05",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 14601362920.68,
+        "carteira_critica": 48424537486.01,
+        "carteira_ativa_total": 65779282554.01
+    },
+    {
+        "mes": "2026-05",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 15163216610.44,
+        "carteira_critica": 18845725700.58,
+        "carteira_ativa_total": 35500737718.69
+    },
+    {
+        "mes": "2026-05",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 7304028736.43,
+        "carteira_critica": 10000111826.59,
+        "carteira_ativa_total": 17923902983.3
+    },
+    {
+        "mes": "2026-05",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 9506838436.0,
+        "carteira_critica": 14433388178.69,
+        "carteira_ativa_total": 45261906313.91
+    },
+    {
+        "mes": "2026-05",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 1832342939.45,
+        "carteira_critica": 4186171546.63,
+        "carteira_ativa_total": 7235057481.38
+    },
+    {
+        "mes": "2026-05",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2632597045.31,
+        "carteira_critica": 5594959661.66,
+        "carteira_ativa_total": 10167763603.73
+    },
+    {
+        "mes": "2026-05",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 746263988.56,
+        "carteira_critica": 1951707994.95,
+        "carteira_ativa_total": 2878677428.31
+    },
+    {
+        "mes": "2026-05",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 97730455630.63,
+        "carteira_critica": 86652002705.64,
+        "carteira_ativa_total": 287229798529.98
+    },
+    {
+        "mes": "2026-05",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 19447080623.37,
+        "carteira_critica": 33664463375.05,
+        "carteira_ativa_total": 59686389490.32
+    },
+    {
+        "mes": "2026-05",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 86799437454.71,
+        "carteira_critica": 63353571112.55,
+        "carteira_ativa_total": 190474495157.87
+    },
+    {
+        "mes": "2026-05",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 13205584962.29,
+        "carteira_critica": 22168530185.59,
+        "carteira_ativa_total": 38979724722.35
+    },
+    {
+        "mes": "2026-05",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 10836047906.85,
+        "carteira_critica": 11493544555.86,
+        "carteira_ativa_total": 25634892024.8
+    },
+    {
+        "mes": "2026-05",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 4067569311.73,
+        "carteira_critica": 7159678841.83,
+        "carteira_ativa_total": 11770255832.93
+    },
+    {
+        "mes": "2026-05",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 527773313027.26,
+        "carteira_critica": 380349841547.36,
+        "carteira_ativa_total": 1001893089821.72
+    },
+    {
+        "mes": "2026-05",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 89544066927.53,
+        "carteira_critica": 140715806745.07,
+        "carteira_ativa_total": 238888543298.88
+    },
+    {
+        "mes": "2026-05",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 8560406018.19,
+        "carteira_critica": 11227652223.08,
+        "carteira_ativa_total": 37736503106.53
+    },
+    {
+        "mes": "2026-05",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 1411509389.57,
+        "carteira_critica": 3849397579.26,
+        "carteira_ativa_total": 5863414536.69
+    },
+    {
+        "mes": "2026-06",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2928566904.56,
+        "carteira_critica": 6042575222.51,
+        "carteira_ativa_total": 12261345621.51
+    },
+    {
+        "mes": "2026-06",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 419593950.64,
+        "carteira_critica": 2073635052.55,
+        "carteira_ativa_total": 2793244109.7
+    },
+    {
+        "mes": "2026-06",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 12071023785.72,
+        "carteira_critica": 14623136164.58,
+        "carteira_ativa_total": 29238960082.14
+    },
+    {
+        "mes": "2026-06",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 4382448850.42,
+        "carteira_critica": 9358311419.71,
+        "carteira_ativa_total": 14356098413.56
+    },
+    {
+        "mes": "2026-06",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 14985434157.83,
+        "carteira_critica": 17758612697.36,
+        "carteira_ativa_total": 34090309104.87
+    },
+    {
+        "mes": "2026-06",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 2783794830.24,
+        "carteira_critica": 8727146005.19,
+        "carteira_ativa_total": 11886738594.23
+    },
+    {
+        "mes": "2026-06",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2607136927.31,
+        "carteira_critica": 8286510246.79,
+        "carteira_ativa_total": 11109395816.26
+    },
+    {
+        "mes": "2026-06",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 447595455.76,
+        "carteira_critica": 1725673851.16,
+        "carteira_ativa_total": 2253348184.09
+    },
+    {
+        "mes": "2026-06",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 48420087161.87,
+        "carteira_critica": 65463686200.43,
+        "carteira_ativa_total": 141344995546.85
+    },
+    {
+        "mes": "2026-06",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 11405861428.74,
+        "carteira_critica": 38042466404.23,
+        "carteira_ativa_total": 52568281682.21
+    },
+    {
+        "mes": "2026-06",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 35693940068.19,
+        "carteira_critica": 39586637064.13,
+        "carteira_ativa_total": 79110767214.31
+    },
+    {
+        "mes": "2026-06",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 11032703996.4,
+        "carteira_critica": 24995087722.92,
+        "carteira_ativa_total": 37404676815.21
+    },
+    {
+        "mes": "2026-06",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 40279300404.99,
+        "carteira_critica": 44922344788.86,
+        "carteira_ativa_total": 92366198780.36
+    },
+    {
+        "mes": "2026-06",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 6230467262.79,
+        "carteira_critica": 8380030975.76,
+        "carteira_ativa_total": 15054133512.21
+    },
+    {
+        "mes": "2026-06",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 21837046647.62,
+        "carteira_critica": 24274523865.7,
+        "carteira_ativa_total": 64207643967.92
+    },
+    {
+        "mes": "2026-06",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 3144223817.57,
+        "carteira_critica": 9846856012.89,
+        "carteira_ativa_total": 14317568014.83
+    },
+    {
+        "mes": "2026-06",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 78587572021.75,
+        "carteira_critica": 56590016195.23,
+        "carteira_ativa_total": 218217059336.68
+    },
+    {
+        "mes": "2026-06",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 17191525266.3,
+        "carteira_critica": 18484718037.7,
+        "carteira_ativa_total": 38204513689.79
+    },
+    {
+        "mes": "2026-06",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 18856743207.15,
+        "carteira_critica": 26791584079.92,
+        "carteira_ativa_total": 62626426716.77
+    },
+    {
+        "mes": "2026-06",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5946596083.98,
+        "carteira_critica": 19622753795.02,
+        "carteira_ativa_total": 26827036371.08
+    },
+    {
+        "mes": "2026-06",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 134143286398.57,
+        "carteira_critica": 126809439443.15,
+        "carteira_ativa_total": 353142229033.98
+    },
+    {
+        "mes": "2026-06",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 30126558072.25,
+        "carteira_critica": 56582805035.69,
+        "carteira_ativa_total": 91943626416.27
+    },
+    {
+        "mes": "2026-06",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 25377790201.37,
+        "carteira_critica": 26400796917.61,
+        "carteira_ativa_total": 89021977179.42
+    },
+    {
+        "mes": "2026-06",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5090574871.89,
+        "carteira_critica": 8274254289.75,
+        "carteira_ativa_total": 14411176055.34
+    },
+    {
+        "mes": "2026-06",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 38554959371.52,
+        "carteira_critica": 35323048215.8,
+        "carteira_ativa_total": 163138748004.74
+    },
+    {
+        "mes": "2026-06",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5464362134.94,
+        "carteira_critica": 8946492164.87,
+        "carteira_ativa_total": 16667443322.73
+    },
+    {
+        "mes": "2026-06",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 23039278725.14,
+        "carteira_critica": 43190825285.83,
+        "carteira_ativa_total": 85694468430.47
+    },
+    {
+        "mes": "2026-06",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5457918060.94,
+        "carteira_critica": 20653781900.18,
+        "carteira_ativa_total": 27520706940.86
+    },
+    {
+        "mes": "2026-06",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 19730606204.87,
+        "carteira_critica": 20182482302.1,
+        "carteira_ativa_total": 41915073472.84
+    },
+    {
+        "mes": "2026-06",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 9790030301.73,
+        "carteira_critica": 10849771967.45,
+        "carteira_ativa_total": 21268723886.2
+    },
+    {
+        "mes": "2026-06",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 36151704535.56,
+        "carteira_critica": 42829193737.28,
+        "carteira_ativa_total": 84715698394.23
+    },
+    {
+        "mes": "2026-06",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 12047930763.5,
+        "carteira_critica": 23811576560.23,
+        "carteira_ativa_total": 37540714592.21
+    },
+    {
+        "mes": "2026-06",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 10148361859.05,
+        "carteira_critica": 14078053308.3,
+        "carteira_ativa_total": 27211995983.12
+    },
+    {
+        "mes": "2026-06",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 3648331756.74,
+        "carteira_critica": 9571034621.1,
+        "carteira_ativa_total": 13657691284.19
+    },
+    {
+        "mes": "2026-06",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 117596525843.66,
+        "carteira_critica": 92486544408.08,
+        "carteira_ativa_total": 290251281623.6
+    },
+    {
+        "mes": "2026-06",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 25500579579.69,
+        "carteira_critica": 32575898453.05,
+        "carteira_ativa_total": 62028767807.65
+    },
+    {
+        "mes": "2026-06",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 97251335333.67,
+        "carteira_critica": 122386256998.92,
+        "carteira_ativa_total": 228037001480.8
+    },
+    {
+        "mes": "2026-06",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 14581032344.47,
+        "carteira_critica": 47204317953.74,
+        "carteira_ativa_total": 64492937424.71
+    },
+    {
+        "mes": "2026-06",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 15237057354.61,
+        "carteira_critica": 18834047105.26,
+        "carteira_ativa_total": 35519678842.78
+    },
+    {
+        "mes": "2026-06",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 7391905702.5,
+        "carteira_critica": 9953612232.75,
+        "carteira_ativa_total": 17968407503.4
+    },
+    {
+        "mes": "2026-06",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 9562658054.27,
+        "carteira_critica": 14481450855.4,
+        "carteira_ativa_total": 45186823882.48
+    },
+    {
+        "mes": "2026-06",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 1784475837.01,
+        "carteira_critica": 4144772074.09,
+        "carteira_ativa_total": 7169796779.07
+    },
+    {
+        "mes": "2026-06",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2636774730.28,
+        "carteira_critica": 5600501166.04,
+        "carteira_ativa_total": 10193806177.1
+    },
+    {
+        "mes": "2026-06",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 729528368.69,
+        "carteira_critica": 1942324455.64,
+        "carteira_ativa_total": 2848164855.02
+    },
+    {
+        "mes": "2026-06",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 98057666510.25,
+        "carteira_critica": 87030816132.4,
+        "carteira_ativa_total": 285621603488.53
+    },
+    {
+        "mes": "2026-06",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 19486291570.48,
+        "carteira_critica": 33099144586.38,
+        "carteira_ativa_total": 59079849131.09
+    },
+    {
+        "mes": "2026-06",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 87350084375.96,
+        "carteira_critica": 64057933982.21,
+        "carteira_ativa_total": 191679900229.37
+    },
+    {
+        "mes": "2026-06",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 13044342183.83,
+        "carteira_critica": 21756549845.81,
+        "carteira_ativa_total": 38399143036.84
+    },
+    {
+        "mes": "2026-06",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 10920533026.62,
+        "carteira_critica": 11487551839.99,
+        "carteira_ativa_total": 25730442404.31
+    },
+    {
+        "mes": "2026-06",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 4095209584.76,
+        "carteira_critica": 7108322218.44,
+        "carteira_ativa_total": 11750201585.18
+    },
+    {
+        "mes": "2026-06",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 532118188857.27,
+        "carteira_critica": 383548167222.64,
+        "carteira_ativa_total": 1008689108238.85
+    },
+    {
+        "mes": "2026-06",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 89757710540.99,
+        "carteira_critica": 135790273685.63,
+        "carteira_ativa_total": 234288112068.52
+    },
+    {
+        "mes": "2026-06",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 8593190151.13,
+        "carteira_critica": 11269106884.98,
+        "carteira_ativa_total": 37581995159.94
+    },
+    {
+        "mes": "2026-06",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 1375324207.72,
+        "carteira_critica": 3804976734.63,
+        "carteira_ativa_total": 5776152682.5
+    },
+    {
+        "mes": "2026-07",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2965987333.0,
+        "carteira_critica": 6095422533.76,
+        "carteira_ativa_total": 12342450947.53
+    },
+    {
+        "mes": "2026-07",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 429018696.53,
+        "carteira_critica": 2098585559.5,
+        "carteira_ativa_total": 2831162833.63
+    },
+    {
+        "mes": "2026-07",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 12250777119.86,
+        "carteira_critica": 14782723632.43,
+        "carteira_ativa_total": 29598970221.7
+    },
+    {
+        "mes": "2026-07",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 4475474842.0,
+        "carteira_critica": 9470647663.36,
+        "carteira_ativa_total": 14556832497.6
+    },
+    {
+        "mes": "2026-07",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 15187175097.11,
+        "carteira_critica": 17842932906.97,
+        "carteira_ativa_total": 34352144961.8
+    },
+    {
+        "mes": "2026-07",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 2865549891.64,
+        "carteira_critica": 8840947645.08,
+        "carteira_ativa_total": 12094762921.33
+    },
+    {
+        "mes": "2026-07",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2628093263.02,
+        "carteira_critica": 8359241698.75,
+        "carteira_ativa_total": 11209009542.41
+    },
+    {
+        "mes": "2026-07",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 452984309.36,
+        "carteira_critica": 1745772749.28,
+        "carteira_ativa_total": 2278293452.31
+    },
+    {
+        "mes": "2026-07",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 48994849196.38,
+        "carteira_critica": 65905154889.0,
+        "carteira_ativa_total": 142278749239.66
+    },
+    {
+        "mes": "2026-07",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 11670149782.6,
+        "carteira_critica": 38397252505.74,
+        "carteira_ativa_total": 53179606802.49
+    },
+    {
+        "mes": "2026-07",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 36210090610.38,
+        "carteira_critica": 39930065855.25,
+        "carteira_ativa_total": 79978328424.79
+    },
+    {
+        "mes": "2026-07",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 11308192537.79,
+        "carteira_critica": 25254564356.04,
+        "carteira_ativa_total": 37901674558.6
+    },
+    {
+        "mes": "2026-07",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 40709360132.33,
+        "carteira_critica": 45216961823.68,
+        "carteira_ativa_total": 93034011850.52
+    },
+    {
+        "mes": "2026-07",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 6350637936.2,
+        "carteira_critica": 8376410947.67,
+        "carteira_ativa_total": 15167531964.56
+    },
+    {
+        "mes": "2026-07",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 22153219159.85,
+        "carteira_critica": 24520234230.56,
+        "carteira_ativa_total": 64715800085.65
+    },
+    {
+        "mes": "2026-07",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 3198542186.52,
+        "carteira_critica": 9931108831.22,
+        "carteira_ativa_total": 14464119656.93
+    },
+    {
+        "mes": "2026-07",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 79517636859.64,
+        "carteira_critica": 57089334020.37,
+        "carteira_ativa_total": 219312075546.46
+    },
+    {
+        "mes": "2026-07",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 17649528364.5,
+        "carteira_critica": 18733864897.15,
+        "carteira_ativa_total": 38966543529.47
+    },
+    {
+        "mes": "2026-07",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 19055744704.19,
+        "carteira_critica": 26971147855.86,
+        "carteira_ativa_total": 62922020540.7
+    },
+    {
+        "mes": "2026-07",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 6046009881.17,
+        "carteira_critica": 19905651838.14,
+        "carteira_ativa_total": 27211909649.88
+    },
+    {
+        "mes": "2026-07",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 135789588293.18,
+        "carteira_critica": 128325334642.79,
+        "carteira_ativa_total": 356014952001.73
+    },
+    {
+        "mes": "2026-07",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 30607922605.79,
+        "carteira_critica": 56770773392.15,
+        "carteira_ativa_total": 92601940719.78
+    },
+    {
+        "mes": "2026-07",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 25578274072.87,
+        "carteira_critica": 26571108271.9,
+        "carteira_ativa_total": 89234723834.45
+    },
+    {
+        "mes": "2026-07",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5157496163.68,
+        "carteira_critica": 8367303707.66,
+        "carteira_ativa_total": 14580412515.26
+    },
+    {
+        "mes": "2026-07",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 39005150518.39,
+        "carteira_critica": 35482516114.79,
+        "carteira_ativa_total": 163298368716.81
+    },
+    {
+        "mes": "2026-07",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5558432713.04,
+        "carteira_critica": 9056992316.45,
+        "carteira_ativa_total": 16824339134.38
+    },
+    {
+        "mes": "2026-07",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 23307880278.14,
+        "carteira_critica": 43497447478.02,
+        "carteira_ativa_total": 86152483296.83
+    },
+    {
+        "mes": "2026-07",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5559290074.78,
+        "carteira_critica": 20947553560.67,
+        "carteira_ativa_total": 27890938958.82
+    },
+    {
+        "mes": "2026-07",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 19974666246.22,
+        "carteira_critica": 20338587494.37,
+        "carteira_ativa_total": 42318160823.25
+    },
+    {
+        "mes": "2026-07",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 10004543529.04,
+        "carteira_critica": 10954646314.32,
+        "carteira_ativa_total": 21576205993.94
+    },
+    {
+        "mes": "2026-07",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 36656126716.1,
+        "carteira_critica": 43303479841.79,
+        "carteira_ativa_total": 85715344080.3
+    },
+    {
+        "mes": "2026-07",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 12374728394.31,
+        "carteira_critica": 24003037936.15,
+        "carteira_ativa_total": 38008786777.42
+    },
+    {
+        "mes": "2026-07",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 10276142154.09,
+        "carteira_critica": 14189841813.56,
+        "carteira_ativa_total": 27392022956.95
+    },
+    {
+        "mes": "2026-07",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 3719129015.18,
+        "carteira_critica": 9715261550.66,
+        "carteira_ativa_total": 13868842679.02
+    },
+    {
+        "mes": "2026-07",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 119019558549.51,
+        "carteira_critica": 93532350700.42,
+        "carteira_ativa_total": 292711593329.0
+    },
+    {
+        "mes": "2026-07",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 25981562393.41,
+        "carteira_critica": 32766536417.97,
+        "carteira_ativa_total": 62726072071.59
+    },
+    {
+        "mes": "2026-07",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 98260410827.14,
+        "carteira_critica": 123070175085.63,
+        "carteira_ativa_total": 229820546589.94
+    },
+    {
+        "mes": "2026-07",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 14829419356.85,
+        "carteira_critica": 47388217917.6,
+        "carteira_ativa_total": 64954375220.02
+    },
+    {
+        "mes": "2026-07",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 15433704357.84,
+        "carteira_critica": 18922932465.04,
+        "carteira_ativa_total": 35820847083.67
+    },
+    {
+        "mes": "2026-07",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 7563570086.38,
+        "carteira_critica": 10042704557.26,
+        "carteira_ativa_total": 18197386717.71
+    },
+    {
+        "mes": "2026-07",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 9671443788.67,
+        "carteira_critica": 14565695404.98,
+        "carteira_ativa_total": 45285938524.68
+    },
+    {
+        "mes": "2026-07",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 1825185704.53,
+        "carteira_critica": 4189344716.6,
+        "carteira_ativa_total": 7244596590.38
+    },
+    {
+        "mes": "2026-07",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2676821521.47,
+        "carteira_critica": 5655842828.77,
+        "carteira_ativa_total": 10282479463.53
+    },
+    {
+        "mes": "2026-07",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 753828176.01,
+        "carteira_critica": 1982467718.05,
+        "carteira_ativa_total": 2916577799.25
+    },
+    {
+        "mes": "2026-07",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 98998445027.26,
+        "carteira_critica": 87490806429.59,
+        "carteira_ativa_total": 286561738978.4
+    },
+    {
+        "mes": "2026-07",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 19802550112.96,
+        "carteira_critica": 33252403095.47,
+        "carteira_ativa_total": 59527754416.38
+    },
+    {
+        "mes": "2026-07",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 88388620866.34,
+        "carteira_critica": 64641525530.67,
+        "carteira_ativa_total": 193610661961.43
+    },
+    {
+        "mes": "2026-07",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 13169226846.43,
+        "carteira_critica": 21840142417.04,
+        "carteira_ativa_total": 38590853769.04
+    },
+    {
+        "mes": "2026-07",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 11035711701.67,
+        "carteira_critica": 11597673455.25,
+        "carteira_ativa_total": 25940747696.05
+    },
+    {
+        "mes": "2026-07",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 4189798543.68,
+        "carteira_critica": 7171946249.91,
+        "carteira_ativa_total": 11902980798.83
+    },
+    {
+        "mes": "2026-07",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 538274995858.16,
+        "carteira_critica": 387364850296.34,
+        "carteira_ativa_total": 1018456297275.55
+    },
+    {
+        "mes": "2026-07",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 91416663093.59,
+        "carteira_critica": 136205758109.02,
+        "carteira_ativa_total": 236346963232.64
+    },
+    {
+        "mes": "2026-07",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 8697529855.56,
+        "carteira_critica": 11396923881.91,
+        "carteira_ativa_total": 37778046919.45
+    },
+    {
+        "mes": "2026-07",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 1395329000.21,
+        "carteira_critica": 3853945031.03,
+        "carteira_ativa_total": 5839768131.96
+    },
+    {
+        "mes": "2026-08",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 3073076380.97,
+        "carteira_critica": 6176195008.34,
+        "carteira_ativa_total": 12554654472.71
+    },
+    {
+        "mes": "2026-08",
+        "uf": "AC",
+        "estado": "Acre",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 390762458.75,
+        "carteira_critica": 2056569711.09,
+        "carteira_ativa_total": 2763275763.45
+    },
+    {
+        "mes": "2026-08",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 12522283475.94,
+        "carteira_critica": 15057719412.78,
+        "carteira_ativa_total": 30185717423.15
+    },
+    {
+        "mes": "2026-08",
+        "uf": "AL",
+        "estado": "Alagoas",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 4437708133.97,
+        "carteira_critica": 9416228057.58,
+        "carteira_ativa_total": 14502850657.63
+    },
+    {
+        "mes": "2026-08",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 15660886599.48,
+        "carteira_critica": 18183174997.15,
+        "carteira_ativa_total": 35206644657.63
+    },
+    {
+        "mes": "2026-08",
+        "uf": "AM",
+        "estado": "Amazonas",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 2667042132.97,
+        "carteira_critica": 8715808778.89,
+        "carteira_ativa_total": 11791099881.29
+    },
+    {
+        "mes": "2026-08",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2774143701.79,
+        "carteira_critica": 8445254553.81,
+        "carteira_ativa_total": 11458119767.35
+    },
+    {
+        "mes": "2026-08",
+        "uf": "AP",
+        "estado": "Amapa",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 360743359.01,
+        "carteira_critica": 1727548288.41,
+        "carteira_ativa_total": 2180038288.08
+    },
+    {
+        "mes": "2026-08",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 49879801494.03,
+        "carteira_critica": 66922334304.06,
+        "carteira_ativa_total": 144440709624.35
+    },
+    {
+        "mes": "2026-08",
+        "uf": "BA",
+        "estado": "Bahia",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 11698473951.56,
+        "carteira_critica": 38030336624.0,
+        "carteira_ativa_total": 52973998840.07
+    },
+    {
+        "mes": "2026-08",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 36998770911.72,
+        "carteira_critica": 40753131836.58,
+        "carteira_ativa_total": 81699420823.81
+    },
+    {
+        "mes": "2026-08",
+        "uf": "CE",
+        "estado": "Ceara",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 11287587704.3,
+        "carteira_critica": 25011375749.6,
+        "carteira_ativa_total": 37725831031.04
+    },
+    {
+        "mes": "2026-08",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 41222143807.77,
+        "carteira_critica": 46694688338.24,
+        "carteira_ativa_total": 95126811921.38
+    },
+    {
+        "mes": "2026-08",
+        "uf": "DF",
+        "estado": "Distrito Federal",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 6429841290.44,
+        "carteira_critica": 7379992186.4,
+        "carteira_ativa_total": 14288666352.68
+    },
+    {
+        "mes": "2026-08",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 22631070533.47,
+        "carteira_critica": 24903050747.37,
+        "carteira_ativa_total": 65689305893.48
+    },
+    {
+        "mes": "2026-08",
+        "uf": "ES",
+        "estado": "Espirito Santo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 3093900102.34,
+        "carteira_critica": 9851828087.15,
+        "carteira_ativa_total": 14316184415.14
+    },
+    {
+        "mes": "2026-08",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 80640364177.23,
+        "carteira_critica": 57824125112.86,
+        "carteira_ativa_total": 221037261150.63
+    },
+    {
+        "mes": "2026-08",
+        "uf": "GO",
+        "estado": "Goias",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 17696869680.89,
+        "carteira_critica": 18533055237.92,
+        "carteira_ativa_total": 39030052040.18
+    },
+    {
+        "mes": "2026-08",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 19693223539.59,
+        "carteira_critica": 27631969240.25,
+        "carteira_ativa_total": 64187026925.4
+    },
+    {
+        "mes": "2026-08",
+        "uf": "MA",
+        "estado": "Maranhao",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5776583755.63,
+        "carteira_critica": 19582721815.25,
+        "carteira_ativa_total": 26704127137.24
+    },
+    {
+        "mes": "2026-08",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 137609592466.91,
+        "carteira_critica": 129638057924.75,
+        "carteira_ativa_total": 359076238615.18
+    },
+    {
+        "mes": "2026-08",
+        "uf": "MG",
+        "estado": "Minas Gerais",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 30637936323.88,
+        "carteira_critica": 56637375663.85,
+        "carteira_ativa_total": 92712826661.96
+    },
+    {
+        "mes": "2026-08",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 25985143657.86,
+        "carteira_critica": 26871618394.96,
+        "carteira_ativa_total": 90075751918.43
+    },
+    {
+        "mes": "2026-08",
+        "uf": "MS",
+        "estado": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 4992176216.78,
+        "carteira_critica": 8308219148.05,
+        "carteira_ativa_total": 14502599197.16
+    },
+    {
+        "mes": "2026-08",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "demais",
+        "carteira_saudavel": 39766774335.97,
+        "carteira_critica": 36766744696.06,
+        "carteira_ativa_total": 165880030228.14
+    },
+    {
+        "mes": "2026-08",
+        "uf": "MT",
+        "estado": "Mato Grosso",
+        "regiao": "Centro-Oeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 5331662353.53,
+        "carteira_critica": 9030585308.64,
+        "carteira_ativa_total": 16660872608.32
+    },
+    {
+        "mes": "2026-08",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 24300715801.0,
+        "carteira_critica": 44129189480.37,
+        "carteira_ativa_total": 87938578825.46
+    },
+    {
+        "mes": "2026-08",
+        "uf": "PA",
+        "estado": "Para",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 4933858501.99,
+        "carteira_critica": 20726270070.43,
+        "carteira_ativa_total": 27136850832.09
+    },
+    {
+        "mes": "2026-08",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 20339032806.46,
+        "carteira_critica": 20675849689.21,
+        "carteira_ativa_total": 43079532804.76
+    },
+    {
+        "mes": "2026-08",
+        "uf": "PB",
+        "estado": "Paraiba",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 10037181413.32,
+        "carteira_critica": 10821433123.79,
+        "carteira_ativa_total": 21516060911.33
+    },
+    {
+        "mes": "2026-08",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 37420746868.74,
+        "carteira_critica": 44050415541.97,
+        "carteira_ativa_total": 87383303495.71
+    },
+    {
+        "mes": "2026-08",
+        "uf": "PE",
+        "estado": "Pernambuco",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 12438079978.08,
+        "carteira_critica": 23792131525.62,
+        "carteira_ativa_total": 37968229244.26
+    },
+    {
+        "mes": "2026-08",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 10487500994.8,
+        "carteira_critica": 14453580222.22,
+        "carteira_ativa_total": 27979930580.5
+    },
+    {
+        "mes": "2026-08",
+        "uf": "PI",
+        "estado": "Piaui",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 3687811000.39,
+        "carteira_critica": 9573203867.76,
+        "carteira_ativa_total": 13734117771.59
+    },
+    {
+        "mes": "2026-08",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 120690252101.21,
+        "carteira_critica": 94748272621.43,
+        "carteira_ativa_total": 297001081236.23
+    },
+    {
+        "mes": "2026-08",
+        "uf": "PR",
+        "estado": "Parana",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 26064716183.98,
+        "carteira_critica": 32681644878.44,
+        "carteira_ativa_total": 62864579424.23
+    },
+    {
+        "mes": "2026-08",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 99586757260.82,
+        "carteira_critica": 124096378352.78,
+        "carteira_ativa_total": 232377475208.61
+    },
+    {
+        "mes": "2026-08",
+        "uf": "RJ",
+        "estado": "Rio de Janeiro",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 14805528539.95,
+        "carteira_critica": 46968358046.95,
+        "carteira_ativa_total": 64622722416.32
+    },
+    {
+        "mes": "2026-08",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 15733507994.91,
+        "carteira_critica": 19140916240.92,
+        "carteira_ativa_total": 36407141345.98
+    },
+    {
+        "mes": "2026-08",
+        "uf": "RN",
+        "estado": "Rio Grande do Norte",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 7616565153.0,
+        "carteira_critica": 9984524544.57,
+        "carteira_ativa_total": 18258545429.7
+    },
+    {
+        "mes": "2026-08",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 9891705013.61,
+        "carteira_critica": 14775979893.93,
+        "carteira_ativa_total": 45728320491.39
+    },
+    {
+        "mes": "2026-08",
+        "uf": "RO",
+        "estado": "Rondonia",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 1752142230.28,
+        "carteira_critica": 4149638783.2,
+        "carteira_ativa_total": 7146933380.47
+    },
+    {
+        "mes": "2026-08",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 2789237401.15,
+        "carteira_critica": 5698767963.01,
+        "carteira_ativa_total": 10471994742.95
+    },
+    {
+        "mes": "2026-08",
+        "uf": "RR",
+        "estado": "Roraima",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 719225475.92,
+        "carteira_critica": 1959982371.59,
+        "carteira_ativa_total": 2869574739.24
+    },
+    {
+        "mes": "2026-08",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 100202453543.77,
+        "carteira_critica": 88243810116.72,
+        "carteira_ativa_total": 290793175798.03
+    },
+    {
+        "mes": "2026-08",
+        "uf": "RS",
+        "estado": "Rio Grande do Sul",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 19809367331.65,
+        "carteira_critica": 33107226637.71,
+        "carteira_ativa_total": 59081622535.42
+    },
+    {
+        "mes": "2026-08",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "demais",
+        "carteira_saudavel": 89555590122.14,
+        "carteira_critica": 65380678094.5,
+        "carteira_ativa_total": 196658003192.68
+    },
+    {
+        "mes": "2026-08",
+        "uf": "SC",
+        "estado": "Santa Catarina",
+        "regiao": "Sul",
+        "publico": "vulneravel",
+        "carteira_saudavel": 13131656503.6,
+        "carteira_critica": 21780113094.74,
+        "carteira_ativa_total": 38601867875.78
+    },
+    {
+        "mes": "2026-08",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "demais",
+        "carteira_saudavel": 11237699076.65,
+        "carteira_critica": 11898964774.79,
+        "carteira_ativa_total": 26436437211.32
+    },
+    {
+        "mes": "2026-08",
+        "uf": "SE",
+        "estado": "Sergipe",
+        "regiao": "Nordeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 4211214077.46,
+        "carteira_critica": 7488036076.27,
+        "carteira_ativa_total": 12267803162.84
+    },
+    {
+        "mes": "2026-08",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "demais",
+        "carteira_saudavel": 545102531156.98,
+        "carteira_critica": 391338831089.99,
+        "carteira_ativa_total": 1030130534624.12
+    },
+    {
+        "mes": "2026-08",
+        "uf": "SP",
+        "estado": "Sao Paulo",
+        "regiao": "Sudeste",
+        "publico": "vulneravel",
+        "carteira_saudavel": 92055755276.31,
+        "carteira_critica": 135620435234.71,
+        "carteira_ativa_total": 236750230186.59
+    },
+    {
+        "mes": "2026-08",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "demais",
+        "carteira_saudavel": 8882023667.99,
+        "carteira_critica": 11510092647.99,
+        "carteira_ativa_total": 38190228161.36
+    },
+    {
+        "mes": "2026-08",
+        "uf": "TO",
+        "estado": "Tocantins",
+        "regiao": "Norte",
+        "publico": "vulneravel",
+        "carteira_saudavel": 1334300749.42,
+        "carteira_critica": 3819797237.59,
+        "carteira_ativa_total": 5768108830.93
+    }
+]
