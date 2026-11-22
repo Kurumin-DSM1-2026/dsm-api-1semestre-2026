@@ -627,19 +627,25 @@ function atualizarScore(score) {
   const progressBar = document.getElementById('scoreBar');
   progressBar.classList.remove('bg-warning', 'bg-info', 'bg-success', 'bg-danger');
 
-  if (score < 20) {
-    progressBar.classList.add('bg-danger');
-    document.getElementById('scoreInfoDesc').innerText = 'Ruim';
-  } else if (score < 40) {
-    progressBar.classList.add('bg-warning');
-    document.getElementById('scoreInfoDesc').innerText = 'Atenção';
-  } else if (score < 75) {
-    progressBar.classList.add('bg-info');
-    document.getElementById('scoreInfoDesc').innerText = 'Bom';
+  let cor;
+  let nome;
+
+  if (score <= 30) {
+    cor = '#d64545';
+    nome = 'Perigo';
+  } else if (score <= 50) {
+    cor = '#e8912d';
+    nome = 'Risco';
+  } else if (score <= 70) {
+    cor = '#f2c94c';
+    nome = 'Atenção';
   } else {
-    progressBar.classList.add('bg-success');
-    document.getElementById('scoreInfoDesc').innerText = 'Muito Bom';
+    cor = '#2e9e6b';
+    nome = 'Muito bom';
   }
+
+  progressBar.style.backgroundColor = cor;
+  document.getElementById('scoreInfoDesc').innerText = nome;
 }
 
 function normalizarMinMax(atual, maior, menor) {

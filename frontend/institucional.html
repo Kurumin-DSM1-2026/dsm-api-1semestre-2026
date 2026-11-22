@@ -45,18 +45,18 @@
         <div class="fluxocalculo">
           <div class="etapas"><b>Dados públicos</b>IBGE e Banco Central (SCR)</div>
           <div class="etapas"><b>Dez indicadores </b>Em dois eixos: desenvolvimento e saúde econômica</div>
-          <div class="etapas"><b>Notas independentes</b>De 0 a 10, avaliando pontos estratégicos do estado</div>
+          <div class="etapas"><b>Notas independentes</b>De 1 a 10, avaliando pontos estratégicos do estado</div>
           <div class="etapas"><b>Normaliza</b>Regula os dados e compara com a situação nacional</div>
           <div class="etapas"><b>Score</b>Cria um selo de acordo com a pontuação do estado</div>
         </div>
         <p class="subtitulo s-p mt-4">
-          Em resumo: para cada indicador, olhamos onde o estado fica entre o menor e o maior valor do país. Quem está no menor valor ganha nota 1,
-          quem está no maior ganha nota 10, e os demais ficam no meio, na mesma proporção. Depois somamos as dez notas: quanto mais alto o total,
+          Em resumo: para cada indicador, comparamos o estado com os demais estados do país, e quem está melhor recebe a nota mais alta (de 1 a 10).
+          Na maioria dos indicadores, quem está no menor valor ganha nota 1, quem está no maior ganha nota 10, e os demais ficam no meio, na mesma proporção. Depois somamos as dez notas: quanto mais alto o total,
           melhor a faixa.
         </p>
       </section>
       <section>
-        <h2 class="x-h contentWrapper-header">Como o calculo é feito</h2>
+        <h2 class="x-h contentWrapper-header">Como o cálculo é feito</h2>
         <p class="">
           Cada estado recebe dez notas, variando de 1 a 10, cuja soma compõe o Score final. A avaliação é estruturada em dois eixos de análise,
           fundamentados em critérios econômicos que ajudam a identificar o potencial de consumo da população e as oportunidades de concessão de
@@ -255,9 +255,9 @@
                         <p>Score = 1 + 9 × ((x − xmin) / (xmax − xmin))</p>
                         <b>Metodologia de cálculo</b>
                         <ol class="card-body-reduce">
-                          <li>Buscar no endpoint do IBGE a renda per capta mais recente de todos os estados</li>
+                          <li>Buscar no endpoint do IBGE a renda per capita mais recente de todos os estados</li>
                           <li>Comparar os estados com maior e menor renda do país</li>
-                          <li>Normalizar os dados usando formula linear min-max</li>
+                          <li>Normalizar os dados usando fórmula linear min-max</li>
                         </ol>
                       </div>
                     </div>
@@ -273,11 +273,11 @@
                       </div>
                       <div class="card-body">
                         <p>
-                          População total representa o tamanho do mercado consumidor, este indicador compara a média nacional e indica quão populoso o
-                          estado selecionado é em relação as demais UFs.
+                          O crescimento da população indica se o mercado consumidor do estado está aumentando ou diminuindo ao longo do tempo, e este indicador
+                          compara o crescimento do estado selecionado com o das demais UFs.
                         </p>
                         <p>
-                          Iremos antes definir a taxa de crescimento populacional de 2 estados chave e depois fazemos a normalização usando a formula
+                          Primeiro calculamos a taxa de crescimento populacional de cada estado e depois fazemos a normalização usando a fórmula
                           de Score Min-Max.
                         </p>
                         <b>Metodologia de cálculo</b>
@@ -302,14 +302,14 @@
                       <div class="card-body">
                         <p>
                           Densidade populacional representa a concentração geográfica de consumidores e atividades econômicas. Quanto mais denso e
-                          populoso, maior o numero de oportunidades de empreender ou de gerar maior movimento econômico na região.
+                          populoso, maior o número de oportunidades de empreender ou de gerar maior movimento econômico na região.
                         </p>
-                        <p>Nesse caso, esse indicador compara a concentração de pessoas , enquanto o população total indica o volume por região.</p>
+                        <p>Nesse caso, esse indicador compara a concentração de pessoas, enquanto a população total indica o volume por região.</p>
                         <b>Metodologia de cálculo</b>
                         <ol class="card-body-reduce">
                           <li>Buscar no endpoint do IBGE a densidade populacional de todos os estados</li>
-                          <li>Comparar os estados com maior e menor populacão do país</li>
-                          <li>Normalizar os dados usando formula linear min-max</li>
+                          <li>Comparar os estados com maior e menor população do país</li>
+                          <li>Normalizar os dados usando fórmula linear min-max</li>
                         </ol>
                       </div>
                     </div>
@@ -334,7 +334,7 @@
                         </p>
                         <b>Metodologia de cálculo</b>
                         <ol class="card-body-reduce">
-                          <li>Buscar no endpoint do IBGE dados mais recente populacionais de todos os estados</li>
+                          <li>Buscar no endpoint do IBGE dados populacionais mais recentes de todos os estados</li>
                           <li>Comparar a média de idades por estado e em relação ao mais produtivo</li>
                           <li>Normalizar o resultado em escala de 1 a 10</li>
                         </ol>
@@ -362,7 +362,7 @@
                         <b>Metodologia de cálculo</b>
                         <ol class="card-body-reduce">
                           <li>Buscar no endpoint do IBGE os dados de População e Total de veículos do ano vigente</li>
-                          <li>Comparar o a frota do estado com as demais UFs do país</li>
+                          <li>Comparar a frota do estado com as demais UFs do país</li>
                           <li>Normalizar o resultado em escala de 1 a 10 usando min-max</li>
                         </ol>
                       </div>
@@ -374,8 +374,8 @@
           </div>
           <div class="tab-pane fade" id="eixo2" role="tabpanel" aria-labelledby="eixo2-tab" tabindex="0">
             <p>
-              O inadimplência da população pode ser um risco para o operador de crédito, a partir desse eixo vamos analisar a dívida populacional e
-              direcionar as oportunidades para onde o risco seja mais baixo..
+              A inadimplência da população pode ser um risco para o operador de crédito. A partir desse eixo vamos analisar a dívida populacional e
+              direcionar as oportunidades para onde o risco seja mais baixo.
             </p>
             <div class="row g-4">
               <div class="col-md-4">
@@ -452,7 +452,7 @@
                         <b>Metodologia de cálculo</b>
                         <ol class="card-body-reduce">
                           <li>Buscar nos dados do banco central (SCR) a dívida populacional</li>
-                          <li>Calcular a probalidade de pagamento</li>
+                          <li>Calcular a probabilidade de pagamento</li>
                           <li>Normalizar o resultado em escala de 1 a 10</li>
                         </ol>
                       </div>
@@ -470,9 +470,9 @@
                       <div class="card-body">
                         <p>
                           Esse indicador irá comparar a relação de dívida total populacional com a dívida de recuperação rápida, quanto mais rápido
-                          for a chance da dívida ser quitada maior potencial para um novo empréstimo ou carta de crédito a população tem.
+                          for a chance da dívida ser quitada maior potencial para um novo empréstimo ou carta de crédito que a população tem.
                         </p>
-                        <p>A comparação de dívidas será baseada em inadimplência menor que 90 dias e cartiera inadimplente total.</p>
+                        <p>A comparação de dívidas será baseada em inadimplência menor que 90 dias e carteira inadimplente total.</p>
                         <b>Metodologia de cálculo</b>
                         <ol class="card-body-reduce">
                           <li>Buscar nos dados do Banco Central dados de inadimplência</li>
@@ -486,7 +486,7 @@
                   <div class="tab-pane fade" id="i9" role="tabpanel" aria-labelledby="i9-tab" tabindex="0">
                     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
                       <div class="indicator-header">
-                        Porte dos endividades
+                        Porte dos endividados
                         <div class="valor"></div>
                         <div class="escala"><span class="marcador" id="e2i9"></span></div>
                         <div class="nota" id="e2i9-n">Score 1/10</div>
@@ -502,7 +502,7 @@
                         </p>
                         <b>Metodologia de cálculo</b>
                         <ol class="card-body-reduce">
-                          <li>Realizado a comparação de faixa salarial da população por UF</li>
+                          <li>Realizar a comparação de faixa salarial da população por UF</li>
                           <li>Comparar o valor médio de dívida por cidadão</li>
                           <li>Normalizar o resultado em escala de 1 a 10</li>
                         </ol>
@@ -524,7 +524,7 @@
                           O indicador busca identificar regiões nas quais o acesso ao crédito está associado a uma carteira saudável, com menor
                           comprometimento por dívidas em atraso.
                         </p>
-                        <p>Uma carteira de crédito expressiva pode dizer que a instituição financeira já “acredita” que um emprestimo será pago.</p>
+                        <p>Uma carteira de crédito expressiva pode dizer que a instituição financeira já “acredita” que um empréstimo será pago.</p>
                         <b>Metodologia de cálculo</b>
                         <ol class="card-body-reduce">
                           <li>Buscar no endpoint do Banco central os dados de inadimplência</li>
@@ -634,14 +634,10 @@
       <section>
         <h2 class="x-h">Faixas do Score</h2>
         <div class="faixa-scores">
-          <div class="x-bd" style="--c: #d64545">
-            <b>0 a 30 </b>
-            <span> Perigo </span>
-            <small> Maior alerta </small>
-          </div>
+          <div class="x-bd" style="--c: #d64545"><b>0 a 30</b><span>Perigo</span><small>Maior alerta</small></div>
           <div class="x-bd" style="--c: #e8912d"><b>31 a 50</b><span>Risco</span><small>Risco elevado</small></div>
           <div class="x-bd" style="--c: #f2c94c"><b>51 a 70</b><span>Atenção</span><small>Requer atenção</small></div>
-          <div class="x-bd" style="--c: #2e9e6b"><b>70 a 100</b><span>Muito bom</span><small>Melhor faixa</small></div>
+          <div class="x-bd" style="--c: #2e9e6b"><b>71 a 100</b><span>Muito bom</span><small>Melhor faixa</small></div>
         </div>
         <p class="small mt-4">
           O Score compara <b>estados</b>, não pessoas, e não deve decidir crédito individual. Médias estaduais escondem diferenças entre cidades.
