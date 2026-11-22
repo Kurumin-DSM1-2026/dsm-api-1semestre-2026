@@ -112,12 +112,6 @@ Todos os comandos abaixo rodam na máquina da AWS, dentro da conexão SSH.
    cd dsm-api-1semestre-2026
    ```
 
-   Troque para a branch com o site, a API de dados e o formulário juntos. Depois que ela for juntada na `feature/dev`, use `feature/dev`:
-
-   ```
-   git checkout feature/banco-contato
-   ```
-
 2. Copie o modelo das senhas:
 
    ```
